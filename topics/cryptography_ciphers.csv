@@ -1,0 +1,358 @@
+id,source_name,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,evaluation,source,rights
+jane-street-2014-06,Jane Street Monthly Puzzles,Question Mark,2014-06,cryptography_ciphers,number_theory | word_language,factorization | substitution_cipher | anagramming | encoding_decoding | meta_extraction,cryptogram | word_puzzle | numeric_answer,"223934
+1541
+14839
+259071087
+191558
+425859973
+276971
+137149
+27539479
+137149
+467797
+27539479
+137149
+467797
+745921
+277660180457
+989
+2078809
+18095
+?",fifty (50),"This month’s puzzle, as about 20 of you figured out, is a question written in
+code. Each of the given numbers is a composite number with prime factors less
+than or equal to 101. For each factorization, mapping the nth prime number to
+the nth letter of the alphabet and anagramming will give you each word. So, the
+question asks “What is the number that yields two six seven six nine seven six
+nine when written in this code?” Iterating again, 26769769 yields “fifty” (or
+“50” was accepted). Congrats to all solvers, especially Quinn Beightol, the
+randomly-chosen winner of this month’s Jane Street t-shirt!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/question-mark-index/"", ""retrieved_at"": ""2026-09-21T09:12:34.499471+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/question-mark-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2014-12,Jane Street Monthly Puzzles,Deck the Cards,2014-12,cryptography_ciphers,combinatorics | game_theory_strategy,substitution_cipher | encoding_decoding | combinatorial_counting | exact_arithmetic | meta_extraction,cryptogram | board_game | numeric_answer,"[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Dec14.jpg","7,192","This month’s puzzle was a cryptogram — the red cards (in order) map to the
+letters A-M, and the black cards to N-Z. The cards read “How many more full
+houses than straights are found in this deck?” Looking back at the deck, 19,420
+full houses can be made, and 12,228 straights can be made (including ace-high
+and ace-low straights). So, the answer we were looking for was 7,192.
+Congrats to this month’s randomly-chosen winner of a Jane Street t-shirt, Jacob
+Hilton!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/deck-the-cards-index/"", ""retrieved_at"": ""2026-09-21T09:12:31.564341+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/deck-the-cards-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2023-05,Jane Street Monthly Puzzles,Game Night!,2023-05,cryptography_ciphers,word_language | mixed_meta,binary_encoding | encoding_decoding | lexical_search | pattern_recognition | meta_extraction,image_puzzle | cryptogram | meta_puzzle | word_puzzle,"The three best first plays from our recurring
+Codenames
+game
+night are pictured above: one matched eleven words and the other two
+matched nine each! We looked at the boards over and over again and
+decided that when the clues encode the target words in such a binary
+fashion you can get impressive results.
+[The answer to this puzzle is a single word.]
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/game-night.png",SIEVE,"We were presented three Codenames boards with exceptionally
+high-scoring plays. A natural first step is to find the correct cards
+grouped by each clue, these words are
+Clothing 9:
+POLO DRESS TUXEDO SHOE SHORTS BOOT CAP GLOVE SUIT
+Animal 11:
+DUCK SCORPION OCTOPUS CUCKOO PENGUIN RABBIT SHARK DOG TURTLE REINDEER
+EAGLE
+Food 9:
+SOUP CHEESE POTATO PIE SALAD CARROT PIZZA HAMBURGER BISCUIT
+Then, using some flavor clues, you may notice that you can convert
+each row into a binary number (where a selected word is represented by
+1 and an unselected word represented by 0) between 0 and 31, which can
+conveniently be converted to a letter with the standard 1=A, 2=B, 3=C
+cipher. For example, the first row of
+POLO ENGLAND SKYSCRAPER DRESS TUXEDO
+has POLO, DRESS, and TUXEDO selected, and ENGLAND and SKYSCRAPER
+unselected, so would convert to the binary number 10011, or 19 in
+decimal, which converts to ‘S’.
+Reading these rows down the puzzle you get SCRABBLESUMODD_ (the final
+row gives 00000 which doesn’t convert to a letter). We can read this
+as “Scrabble sum odd,” a new property we can use to select and
+unselect words on the board (the flavor text also suggests recursively
+looking at the board over and over). So we go about the same procedure
+but now select words with odd scrabble sum. For example, in the first
+row, the scrabble sums are 6, 9, 21, 6, and 14, so the binary digits
+we get for which of these are odd are 01100, which is 12 in decimal,
+giving an ‘L’.
+Reading these rows down the puzzle gives LONGERTHANFIVE_ (again the
+final row gives 00000), and we have yet another condition for words
+having more than five letters. Recurring yet again, (now the first row
+gives 01101=13=’M’), we read off MIDDLELETTEROF_
+Now we don’t have an obvious condition, but the final row failing to
+match any of the previous clues is starting to stick out. All of the
+words in this final row are odd in length, and thus have a well
+defined middle letter, which read from left to right
+SIEVE
+, the
+somewhat appropriate answer to the puzzle!
+Congrats to the solvers that successfully navigated the series of clues!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/game-night-index/"", ""retrieved_at"": ""2026-09-21T09:11:38.711541+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/game-night-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2025-08,Jane Street Monthly Puzzles,Dogs Playing Poker,2025-08,cryptography_ciphers,word_language | mixed_meta,visual_decoding | indexing_extraction | caesar_shift | meta_extraction | wordplay,image_puzzle | cryptogram | meta_puzzle,"You won’t find poker faces here–these poor pups can’t hide their emotions or the cards
+that cause them! What they’re feeling is practically spelled out for everyone to see. It
+should be enough for you to figure out which cards my pet doodle is holding.
+Submit your answer as an abbreviation of the cards using letters or numbers with the card
+then suit. For example, the Ace of Spades and Ten of Hearts would be abbreviated as
+AS,10H
+.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/dogs-playing-poker.png",K♣ and 9♣,"August offered up a puzzle on the sillier side inspired by the
+kitsch classic painting Dogs Playing Poker. We are told there are
+clues about what the middle pooch is holding, in the cards and
+emotions of the other dogs (and one cat) at the table. But what’s the
+pattern?
+Some of the animal faces might look familiar… in fact every face is
+a version of a standard emoji. Being hinted that we want to spell out
+what their feeling suggests that the names of these emojis could be
+indexed into, perhaps by the card holdings, which are all numbers 1-10
+(interpreting aces as 1). The emojis represented have fairly
+standardized
+names
+, and the successful ordering is reading the letters for each
+card from the viewer’s left to right. For example, the leftmost pooch,
+clearly quite FLUSHED, has a 4 of clubs and a 5 of hearts, which
+correspond to the fourth and fifth letters of FLUSHED, ‘S’ and
+‘H’. Reading these 16 letters off left to right and adding spaces
+where appropriate gives
+SHIFT BY CHIP COUNT
+.
+Now we can take these same letters and shift them forward in the
+alphabet by the number of chips piled nearest to the card they
+correspond to. For example, the apparently down-on-his-luck flushed
+pooch on the left has one chip next to the card that indexed to ‘S’
+and zero next to the ‘H’ card, so this pair of letters shifts to
+‘TH’. Filling all of this into a table, we get:
+#
+Emoji
+Name
+L Card
+R Card
+Letters
+L Chips
+R Chips
+Shifted
+1
+😳
+FLUSHED
+4
+5
+SH
+1
+0
+TH
+2
+🤤
+DROOLINGFACE
+6
+8
+IF
+22
+23
+EC
+3
+🤠
+COWBOYHATFACE
+9
+4
+TB
+7
+12
+AN
+4
+🥴
+WOOZYFACE
+5
+8
+YC
+10
+11
+IN
+5
+😧
+ANGUISHED
+7
+5
+HI
+23
+6
+EO
+6
+😾
+POUTINGCAT
+1
+8
+PC
+16
+0
+FC
+7
+😖
+CONFOUNDED
+5
+6
+OU
+23
+0
+LU
+8
+😝
+SQUINTINGFACE…
+8
+6
+NT
+14
+25
+BS
+And the shifted letters (again with spaces inserted) spell out
+THE
+CANINE OF CLUBS
+. “Canine of clubs” is a
+name
+for the Texas Hold’em hand
+Kc,9c
+, since
+saying “K-9” out loud sounds like the word “canine”. And that’s the
+appropriate solution to the puzzle!
+Congrats to all the solvers able to suss out the code of these emotional pets!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/dogs-playing-poker.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/dogs-playing-poker-index/"", ""retrieved_at"": ""2026-09-21T09:11:23.932877+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/dogs-playing-poker-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+puzzleworld-april-fools-35127f264c,PuzzleWorld,April Fools,,cryptography_ciphers,,encoding_decoding | indexing_extraction | meta_extraction | combinatorial_counting,meta_puzzle,"Title: April Fools
+
+Throughout history, people have loved to play pranks on each other, especially on April First. You can always count on easily fooled audiences to add to the annual confusion.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/April_Fools/content.png
+
+Return the short canonical final answer.",EVERY YEAR,"1. For each prank year, sum the tens and ones digit.
+
+2. Use the resulting sum as an index to extract a letter from each passage
+
+3. Arrange the extracted letters in chronological order to form the solution: EVERY YEAR.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-bonus-puzzle-894c491328,PuzzleWorld,Bonus Puzzle,,cryptography_ciphers,mixed_meta,encoding_decoding | indexing_extraction | meta_extraction | external_knowledge_linking,image_puzzle | meta_puzzle,"Title: Bonus Puzzle
+
+Each zodiac sign has a corresponding character hidden in its horoscope. Following a star-based indexing method leads to an interesting revelation.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/may_bonus/content.png
+
+Return the short canonical final answer.",UNSUBSCRIBE,"1. Correctly identify the fictional/historical/mythological/pop culture refrenced figure corresponding to each zodiac sign.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/may_bonus/figure1.png
+
+2. Match letters that align in the same position between the zodiac sign and the associated name.
+
+3. Order these letters by the number of stars in each section to spell: OVER LAST STAR.
+
+4. Extract the last letter of each star rating in each section.
+
+5. Order these extracted letters to spell: UNSUBSCRIBE.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-puzzles/puzzles-may-2017/"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-ddakji-659be70cfa,PuzzleWorld,Ddakji,,cryptography_ciphers,geometry_spatial,encoding_decoding | indexing_extraction | meta_extraction | spatial_visualization | visual_decoding,image_puzzle | meta_puzzle | cryptogram,"Title: Ddakji
+
+A salesman for the Games has offered Gi-hun ₩100,000 if he can win a simple game. The salesman places a ddakji (folded paper square) on the ground and invites Gi-hun to make a second ddakji, and throw it at the first one hard enough to turn it over to the other side. The salesman provides the following two-page pattern, mentioning that the dashed lines are mountain folds, and the dotted lines are valley folds. Gi-hun makes a ddakji, and tries throwing it many times, but keeps losing. How did Gi-hun react after finally winning?
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Bonus_Ddakji/content1.png
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Bonus_Ddakji/content2.png
+
+Return the short canonical final answer.",HE FLIPPED OUT,"1. The puzzle provides instructions for folding a ddakji (a Korean paper game piece) with dashed lines for mountain folds and dotted lines for valley folds.
+
+2. The emphasis on 'dashed lines' and 'dotted lines' in the puzzle description hints that these have additional meaning beyond folding instructions.
+
+3. In Morse code, dashes represent long signals and dots represent short signals. The pattern of dashed and dotted lines can be interpreted as Morse code.
+
+4. Looking at the pattern and interpreting the dashed and dotted lines as Morse code, starting from the top left and reading clockwise around the ring of the design.
+
+5. The Morse code translates to: H (....): four dots, E (.): one dot, F (..-.): dot-dot-dash-dot, L (.-..): dot-dash-dot-dot, I (..): two dots, P (.--.): dot-dash-dash-dot, P (.--.): dot-dash-dash-dot, E (.): one dot, D (-..): dash-dot-dot, O (---): three dashes, U (..-): dot-dot-dash, T (-): one dash.
+
+6. Converting the pattern of dotted and dashed lines around the perimeter to Morse code letters gives you: H-E-F-L-I-P-P-E-D-O-U-T.
+
+7. Reading the decoded letters together gives 'HE FLIPPED OUT', which is a pun on both literally flipping the ddakji and having an emotional outburst after winning.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-dots-a5699cc512,PuzzleWorld,Dots,,cryptography_ciphers,mixed_meta,encoding_decoding | indexing_extraction | meta_extraction | external_knowledge_linking,image_puzzle | meta_puzzle | cryptogram,"Title: Dots
+
+The upstream record has no separate flavor-text transcription.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/dots/content.png
+
+Return the short canonical final answer.",BALDERDASH,"1. Identify that each color in each line is a Morse code letter.
+
+2. Put the dots and dashes of each color in order from left to right.
+
+3. Order each line left to right: red, orange, yellow, light green, dark green, light blue, dark blue, violet & pink.
+
+4. Each line forms one word.
+
+5. The message is 'Embedded answer dwells decode diametric word order edible numeral unmasks aphorism.'
+
+6. Identify that the time and date of the puzzle are the first 10 digits of pi.
+
+7. Index the first 10 characters into the 10 words. For example, the first character of pi is 3. Index 3 into the first word, 'embedded,' to get 'B'.
+
+8. Repeat for all words to obtain the answer BALDERDASH.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-puzzled-quart-2b32c0b986,PuzzleWorld,Puzzled Quart,,cryptography_ciphers,word_language | logic_constraints,encoding_decoding | indexing_extraction | meta_extraction | wordplay | lexical_search | logical_inference | constraint_propagation | combinatorial_counting,image_puzzle | multi_part | word_puzzle | meta_puzzle | logic_grid | cryptogram,"Title: Puzzled Quart
+
+Riley stacks up a large chain of state quarters to pay for their beer. ""The name 'quart' is pretty boring. It just means a quarter of something. We could name it after a person instead."" Having run out of other things to put on US Quarters, the Mint has started making Emoji quarters.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Puzzled_Quart/content.png
+
+Return the short canonical final answer.",DISSIDENT,"1. The puzzle requires us to replace each emoji quarter with a pair of letters. When an emoji is reversed, so are the letters in that pair.
+
+2. We need to solve the word clues to determine which emojis correspond to which letter pairs. For example, 'Milk Container' is CARTON, broken into CA-RT-ON.
+
+3. By solving all the clues, we establish the translation for each emoji. For example, 🍬 = CA, 🎲 = RT, ➡️ = ON for the 'Milk Container' clue.
+
+4. Other words we decipher include: CASINO (Betting Location), COHORT (Group), CO-OPTS (Takes Over), DEPOTS (Warehouses), DIVERT (Change Course), HONORS (Pays Respect To), and more.
+
+5. Each word helps us build a complete 'alphabet' of emoji to letter-pair translations.
+
+6. For the quarters at the bottom of the puzzle, we apply our translations to get a series of bigrams (two-letter combinations).
+
+7. Each bigram overlaps one letter with each of its neighbors. The sequence reads: DI-IS-SS-SI-ID-DE-EN-NT.
+
+8. Reading the overlapping bigrams gives us DISSIDENT, which is the final answer.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-thief-picking-locks-0dcd8ad7cd,PuzzleWorld,Thief--Picking Locks,,cryptography_ciphers,logic_constraints | mixed_meta,encoding_decoding | indexing_extraction | meta_extraction | logical_inference | constraint_propagation | external_knowledge_linking,image_puzzle | meta_puzzle,"Title: Thief--Picking Locks
+
+A good thief knows that all it takes to pick any type of lock is the right <u>form of KEY</u>.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Thief_Picking_Locks/content.png
+
+Return the short canonical final answer.",CLADDING OF THE FIRE DRAKE/,"1. Extract the words of the final answer by solving each lock.
+
+2. Use Morse Code to unlock the top left lock, yielding CLADDING.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Thief_Picking_Locks/figure1.png
+
+3. Use binary to unlock the top right lock, yielding OF.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Thief_Picking_Locks/figure2.png
+
+4. Use pig pen to unlock the bottom left lock, yielding THE.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Thief_Picking_Locks/figure3.png
+
+5. Use Braille to unlock the bottom right lock, yielding FIRE DRAKE.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Thief_Picking_Locks/figure4.png","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-files/6914/8260/5718/4-Thief-PickingLocks.pdf"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-time-loops-387dd3873d,PuzzleWorld,Time Loops,,cryptography_ciphers,geometry_spatial,encoding_decoding | indexing_extraction | meta_extraction | spatial_visualization | visual_decoding,image_puzzle | meta_puzzle,"Title: Time Loops
+
+The war between the Time Lords and the Daleks has ripped apart the fabric of space-time itself. Instead of one continuous loop, time has broken into two parallel loops. You’ll ultimately need help from a companion to set things right. Cut out the two strips along the dotted lines, then fold each in half along the long edge to form two two-sided strips. Tape each strip to itself to form two loops. Start by intercepting the message the Daleks are sending to each other across the timelines, then ask if the doctor is really spinning through the time vortex randomly or not!
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/time_loops/content.png
+
+Return the short canonical final answer.",PERIBROWN,"1. Follow the instructions to cut and form the two loops.
+
+2. Rotate the loops so TARDIS matches with TARDIS, Dalek with Dalek, and number with number.
+
+3. The dots on the Daleks are Braille, and each TARDIS is one in two semaphore flag pairs.
+
+4. The messages are SUBTRACT NINETY and REPAIR LOOPS. For subtract ninety -- subtract ninety from the numbers and match them to their decimal letter. For the loops, recombine the two loops into one loop.
+
+5. The numbers should spell out MORSE CODE and WRONG SIDE. Read the correct side with every TARDIS a dash and every Dalek a Dot, where numbers separate morse letters, to get the answer.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-files/6914/4208/1277/time_loops.pdf"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-what-was-stolen-e70ac64b3f,PuzzleWorld,What Was Stolen,,cryptography_ciphers,word_language,encoding_decoding | indexing_extraction | meta_extraction | wordplay | lexical_search,multi_part | word_puzzle | meta_puzzle,"Title: What Was Stolen
+
+To start with/finally Diana decided to check the scene of the crime, the animals’ art studio. Four animals had each made artworks pertaining to a (rather unusual) theme. The whole lot had been rifled through, but what was missing? To find out, Diana had to regroup the objects according to their collections, but it might not be that easy, as at first glance some of the items seemed to fit in more than one animal’s set. Knowing, however, that there was only one solution where all the items would be grouped correctly, Diana got straight to it.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/what_was_stolen/content.png
+
+Return the short canonical final answer.",THE LION'S SHARE,"1. Group the given words into categories given by the table.
+
+2. Identify that the missing word in the table should be 'cher', as hinted by the pop duo Sonny & Cher.
+
+3. Infer the answer THE LION'S SHARE, a play on the animal metaphors and 'share' sounding similar to 'cher'.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""cryptography_ciphers"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"

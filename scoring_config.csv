@@ -1,0 +1,16 @@
+topic,topic_label_zh,eligible_item_count,score_formula,macro_weight,time_limit_minutes
+algebra_equations,代数与方程,123,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+algorithms_computation,算法与计算,3,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+combinatorics,组合数学,55,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+cryptography_ciphers,密码与编码,12,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+game_theory_strategy,博弈论与策略,13,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+geometry_spatial,几何与空间,147,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+graph_network,图论与网络,7,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+grid_deduction,网格推理,47,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+logic_constraints,逻辑与约束,136,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+mixed_meta,综合与元谜题,20,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+number_theory,数论,58,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+optimization,优化,17,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+physics_mechanics,物理与力学,1,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+probability_stochastic,概率与随机,43,correct_eligible_items / all_eligible_items,0.06666666666666667,30
+word_language,文字与语言,27,correct_eligible_items / all_eligible_items,0.06666666666666667,30

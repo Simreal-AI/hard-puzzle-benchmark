@@ -1,0 +1,1120 @@
+id,source_name,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,evaluation,source,rights
+jane-street-2015-03,Jane Street Monthly Puzzles,Ticker Treat,2015-03,word_language,mixed_meta,crossword_solving | external_knowledge_linking | indexing_extraction | meta_extraction | pattern_recognition,word_puzzle | meta_puzzle,"The answer to this month’s puzzle is a letter of the alphabet.
+They cause auroras (5,5)
+Cross where it’s not too deep (4)
+Cricket owner (2&1)
+Ancient box-opener? (7)
+Wheel part, to a shark? (3)",S,"As its title suggested, this month’s puzzle had to do with stock tickers.
+Solving the 5 crossword-style clues leads to the names of 5 companies, with
+their stock tickers in parentheses:
+They cause auroras (5,5) = Solar Winds (SWI)
+Cross where it’s not too deep (4) = Ford (F)
+Cricket owner (2&1) = AT&T (T)
+Ancient box-opener? (7) = Pandora (P)
+Wheel part, to a shark? (3) = Ace (ACE)
+That last one proved pretty tricky, but many of you were able to backsolve — the
+“shark” in question is a card shark, and a wheel is an A-2-3-4-5 straight.
+Putting those stock tickers together reveals SWIFT PACE, a synonym for Sprint,
+whose stock ticker is
+S
+, the answer to this month’s puzzle.
+Congratulations to those of you who submitted a correct response, especially
+Ricky O’Connor, this month’s randomly-chosen winner of a Jane Street t-shirt!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/ticker-treat-index/"", ""retrieved_at"": ""2026-09-21T09:12:30.001332+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/ticker-treat-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2016-11,Jane Street Monthly Puzzles,The Wright Stuff,2016-11,word_language,grid_deduction | mixed_meta,word_search | connected_components | anagramming | meta_extraction | external_knowledge_linking,word_search | grid_fill | image_puzzle | meta_puzzle,"(The answer to this puzzle, which comprises 11 letters, is on the National
+Register of Historic Places.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/nov16_puzzle.png",Kentuck Knob,"The answer to this month’s puzzle is
+Kentuck Knob
+.
+This was our toughest puzzle in a long time! To solve it, you needed to locate
+words in our word search. But of course very few words are present in the
+original grid. “MINERAL” is present at the bottom of the grid, but there’s not
+much else. However if you remove MINERAL from the grid and allow the rest of the
+letters to fall down to the line supporting the grid, the word “FOUNTAIN” also
+reveals itself. If you proceed in this fashion you’ll find (not necessarily
+horizontally** many other words, all of which can complete a common two-word
+phrase with the word “water”:
+MINERAL
+FOUNTAIN
+BOTTLED
+FALL
+GROUND
+PARK
+SLIDE
+TAP
+SUPPLY
+SALT
+VAPOR
+HOLY
+FRESH
+SKIING
+BRACKISH
+ICE
+FOWL
+HOT
+SEA
+BUFFALO
+MAIN
+POLO
+When you’re done, the letters left over in the grid anagram to “
+Kentuck
+Knob
+“, a house designed by famous architect Frank Lloyd
+Wright
+(who also,
+of course, designed “Fallingwater”).
+Big congratulations to those of you who managed to crack this extra-tough
+puzzle!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/the-wright-stuff-index/"", ""retrieved_at"": ""2026-09-21T09:12:19.085640+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/the-wright-stuff-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-04,Jane Street Monthly Puzzles,Where in the World?,2018-04,word_language,cryptography_ciphers | mixed_meta,anagramming | visual_decoding | coordinate_indexing | meta_extraction | wordplay,word_puzzle | cryptogram | image_puzzle | meta_puzzle,"After a few months of straightforward puzzles, It’s our turn to post a tough
+one! The answer to this puzzle is a country you’ll find in the news.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Apr18_puzzle_new.png",TOGO,"As advertised, this month’s puzzle was a tricky one!
+The first step is to notice that each line can be unscrambled to spell out the
+name of a country, plus 1 other letter (or number). The residual characters
+spell out the vague phrase “search 4 directon”. This, along with the 4
+highlighted “E”s, and the hint that you could “find this country in the news”
+prompted some astute solvers to look only for the letters N, E, W, and S — the 4
+directions. Using each E as a starting point, and traveling in the suggested
+direction until you hit another direction, spells out this month’s answer,
+TOGO
+.
+Congratulations to everyone who cracked this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Apr18_solution_new.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/where-in-the-world-index/"", ""retrieved_at"": ""2026-09-21T09:12:09.845135+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/where-in-the-world-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2021-03,Jane Street Monthly Puzzles,Tit for Tat,2021-03,word_language,mixed_meta,wordplay | lexical_search | pattern_recognition | indexing_extraction | meta_extraction,word_puzzle | meta_puzzle,"The answer is a two-word English phrase.
+Drivers destabilise? (6.4)
+Help a top-roper with your gut? (5.4)
+Weak point of a lever? (5.4)
+Reorganises puffy desserts? (8.2)
+What you need to get the flattest dough? (5.1)
+Numerically, the body of water coming after the one at Edinburgh? (5.3)
+2-for-1 on name-brand soap? (4.2)
+Nirvana feud? (6.4)
+(6.1)",SOMBRE HOMBRE (also accepted: MELLOW FELLOW),"The clue phrases followed by (X.Y) each had a two-word answer that consisted of words of length X that are identical except for the letter in position Y. (hinted at in the puzzle’s title, “Tit for Tat”). These were
+Drivers destabilise? (6.4)
+CAR
+M
+EN CAR
+E
+EN
+Help a top-roper with your gut? (5.4)
+BEL
+L
+Y BEL
+A
+Y
+Weak point of a lever? (5.4)
+CRA
+N
+K CRA
+C
+K
+Reorganises puffy desserts? (8.2)
+S
+H
+UFFLES S
+O
+UFFLES
+What you need to get the flattest dough? (5.1)
+L
+EAST
+Y
+EAST
+Numerically, the body of water coming after the one at Edinburgh? (5.3)
+FI
+F
+TH FI
+R
+TH
+2-for-1 on name-brand soap? (4.2)
+D
+I
+AL D
+E
+AL
+Nirvana feud? (6.4)
+GRU
+N
+GE GRU
+D
+GE
+The differing letters spell out MELANCHOLYFRIEND, and we are left with “(6.1)” to suggest that this is a final clue. We expected
+S
+OMBRE
+H
+OMBRE to be the solution folks would find, but somewhat surprisingly a second solution was equally popular and legitimate enough that we accepted it as well… which was
+M
+ELLOW
+F
+ELLOW. Incredibly, the initials of the clue phrase “melancholy friend” matched the distinct letters in this unintended solution.
+The following puzzlers managed to find at least one of the two answer phrases above.","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/tit-for-tat-index/"", ""retrieved_at"": ""2026-09-21T09:11:52.355198+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/tit-for-tat-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2022-08,Jane Street Monthly Puzzles,New York Minute,2022-08,word_language,grid_deduction | cryptography_ciphers,word_search | substitution_cipher | pattern_recognition | indexing_extraction | meta_extraction,word_search | grid_fill | cryptogram | meta_puzzle,"The Jane Street Puzzle Master has twenty-three errands – don’t worry,
+almost all of them are tiny! – that she needs to cross off her to-do
+list (above) on her day off. (Each errand is at least 4 letters long.)
+If she can manage that small task, she
+plans to meet up with some friends tonight for a short while.
+Can you figure out where they’ll meet up, and why?
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/new-new-york-minute.jpg",Little Italy,"The puzzle master’s to-do list is a word search with a punny twist!
+Famous NYC locations / experiences / etc. are scattered about the grid with substitutions
+to some of the letters. Diligent solvers found these substitutions to
+be consistent across the answers, they were
+d -> c
+c -> m
+m -> μ
+μ -> n
+n -> p
+p -> f
+f -> a
+a -> z
+z -> y
+The strange μ in there, and the references to small – or “minute”, in the
+maɪˈnjuːt
+sense –
+things throughout the text, clued that this substitution was generated
+by moving one rung down the metric prefixes ladder: these are the
+symbols for deci, centi, milli, micro, nano, pico, femto, atto, zepto,
+and yocto. With that guide in hand, one can undo the substitutions and arrive at the grid above. (Changed letters are in green.)
+The 23 tasks that now appear in the grid are:
+Bronx Zoo
+Brooklyn Bridge
+Central Park
+Chinatown
+Cloisters
+Coney Island
+Duane Reade
+Grand Central
+High Line
+Holland Tunnel
+Koreatown
+La Guardia
+Lincoln Center
+Madison Square
+New Museum (newµseum :-)
+Radio City
+Statue of Liberty
+Stone Street
+subway
+taxi
+Wall Street
+Yankee Stadium
+Zabars
+The unused letters (boldfaced and underlined) spell
+Little Italy
+. Seems apt, don’t it?
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/new-york-minute-sol.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/new-york-minute-index/"", ""retrieved_at"": ""2026-09-21T09:11:43.431997+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/new-york-minute-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2022-09,Jane Street Monthly Puzzles,Pair Dance 2,2022-09,word_language,cryptography_ciphers | mixed_meta,pattern_recognition | lexical_search | indexing_extraction | encoding_decoding | meta_extraction,word_puzzle | cryptogram | meta_puzzle,"disgust (3,
+1
+,1)
+mollifies (
+4
+,1,3,2)
+calling in (3,1,3,4,
+2
+)
+it’s pickled (
+4
+,4,4,4)
+staple that’s approx 1 to 2 mm (
+4
+,4,4,4)
+one who will take a leaner, maybe (
+6
+,6,7,2,4)
+a 90’s spoof (if you insert a space) (
+4
+,4,4,4)
+guts (6,6,3,
+5
+,5)
+like most sets (
+2
+,2,3,4,2)
+swinging makes one less impressive (
+5
+,3,1)
+show up again (7,
+4
+,4,1)
+the player at bat after you, say (6,6,
+3
+,1)
+[in the chance that this happens to make sense, please send us the
+answer, which is a tuple of positive integers representing an English word]","(7,7,1,7,4,4)","This puzzle was rather empty of direction, giving a short set of clues
+each with a tuple of numbers. The title of the puzzle hinted at pairs,
+it turned out all the clues had answers consisting of a set of letters appearing exactly
+twice. Further, the tuples of numbers referred to the distances between the like
+pairs, in the order of the leftmost pair member. The answers (clued
+alphabetically to help with confirmation) were:
+disgust (3,
+1
+,1) - A
+P
+PALL
+mollifies (
+4
+,1,3,2) -
+A
+PPEASES
+calling in (3,1,3,4,
+2
+) - ARRAIG
+N
+ING
+it’s pickled (
+4
+,4,4,4) -
+C
+HOWCHOW
+staple that’s approx 1 to 2 mm (
+4
+,4,4,4) -
+C
+OUSCOUS
+one who will take a leaner, maybe (
+6
+,6,7,2,4) -
+H
+ORSESHOER
+a 90’s spoof (if you insert a space) (
+4
+,4,4,4) -
+H
+OTSHOTS
+guts (6,6,3,
+5
+,5) - INT
+E
+STINES
+like most sets (
+2
+,2,3,4,2) -
+N
+ONORDERED
+swinging makes one less impressive (
+5
+,3,1) -
+P
+ULLUP
+show up again (7,
+4
+,4,1) - R
+E
+APPEAR
+the player at bat after you, say (6,6,
+3
+,1) - TE
+A
+MMATE
+The bold and italic numbers corresponded to the letters
+PANCCHHENPEA. While each letter here appears exactly twice, the
+alphabetical nature of the answers hinted that we might need to find a
+new ordering of these letters… in fact they can be anagrammed to the
+word HAPPENCHANCE, whose letters are arranged according to the tuple
+(7,7,1,7,4,4)
+, the answer requested by the cheeky
+final hint at the bottom of the puzzle.
+Congrats to this month’s solvers!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/pair-dance-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:42.906719+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/pair-dance-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2023-10,Jane Street Monthly Puzzles,A Weird Tour,2023-10,word_language,combinatorics | mixed_meta,anagramming | sorting_ordering | pattern_recognition | lexical_search | meta_extraction,word_puzzle | meta_puzzle | path_route,"My journey across this bizarre planet is complete, even though I only
+visited 11 of the 120 regions with their strange gradually shifting
+dialects. Over the trip I swapped ends of the planet using a variety
+of methods of transport between each destination. Below are some
+clues to the names of the regions I visited for all but the fifth…
+maybe you can help me fill in my itinerary with the name of that
+strange fifth country?
+I started in
+1. Unserious
+Then I took a
+plane
+to
+2. Social (1,6,8)
+I took a
+tour
+to get to
+3. Learning about (3 words) (8,9)
+Then switched to a
+big bus
+to make it to
+4. Weakness
+Then a
+subway
+got me to
+5. ???
+From there I walked through a
+tunnel
+to arrive at
+6. Game series (2 words) (4)
+A long
+train
+ride got me to
+7. Superstar artist (2 words) (1)
+Then I hopped on a
+boat
+to
+8. Sign of doubt (2 words) (3)
+I rode a
+bike
+to
+9. Exec (11)
+Then a friendly
+horse
+carried me on to
+10. Suddenly emote (3 words) (11)
+Finally, a
+limo
+drove me to my ultimate stop:
+11. South Asian (9,12)",PERMUTATION,"October’s puzzle was presented without instruction on how to solve it
+and what all these clues meant. Observant solvers could gather hints
+from the title, the flavor text describing 120 (= 5!) countries with
+gradually changing dialects, the bolded names of the means of
+transport, and some of the crossword clue answers to notice that this
+puzzle was all about the five vowels on the English language (sorry Y,
+we need committed always-vowels for this puzzle).
+The crossword clues are more easily solved when one discovers that
+every answer has exactly one of each of the five vowels, and the order
+of these vowels is determined by the position the clue is along the
+journey and the names of the methods of transport: when traveling
+between two country destinations, the method of transport contains
+exactly the two consecutive vowels whose orderings are swapped in the
+names of the two countries. Furthermore, the journey begins with the
+natural ordering AEIOU and ends with the exactly opposite ordering
+UOIEA, as hinted by the flavor text.
+This extra constraint helps narrow down the answers of the clues:
+Unserious - FACETIOUS (AEIOU)
+plane
+swaps AE
+Social - GREGARIOUS (EAIOU)
+tour
+swaps OU
+Learning about (3 words) - READING UP ON (EAIUO)
+big bus
+swaps IU
+Weakness - EXHAUSTION (EAUIO)
+subway
+swaps AU
+??? (EUAIO)
+tunnel
+swaps EU
+Game series (2 words) - SUPER MARIO (UEAIO)
+train
+swaps AI
+Superstar artist (2 words) - LUPE FIASCO (UEIAO)
+boat
+swaps AO
+Sign of doubt (2 words) - QUESTION MARK (UEIOA)
+bike
+swaps EI
+Exec - BUSINESSWOMAN (UIEOA)
+horse
+swaps EO
+Suddenly emote (3 words) - BURST INTO TEARS (UIOEA)
+limo
+swaps IO
+South Asian - SUBCONTINENTAL (UOIEA)
+We are asked to fill in the fifth country in the tour, which we expect
+to have vowel ordering EUAIO, but we don’t have a crossword clue for
+it! Now we use the extra numbers at the ends of the existing clues,
+and if we read off the letters from the answers we’ve found so far we
+get GROUP ELEMENT. This can serve as the crossword clue for the fifth
+country, which appropriately can be found to be
+PERMUTATION
+.
+Congrats to this month’s solvers who successfully sleuthed out the
+name of the fifth country!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/a-weird-tour-index/"", ""retrieved_at"": ""2026-09-21T09:11:36.093490+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/a-weird-tour-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2024-07,Jane Street Monthly Puzzles,Many Happy Returns,2024-07,word_language,mixed_meta,wordplay | lexical_search | transposition_cipher | indexing_extraction | meta_extraction,word_puzzle | cryptogram | meta_puzzle,"It’s our first day back at work – we just got our nametag
+1
+. And yet we’re already in over our heads!
+We have a set of returns to process:
+1 “I need to return this recipient…”
+1 “I need to return this popular type of street food…”
+1 “I need to return this type of remark…”
+1 “I need to return this suddenly canceled (agreement)…”
+1 “I need to return this classical dance…”
+1 “I need to return this graduate-to-be…”
+2 “I need to return this soft touch…”
+1 “I need to return this type of heron…”
+2 “I need to return this soft but unruly drummer…”
+2 “I need to return this group of criminals…”
+10 “I need to return this type of understanding…”
+9 “I need to return this BBB-…”
+1 “I need to return this person who wants to quit…”
+7 “I need to return this ugly facial expression…”
+6 “I need to return this warm breakfast dish…”
+10 “I need to return this brown-coloured ale…”
+4 “I need to return this plant that grows underground…”
+6 “I need to return this common solvent…”
+7 “I need to return this partner dance…”
+9 “I need to return this type of symmetry…”
+Ø “I need to return these good luck charms…”
+…but the list of recipients got all mixed up :-( We tried to put them back as best as we could, but only got this far:
+…said an important C++ component ($4.09)
+…said le supermarché, il ristorante and el dinosaurio ($5.08)
+…said the counterargument ($5.08)
+…said the laundry room staple ($5.09)
+…said the heavy machine useful in forestry ($5.10)
+…said the remnants of an explosion ($5.11)
+…said the (story) that was worth repeating ($6.08)
+…said Captain Marvel & Black Widow ($6.08)
+…said this type of inexpensive flooring ($6.08)
+…said the (fuse) that seemed ready to go off ($6.09)
+…said the 4-dimensional solid ($6.09)
+…said the distinguished ambassador ($6.09)
+…said
+Duel
+(or
+High School Musical
+) ($6.09)
+…said one of the major scenes in
+West Side Story
+($6.11)
+…said the narrow bike trail ($6.11)
+…said the cozy wine shop ($7.07)
+…said the total reprobate ($7.10)
+…said the often-wet piece of equipment ($7.10)
+…said the person who was here before me ($7.11)
+…said the person hovering a foot off the ground ($8.09)
+What do we need in order to finish all these returns?
+(The answer to this puzzle is a person.)
+though we have to hand it back in later to… the worker guarding the parking lot
+↩",cheesemonger,"Each of the 20 recipients had something to
+return
+, literally:
+For example, that “important C++ component” was an
+allocator
+, which is “returning” the word
+taco
+(a popular type of street food). (“Allocator” has 9 letters and “taco” has 4, which is alluded to in the price.)
+The first 20 return items – and their matching recipients – are as follows:
+1 giftee, str
+eetfig
+ht (one of the major scenes in
+West Side Story
+)
+1 taco, all
+ocat
+or (an important C++ component)
+1 biting, i
+gnitib
+le (seemed ready to go off)
+1 reneged,
+degener
+ate (total reprobate)
+1 ballet,
+tellab
+le (worth repeating)
+1 senior, he
+roines
+(Captain Marvel & Black Widow)
+2 caress, te
+sserac
+t (4-dimensional solid)
+1 egret, de
+terge
+nt (laundry room staple)
+2
+animal
+,
+lamina
+te (inexpensive type of flooring)
+2 cartel, sing
+letrac
+k (narrow bike trail)
+10 tacit, mas
+ticat
+or (heavy machine useful in forestry)
+9 rating, di
+gnitar
+y (distinguished ambassador)
+1 seceder, p
+redeces
+sor (person who was here before me)
+7 sneer, smithe
+reens
+(remnants of an explosion)
+6 omelet,
+telemo
+vie (
+Duel
+, or
+High School Musical
+)
+10 draught, mou
+thguard
+(often-wet piece of equipment)
+4 tuber,
+rebut
+tal (counterargument)
+6 acetone,
+enoteca
+(cozy wine shop)
+7 tango, c
+ognat
+es (le supermarch
+, il ristorante and el dinosaurio)
+9 rotative, l
+evitator
+(person hovering a foot off the ground)
+Taking the inidcated letter of each recipient gives an extra clue: “…said the dairy producer”.
+This
+is the person we need to match up the un-numbered 21st item (the good luck charms). And that person is a
+cheesemonger
+, who is returning some
+gnomes
+.
+That was a tough one,
+congrats to those of you who figured it out!
+Just remember to hand in your nametag to the
+gateman
+when you leave :-)","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/many-happy-returns-index/"", ""retrieved_at"": ""2026-09-21T09:11:30.861085+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/many-happy-returns-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2025-02,Jane Street Monthly Puzzles,Top Score (Give or Take),2025-02,word_language,mixed_meta,anagramming | lexical_search | pattern_recognition | sorting_ordering | meta_extraction,word_puzzle | meta_puzzle | diagramless_visual,"[The answer to this puzzle is a proper noun.]
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/top-score-give-or-take.jpg",John Williams,"For our February puzzle we gave almost no direction, just a strange
+title, two word banks, some incomplete phrases with colored numbers,
+and a clarification that the answer was a proper noun. And then you
+had the shortest month of the year to solve it. So mean! Sorry about
+that.
+Looking for structure or patterns, a solver may notice that the two
+word banks are both 14 words, and the colored numbers in the phrases
+are red and blue pairs of 1, 2,…, 14. So perhaps each number
+represents on of the word bank words, and top or bottom is color
+coded?
+The meanings of the words are quite scattered and sometimes esoteric,
+so pruning that direction, the words can be considered bags of
+letters. Staring for a while, and ruminating on the “Give or Take”
+part of the title, anagramming and passing letters from top to bottom
+can lead to break-in of noticing words like JURASSIC (from CUIRASS) or
+MINORITY (from TRIONYM). A few more connections like this might remind
+the solver of movies, and in fact the partial phrases on the right
+side of the puzzle are those movie titles!
+The word banks being alphabetized and the numbers not being in order
+on the right means the order of the numbers is probably a special
+meaning. Solving all of the movie title words out, the anagrammed Blue
+and Red words, bank words (called Give from the top bank and Take
+from the bottom bank), and passed letter for each number are:
+#
+Give
+Blue
+Take
+Red
+Letter
+1
+SURFACED
+CRUSADE
+RIDDLE
+FIDDLER
+F
+2
+ASTIR
+STAR
+TRIONYM
+MINORITY
+I
+3
+BLACK
+BACK
+SAT
+LAST
+L
+4
+SWARM
+WARS
+HOE
+HOME
+M
+5
+STICKER
+STRIKES
+SOLE
+CLOSE
+C
+6
+OKRA
+ARK
+FOR
+ROOF
+O
+7
+ADMIRERS
+RAIDERS
+ISOMER
+MEMOIRS
+M
+8
+WRAP
+WAR
+ARK
+PARK
+P
+9
+HOAGIES
+GEISHA
+LANE
+ALONE
+O
+10
+PREMISE
+EMPIRE
+CHILDREN’S
+SCHINDLER’S
+S
+11
+DITHER
+THIRD
+NOCTURNES
+ENCOUNTERS
+E
+12
+DRINK
+KIND
+TROPE
+REPORT
+R
+13
+JOLTS
+LOST
+CUIRASS
+JURASSIC
+J
+14
+WILTS
+LIST
+LORDS
+WORLDS
+W
+These results are confirmed by the twelve movie titles:
+FIDDLER on the ROOF
+STAR WARS
+CLOSE ENCOUNTERS of the THIRD KIND
+The EMPIRE STRIKES BACK
+RAIDERS of the LOST ARK
+[Indiana Jones] and the LAST CRUSADE
+HOME ALONE
+JURASSIC PARK
+SCHINDLER’S LIST
+MINORITY REPORT
+WAR of the WORLDS
+MEMOIRS of a GEISHA
+The passed letters spell out
+FILM COMPOSER J W
+, and in fact all twelve
+of the movies have scores (of top quality!) composed by
+John Williams
+,
+the proper noun answer to this puzzle! The jaws-droppingly prolific film
+composer turned 93 this February 8th, thanks for all the memorable
+themes!
+That was a tough one,
+congrats to those of you who cracked the code!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/top-score-give-or-take-index/"", ""retrieved_at"": ""2026-09-21T09:11:27.080199+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/top-score-give-or-take-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2026-06,Jane Street Monthly Puzzles,Regional Artwork,2026-06,word_language,mixed_meta,crossword_solving | sorting_ordering | indexing_extraction | pattern_recognition | meta_extraction,word_puzzle | meta_puzzle | diagramless_visual,"[Official puzzle resources]
+- https://www.janestreet.com/puzzles/regional-artwork.jpg",American Graffiti,"The clues for this month’s puzzle all had something in common – as suggested by the 3rd clue in the list they are all
+AI-generated
+. Er, by that, we mean that their respective answers begin with “A” and end in “I”:
+frequent Frazier foe [Ali]
+type of magazine you might start getting in your 20’s [alumni]
+arguably, the story of our time [AI]
+stage name of a famous skeptic (with “The”) [Amazing Randi]
+Oscar-winning role from the 80’s [Antonio Salieri]
+often-inset pair, for short [AK, HI]
+microwaveable snack brand that replaced a refrigerated product [ACT II]
+where to find “take thou this vial” and “double, double toil and trouble” [Act IV Scene I (of
+Romeo and Juliet
+and
+Macbeth
+, respectively)]
+you might break it in Kabul [afghani]
+eponym of multiple continents [Amerigo Vespucci]
+onetime Outkast output [
+Aquemini
+]
+notable 2026 launch [Artemis II]
+the present, in the past [anno domini]
+our nearest neighbors, in some sense (though we haven’t visited yet…) [Alpha Centauri]
+After sorting by length, measure how much each answer has shifted up or down. (E.g., since “AI” moves up 2 spots, take the 2nd letter, an I.) The extracted letters, when placed into the empty final clue, spell “George Lucas hit”. And befitting both the puzzle’s theme and the title, that would be the film
+American Graffiti
+.","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/regional-artwork-index/"", ""retrieved_at"": ""2026-09-21T09:11:18.949333+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/regional-artwork-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+puzzleworld-beauty-and-the-yeast-b8fb6d4fad,PuzzleWorld,Beauty and the Yeast,,word_language,logic_constraints | geometry_spatial,wordplay | lexical_search | logical_inference | constraint_propagation | spatial_visualization | visual_decoding | anagramming,image_puzzle | multi_part | word_puzzle | logic_grid,"Title: Beauty and the Yeast
+
+Instructions: cut out four squares along dashed lines.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Beauty_and_the_Yeast/content.png
+
+Return the short canonical final answer.",LIFE'S BETTER WITH BEER,"1. Rotate and arrange the squares into a 2x2 grid such that the phrases on adjoining edges are anagrams.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Beauty_and_the_Yeast/figure1.png
+
+2. Remove letters from adjacent phrases corresponding to the beer type that is their respective squares.
+
+3. The remaining letters spell out 'LIFE'S BETTER WITH BEER'.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-english-class-3a1c2c35ca,PuzzleWorld,English Class,,word_language,mixed_meta | geometry_spatial,wordplay | lexical_search | external_knowledge_linking | spatial_visualization | visual_decoding,image_puzzle | multi_part | word_puzzle,"Title: English Class
+
+A select group of puzzlers must only choose words containing six characters. These words must be grouped according to their parts of speech, then arranged to reveal the solution.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/english_class/content.png
+
+Return the short canonical final answer.",LYNNE TRUSS,"1. Identify all six-letter words from the provided clues.
+
+2. Categorize the words into noun, verb, adjective, and adverb groups.
+
+3. Fill in the 4 tables with 6 words from each of the groups.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/english_class/figure1.png
+
+4. Recognize that clues one, four and five all refer to something sloping diagonally downward from upper left to lower right.
+
+5. Reading the diagonals of each of the 4 boxes, along with the ampersand, reads: AUTHOR OFEATS SHOOTS & LEAVES = LYNNE TRUSS","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-puzzles/puzzles-may-2019/"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-failing-in-school-d3e6d8c8fa,PuzzleWorld,Failing in School,,word_language,mixed_meta,wordplay | lexical_search | external_knowledge_linking,image_puzzle | multi_part | word_puzzle,"Title: Failing in School
+
+Bart didn't study for his spelling and vocabulary test, of course. Each week, Bart's teacher gives the class an alphabetical list of ten word with brief definitions. At the end of the week, the teacher tests the students by reading th words out loud in random order and askinf them to spell the words correctly and write the definitions she provided. Of course, Bart didn't bother to look at the lists for the first two weeks. Miraculously, he spelled all of the words correctly! But he was way off with his definitions.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/failing_in_school/content.png
+
+Return the short canonical final answer.",PIERRE PANTS,"1. The answer key gives the canonical definition of each word, while Bart's answers are often a guessed definition of the word or a play on the word. Create a list of words from the canonical definitions. In order, they should be: CAPTAIN, DECIDING, DOUBLE, FERTILE, FURNISH, INSTALL, JITTERBUG, QUART, RABIES, SAKE, CASHEW, DEFEAT, EMULATE, RAMPAGE, REALTOR, SAUERKRAUT, SHELTERED, TAILOR, TANDEM, WAIVER.
+
+2. Place these words into the empty boxes based on the length of each word and Bart's definitions.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/failing_in_school/figure1.png
+
+3. Take the first shaded letter on each word and fill in the blanks at the bottom to get 'JUSTIN TRUDEAU'S FATHER'.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/failing_in_school/figure2.png
+
+4. Justin Trudeau's father is PIERRE PANTS, which is the solution to the puzzle.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-gambling-terms-19446e5666,PuzzleWorld,Gambling Terms,,word_language,logic_constraints | cryptography_ciphers,wordplay | lexical_search | logical_inference | constraint_propagation | encoding_decoding | indexing_extraction | meta_extraction,image_puzzle | word_puzzle | meta_puzzle | cryptogram,"Title: Gambling Terms
+
+The upstream record has no separate flavor-text transcription.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Bonus_2/content.png
+
+Return the short canonical final answer.",GO FOR BROKE,"1. This bonus puzzle contains several rows of rebus-style clues that combine images, letters, and operations to form gambling-related phrases.
+
+2. The first line, with sheep (lamb), vest, germs, etc., decodes to 'GAMBLING TERMS', indicating what type of phrases we're looking for.
+
+3. Decode each rebus line by identifying the images and applying the indicated operations (+ for addition, - for subtraction). For example, 'fish-P+D' + 'dog-P' + 'Y+cup-P+VE' = 'CARD UP YOUR SLEEVE'.
+
+4. Continue decoding each line: 'L+duck-D OF THE DR+claw-CL' = 'LUCK OF THE DRAW'.
+
+5. And the next line: 'hedgehog-E+pig-W Y+hand-F bat-A+E' = 'HEDGING YOUR BETS'.
+
+6. Then: 'H+gnat-KN THE fox-F+pot' = 'HITTING THE JACKPOT'.
+
+7. Continuing: 'joystick-LK+U donut-U M+oval-H tick+R' = 'YOU DONT MISS A TRICK'.
+
+8. Next: 'rowers-R IN THE H+mole-M' = 'ACE IN THE HOLE'.
+
+9. And finally: 'deer-G+C THE shed-S+C' = 'STACKING THE DECK'.
+
+10. Notice that certain letters in the decoded phrases are highlighted. Reading just these highlighted letters spells 'USFICISCADECK'.
+
+11. The bottom section contains a final rebus that includes dog+arrow, cat, fork, whale = 'GO FOR BROKE', which is the final answer.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-hearts-38d1618dad,PuzzleWorld,Hearts,,word_language,logic_constraints,wordplay | lexical_search | logical_inference | constraint_propagation | indexing_extraction,multi_part | word_puzzle | logic_grid,"Title: Hearts
+
+Welcome to 'Five-minute Speed-Dating', where the ladies always get to ask the first question. Trouble is, even if everyone makes sure to measure their words carefully, there is never a perfect match
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Hearts/content.png
+
+Return the short canonical final answer.",FISH,"1. Note that the first letters of the ladies' names spell 'size five', and that each quote has exactly one five-letter word.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Hearts/figure.png
+
+2. Make eight 'matches' between men and women where the pair's five letter words share four letters and only one differs.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Hearts/figure.png
+
+3. Note that the unique letters in the women's words spell PLENTY OF, and the unique letters in the men's words spell IN THE SEA.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Hearts/figure.png
+
+4. Extract the answer FISH, which makes the common phrase: plenty of fish in the sea..","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-files/9014/9231/3896/Hearts.pdf"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-inspector-pintley-s-adventures-29912c5e70,PuzzleWorld,Inspector Pintley's Adventures,,word_language,cryptography_ciphers | logic_constraints,wordplay | lexical_search | encoding_decoding | indexing_extraction | meta_extraction | logical_inference | constraint_propagation,word_puzzle | meta_puzzle,"Title: Inspector Pintley's Adventures
+
+Inspector Pintley is on the trail of an infamous burglar, The Technicolour Thief, whom she caught red-handed! The victims: Roy G. Biv and his three dogs Shadow, Snowball, and Bubblegum. The thief has added a disguise to each of their stolen treasures, and then hidden them in plain sight. If Inspector Pintley can find each treasure and remove the disguise, she should be able to catch the thief and deliver a suitable punishment!
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Bonus_4/content.png
+
+Return the short canonical final answer.",IM-PRISM-ENT,"1. Notice that the thief is called the 'Technicolour Thief' and the victim is 'Roy G. Biv', suggesting this puzzle involves colors.
+
+2. Each paragraph contains a hidden color word that has been 'disguised' by splitting it across two words or adding letters. For example, 'bizarre ideas' contains 'red'.
+
+3. In the first paragraph with 'bizarre ideas', the hidden color is RED, found across the words.
+
+4. The paragraph with 'going mad' contains ORANGE, split across words.
+
+5. In 'yelp, lowering', we can find YELLOW split across the words.
+
+6. The word 'blur' contains BLUE with extra letters.
+
+7. In the paragraph mentioning 'rain', we can find GREEN split across words.
+
+8. The word 'pin skittered' contains PINK split across words.
+
+9. The word 'whim' contains WHITE with an extra letter.
+
+10. The word 'robe lacked' contains BLACK split across words.
+
+11. The word 'violent' contains VIOLET with extra letters.
+
+12. Looking at the first letters of each color found (RED, ORANGE, YELLOW, BLUE, GREEN, PINK, WHITE, BLACK, VIOLET), they spell out 'ROY G. BPWBV'
+
+13. The solution format __ __ - __ __ __ __ __ - __ __ __ suggests breaking the answer into three parts.
+
+14. The final answer is 'IM-PRISM-ENT', which is both a play on 'imprisonment'.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-files/8415/6057/6907/04_June2019_Bonus.pdf"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-laser-maze-2d8d87fa85,PuzzleWorld,Laser Maze,,word_language,geometry_spatial | cryptography_ciphers,wordplay | lexical_search | spatial_visualization | visual_decoding | encoding_decoding | indexing_extraction | meta_extraction | constraint_propagation | pathfinding | combinatorial_counting,image_puzzle | multi_part | word_puzzle | meta_puzzle | path_route,"Title: Laser Maze
+
+Stop for a moment and consider: In base three, not counting 000, there are precisely 26 numbers that can be represented by a string of three digits (001, 002, 010... 222). That’s the exact same number of letters in the English alphabet – which of course makes it very convenient for this rarely-used base-three code! Populate the grid at right with 0’s, 1’s, and 2’s to spell out the name of this code in this code. Now, notice how two mirror panels (dark lines) have been drawn in for you near the upper-right corner. Draw in eleven more mirror panels along the edges of the squares so that the number of panels bordering each square agrees with the number (0, 1, or 2) you wrote in that square. One laser shot (gray arrow and dotted line path in upper-right corner) has been drawn in for you. Light travels at 3.0 × 10⁸ m/s, so it would take that light beam about 150 ps (picoseconds = trillionths of a second) to travel that path from the “I,” bouncing off the one mirror into the letter “M.” Draw in the remaining laser shots. To keep things simple, each shot is at a precise 45° angle. Some of the shots will take shorter periods to cross the grid; others will take longer. Just something to think about when you think about this.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Laser_Maze/content.png
+
+Return the short canonical final answer.",A TIME TO REFLECT,"1. Recognize that the code implied in the flavor text is tenary code (base three).
+
+2. Notice that tenary written in tenary code would be 202 012 200 112 001 200 221.
+
+3. Fill in the code into the grid, left to right, top to bottom.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Laser_Maze/figure_1.png
+
+4. Fill in the mirror panels so that the number of panels bordering each square agrees with the number in that square.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Laser_Maze/figure_1.png
+
+5. Follow the arrows through the maze in straight lines like a laser to sketch out the figure.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Laser_Maze/figure_2.png
+
+6. After all the shots are taken, the leftover letters spell (starting in upper right and proceeding clockwise): 'RRANGE BY HOW LONG EACH 1 TAKES.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Laser_Maze/figure_2.png
+
+7. Arrange the hit letters by the number of squares each laser passed through, which gives letters AT IM ET OR EF LE CT:
+
+8. Recognize that the letters combine to give the answer 'A TIME TO REFLECT'.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/wp-content/uploads/2023/02/1-4-Main-Set-v6.pdf"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-lobster-quadrille-cfedc3cd89,PuzzleWorld,Lobster Quadrille,,word_language,mixed_meta,wordplay | lexical_search | external_knowledge_linking | indexing_extraction,image_puzzle | word_puzzle,"Title: Lobster Quadrille
+
+'Of course not,' said the Mock Turtle: 'why, if a fish came to me, and told me he was going a journey, I should say 'With what porpoise?' 'Don't you mean “purpose”?' said Alice. 'I mean what I say,' the Mock Turtle replied in an offended tone. And the Gryphon added 'Come, let's **hear** some of your adventures.'
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Lobster_Quadrille/content.png
+
+Return the short canonical final answer.",BEAUTIFUL SOUP,"1. Correctly identify the bolded words in each row.
+
+2. Solve each pun-based fill-in-the-blank word that consists of the subword 'fish'.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Lobster_Quadrille/figure1.png
+
+3. Extract the boxed letters to spell the solution 'BEAUTIFUL SOUP'.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-puzzles/puzzles-march-2017/"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-mix-05b19a1e74,PuzzleWorld,Mix &,,word_language,logic_constraints,wordplay | lexical_search | logical_inference | constraint_propagation | anagramming | indexing_extraction,word_puzzle,"Title: Mix &
+
+Find pairs that make clues. Then mix up each clue’s letters to uncover the hidden message.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/mix_and/content.png
+
+Return the short canonical final answer.",FLOTSAM,"1. Pair the provided words to create meaningful phrases.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/mix_and/figure1.png
+
+2. Recognize 'and' in latin is 'et'.
+
+3. Remove an 'e' and a 't' from each meaningful phrase.
+
+4. Anagram the remaining letters of each phrase to form new words.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/mix_and/figure2.png
+
+5. Place the newly constructed words into the blanks that correspond with their synonyms.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/mix_and/figure2.png
+
+6. Extract the circled letters, which spell 'SOFT METAL'.
+
+7. Remove an 'e' and a 't' from SOFT METAL and annagram this result (SOFTMAL): FLOTSAM.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-puzzles/puzzles-may-2018/"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-mixing-it-up-01b5db9f8e,PuzzleWorld,Mixing It Up,,word_language,geometry_spatial | cryptography_ciphers,wordplay | lexical_search | spatial_visualization | visual_decoding | encoding_decoding | indexing_extraction | meta_extraction | anagramming,image_puzzle | word_puzzle | meta_puzzle,"Title: Mixing It Up
+
+When knights and dragons mix, things can get jumbled up mighty quick! Put them together, but watch for red flags! Your answer will be a single word.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Mixing_It_Up/content.png
+
+Return the short canonical final answer.",YORE,"1. Each knight's word can be combined with a dragon's word to form an anagram.
+
+2. The valid anagrams formed are: Glint + Tab = Battling, Heat + Rely = Leathery, Gift + Hers = Fighters, Tall + Mice = Metallic.
+
+3. Each knight-dragon pair forms a semaphore with their arms. Reading the semaphore letters from top to bottom spells 'YORE', which is the solution.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-puzzled-liter-ec92cc68e8,PuzzleWorld,Puzzled Liter,,word_language,cryptography_ciphers | logic_constraints,wordplay | lexical_search | encoding_decoding | indexing_extraction | meta_extraction | logical_inference | constraint_propagation,multi_part | word_puzzle | meta_puzzle | logic_grid,"Title: Puzzled Liter
+
+Riley takes your feedback in stride, and as they are ordering a new drink, a new person comes up to you. ""Hey, I couldn't help but overhear the argument you were having over units of measure, and can I point out that the metric system is much better? You memorize the prefixes, and everything else is good to go!"" How do they feel about your system and Riley's system?
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Bonus_Puzzled_Liter/content.png
+
+Return the short canonical final answer.",THEY BOTH MEGA BYTE,"1. This bonus puzzle involves metric prefixes (kilo, hecto, deca, etc.) and their multipliers (10^3, 10^2, 10^1, etc.).
+
+2. We're given a list of 'Drink' clues and 'Measurement' clues with associated multipliers.
+
+3. For each pair, the answer to the Measurement clue, when prefixed with the appropriate metric prefix, forms the answer to the Drink clue.
+
+4. For example, 'pointing line' is ARROW. With the 'nano' (n) prefix, it becomes 'NARROW', which matches the Drink clue 'menstrual pains'.
+
+5. The multiplier (10^-9 for nano) tells us to use the 1st letter of ARROW (A).
+
+6. We must find all such pairs: KNIGHT/NIGHT (kilo, k, 10^3), HEARTH/EARTH (hecto, h, 10^2), DAMAGES/MAGES (deca, da, 10^1), etc.
+
+7. The extracted letters (T, H, G, E, M, O, B, A, Y) must be placed in the grid at the bottom of the puzzle.
+
+8. When filled correctly, the grid reads 'THEY BOTH MEGA BYTE' - a pun referring to computer storage and suggesting both measurement systems have their flaws.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-seeker-of-silence-0268c794fc,PuzzleWorld,Seeker of Silence,,word_language,logic_constraints | cryptography_ciphers,wordplay | lexical_search | logical_inference | constraint_propagation | encoding_decoding | indexing_extraction | meta_extraction,word_puzzle | meta_puzzle,"Title: Seeker of Silence
+
+In a royal decree, King Azaz had outlawed the expression of any letter as silent (except for the royal E, of course). Under cover of darkness, words would come out to play so that their letters could express themselves in whatever way they liked, some even taking a vowel of silence. So, when the word police showed up to investigate, not only did they find the silent letters but another series of words with absent letters. The officers brought in both sets of words for questioning and a placed them in a lineup. The king requested the help of Milo to pair up words harboring the same wanted letters, and the word police handcuffed them together. The words begged the king to release them, but their request was denied; the word police stated that the king's word was final. What else did the police say the king's word was?
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Bonus_Seeker_of_Silence/content.png
+
+Return the short canonical final answer.",EARREFUTABLE,"1. The puzzle presents two sets of words: 'Series one' (words with silent letters) and 'Series two, NOT too' (words with missing letters).
+
+2. The instructions tell us to pair up words from each set that 'harbor the same wanted letters'.
+
+3. For example, 'BALLET' (with a silent 'T') pairs with 'DYE' (NOT 'DIE') because both involve a silent/missing letter 'T'.
+
+4. Similarly, 'BISCUIT' (silent 'U') pairs with 'JUNEAU' (NOT 'JUNO') because of the letter 'U'.
+
+5. Working through all the pairs: BALLET (T) with DYE (NOT DIE), BISCUIT (U) with JUNEAU (NOT JUNO), BREAD (A) with ONE (NOT WON), etc.
+
+6. The last pairing shown is KNEEL (K) with LICHEN (NOT LIKEN).
+
+7. Looking at the example completed pair, we can see that we need to spell out a word using the silent letters.
+
+8. The silent letters in the paired words are: E, A, R, R, E, F, U, T, A, B, L, E.
+
+9. These letters spell 'EARREFUTABLE', which is a play on 'irrefutable' with the silent 'E' added at the beginning.
+
+10. This connects to the clue that the king's word was 'final', and the puzzle asks what else the police said the king's word was - 'EARREFUTABLE'.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-sir-galahad-2d8065cafc,PuzzleWorld,Sir Galahad,,word_language,cryptography_ciphers | logic_constraints,wordplay | lexical_search | encoding_decoding | indexing_extraction | meta_extraction | logical_inference | constraint_propagation,word_puzzle | meta_puzzle,"Title: Sir Galahad
+
+Even though Sir Galahad was chaste, he was chased by the young women from Castle Anthrax. As the documentarian recorded this and the other activities of King Arthur and his knights for a film, he noticed that only some things seemed to fit. That helped him discover Sir Galahad's plan for how the knights should approach new situations.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Sir_Galahad/content1.png
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Sir_Galahad/content2.png
+
+Return the short canonical final answer.",WARILY,"1. The puzzle presents a story with blank spaces to be filled in with homophones - words that sound the same but are spelled differently and have different meanings.
+
+2. Fill in the blanks on page 1 with appropriate homophones. For example, 'knew/new', 'sight/cite', 'pair/pear', etc. The correct pairs are: knew/new, sight/cite, pair/pear, for/four, taught/taut, write/right/rite, holy/wholly, and way/weigh. The result is shown in the figure.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Sir_Galahad/figure2.png
+
+3. On page 2, there's a word chain with numbers. These numbers correspond to which homophone to use from the story on page 1 (numbering them from 1 to 17).
+
+4. Propagate letters up and down according to the connecting lines in the diagram, and complete words based on the known letters from the homophones, as shown in the figure.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Sir_Galahad/figure1.png
+
+5. Analyze the completed word chain. Most words are movie-related terms (shown in green in the solution), but some words are highlighted in a different color (magenta) and don't fit the movie theme.
+
+6. Reading these anomalous words gives the instruction: 'third letter from unused homophones.'
+
+7. Identify the unused homophones from the story - these are the words that weren't used in the word chain: NEW, PEAR, FOR, WRITE, HOLY, WAY.
+
+8. Take the third letter from each of these unused homophones: NEW (W), PEAR (A), FOR (R), WRITE (I), HOLY (L), WAY (Y).
+
+9. Reading these letters in order spells 'WARILY', which is how Sir Galahad thinks the knights should approach new situations.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-sir-robin-df669dfebd,PuzzleWorld,Sir Robin,,word_language,cryptography_ciphers,wordplay | lexical_search | encoding_decoding | indexing_extraction | meta_extraction | anagramming,image_puzzle | word_puzzle | meta_puzzle | cryptogram,"Title: Sir Robin
+
+One evening by the campfire, Sir Robin's minstrels created some limericks chronicling the adventures of King Arthur and his knights on their long journey. In a short time, the knights were tap-tap-tapping their toes as the minstrels sang their new songs. Finish the lyrics to decode a phrase describing something not needed in the movie.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Sir_Robin/content.png
+
+Return the short canonical final answer.",STUNT RIDER,"1. The puzzle presents incomplete limericks with blank spaces and letter groups at the bottom that need to be anagrammed to form words.
+
+2. First, anagram the letter groups at the bottom of the page to find words that complete the limericks. For example, 'aaelnpst' anagrams to 'PEASANT', 'aaenpst' to 'PLEASANT', etc.
+
+3. Fill in the blank spaces in the limericks with these anagrammed words to complete the poetry.
+
+4. Notice that each line has musical notes next to it. These notes depict Morse code - solid (eighth) notes represent dots, hollow (half) notes represent dashes.
+
+5. Decode the Morse code to find letters. For example, the first set '–··' decodes to 'D'.
+
+6. Use each Morse code letter's position in the alphabet (A=1, B=2, etc.) to determine which letter to extract from the corresponding anagrammed word.
+
+7. For the first line, 'D' is the 4th letter of the alphabet, so take the 4th letter of 'PEASANT', which is 'S'.
+
+8. Continue this process for each line: 'H' (8th letter) from 'PLEASANT' gives 'T', 'B' (2nd letter) from 'TURN' gives 'U', and so on.
+
+9. Reading these extracted letters from top to bottom spells out 'STUNT RIDER', which is something not needed in the movie (since they used coconuts instead of horses).","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-the-tea-menu-7fd5323402,PuzzleWorld,The Tea Menu,,word_language,cryptography_ciphers | logic_constraints,wordplay | lexical_search | encoding_decoding | indexing_extraction | meta_extraction | logical_inference | constraint_propagation | word_search | exhaustive_search,image_puzzle | word_puzzle | meta_puzzle | word_search,"Title: The Tea Menu
+
+Oh no! The chef seems to have misprinted the afternoon tea menu. All the items have been misaligned. What's worse, each tea got an extra segment of letters added to the end. And even more letters seem to have randomly filled up the page! Find the teas below to find a descriptor for this menu.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/The_Tea_Menu/content.png
+
+Return the short canonical final answer.",GARDEN VARIETY,"1. This is a variant word search puzzle where the tea names aren't found in straight lines.
+
+2. The flavor text hints that each tea is made up of segments that are 'misaligned' rather than following a straight line.
+
+3. Each tea name is formed by segments where the row or column is adjusted by one for each segment. For example, EARL GREY can be found starting with E, then moving diagonally to A, then R, and so on.
+
+4. Start by looking for common tea names like EARL GREY, which is easier to spot since EARL and GREY are visible near each other on the grid.
+
+5. After finding a tea name, continue in the same direction to find the 'extra segment of letters' mentioned in the flavor text.
+
+6. Find all 13 tea names listed: EARL GREY, CINNAMON, PEPPERMINT, LADY GREY, DAEJAK, SENCHA, LAVENDER, CHAI, TURMERIC, WHITE PEONY, DARJEELING, MATCHA, and CEYLON.
+
+7. The extra letters at the end of each tea, when read in the order the teas are listed, spell out 'FIRST LETTER OF EACH OF THE SECOND SEGMENTS'.
+
+8. This is a clue telling you to look at the first letter of the second segment of each tea name.
+
+9. For example, in EARL GREY, the second segment starts with A. In CINNAMON, the second segment starts with G.
+
+10. Taking the first letter of the second segment of each tea name, in the order listed, spells 'GARDEN VARIETY', which is the answer.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-word-games-c04a464379,PuzzleWorld,Word Games,,word_language,logic_constraints | mixed_meta | geometry_spatial,wordplay | lexical_search | logical_inference | constraint_propagation | external_knowledge_linking | spatial_visualization | visual_decoding | anagramming | crossword_solving | indexing_extraction,image_puzzle | multi_part | word_puzzle | logic_grid | crossword,"Title: Word Games
+
+A series of crossword-style clues lead to a hidden message. By extracting and rearranging key elements, the final solution emerges.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/word_games/content.png
+
+Return the short canonical final answer.",ALPHA,"1. Unscramble the words in the Jumble mini game.
+
+2. Notice that the five words they give you to fill in in the 'down' section of the crossword are invalid.
+
+3. Correctly replace the 5 given words in the 'down' section of the crossword with their synonyms found in the Jumble mini game.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/word_games/figure4.png
+
+4. Solve the given crossword puzzle.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/word_games/figure2.png
+
+5. Extract the letters contained in the hearts, diamonds, or circles in the jumble puzzle to fill in the blank phrase that judge declared (keyed by the same shapes). This should spell: CROSS YOU HEARTS.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/word_games/figure3.png
+
+6. Allign the words in the jumble puzzle with their synonyms given by the 'down' column of the crossword.
+
+7. Extract the letters from jumble puzzle's words synonyms whom allign with the index of their counterpart's 'hearts' location. e.g. if CRUSH is lined up with SMASH, the letter 'U' is encapsulated in a heart, thus 'A' from SMASH is extracted.
+   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/word_games/figure1.png
+
+8. The final extracted letters from the jumble puzzle should spellthe solution: ALPHA","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": ""https://puzzledpint.org/archive-puzzles/puzzles-may-2017/"", ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+puzzleworld-y-ddf1b9bdae,PuzzleWorld,Y?,,word_language,cryptography_ciphers,wordplay | lexical_search | encoding_decoding | indexing_extraction | meta_extraction,image_puzzle | word_puzzle | meta_puzzle,"Title: Y?
+
+In the myth, the nymph spryly joined the glyphs of the sphynx on the flags of the crypt, to try to scry the answer to my question: 'Why?'
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Y/content.png
+
+Return the short canonical final answer.",WHY NOT,"1. The puzzle shows an eight-pointed star with various images at each point, along with six numbered clues that each begin with 'You' and describe various actions.
+
+2. Looking at the images around the star, we can identify that each represents a three-letter word ending in 'Y': FLY (fly), CRY (eye with tear), PLY (toilet paper), SPY (detective), STY (pig pen), PRY (crowbar), SLY (fox), and FRY (frying pan).
+
+3. For each numbered clue, we need to identify three words: one starting with Y, and two others that are similar but start with different letters.
+
+4. For #1, the words are YUCK, STUCK, and PLUCK, all describing expressions of distaste with something sticky.
+
+5. For #2, the words are YIP, SLIP, and FLIP, related to losing footing and making a short yelp.
+
+6. For #3, the words are YOKE, SPOKE, and STOKE, relating to oxen harnesses, wheel parts, and tending fires.
+
+7. For #4, the words are YACK, CRACK, and SLACK, about talking at length and making breakthroughs.
+
+8. For #5, the words are YANK, SPANK, and FLANK, referring to pulling hard and hitting.
+
+9. For #6, the words are YAWN, PRAWN, and SPAWN, about expressing boredom while watching a crustacean breed.
+
+10. The arms of the star form semaphore positions, and each set of words gives a semaphore letter: W, H, Y, N, O, T.
+
+11. Putting these letters together gives us 'WHY NOT', which answers the puzzle title question 'Y?'","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""word_language"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"

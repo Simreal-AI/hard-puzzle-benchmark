@@ -1,0 +1,929 @@
+id,source_name,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,evaluation,source,rights
+dudeney-amusements-426,Dudeney Public Domain Puzzles,The Hymn-board Poser,1917,optimization,combinatorics | logic_constraints,grouping_partition | discrete_optimization | integer_programming,optimization_challenge | construction_challenge,"A church has three hymn boards.  At every service, all three boards simultaneously display the same set of five distinct hymn numbers selected from a hymn book numbered 1 through 700.  Each decimal digit is painted on a separate metal plate, so the plates must support three concurrent copies of every one of those five numbers.  Plates may be painted on both sides.  A 6 may be inverted to serve as 9, but no other digit can be repurposed.  Minimize the number of plates first, then the total cost.  Each blank plate costs 6d.  If k plates receive the same ordered pair of side paintings, painting costs 12-(k-1)/4 pence per plate (a one-sided plate counts as its own pattern).  Historical currency uses 12 pence (d) per shilling (s) and 20 shillings per pound (£).  What is the minimum plate count and the least total cost?","149 plates; 1,909d (£7 19s 1d)","Worst-case simultaneous hymn numbers require 33 copies each of digits 1-5, 30 each of 0,7,8, and 42 combined copies of 6/9, for 297 painted digit faces.  Double-sided plates therefore need at least ceil(297/2)=149 plates.  A minimum-cost pairing of opposite faces is:
+
+    31 plates: 5/9
+    30 plates: 7/8
+    21 plates: 1/2
+    21 plates: 3/0
+    12 plates: 1/3
+    12 plates: 2/4
+    12 plates: 9/4
+     8 plates: 4/0
+     1 plate : 5/4
+     1 plate : 5/0
+
+Here “x/y” means x is painted on one side and y on the other; a 9-face also serves as 6 when inverted.  Applying the decreasing per-pattern painting tariff gives £4 4s 7d for painting, while 149 blank plates at 6d cost £3 14s 6d, totalling £7 19s 1d.  The pairing must also preserve the ability to display difficult simultaneous combinations such as 111,112,121,122,211; greedily maximizing identical pairs can make a required display impossible.","{""bucket"": ""source_curated_hard_candidate"", ""evidence"": ""The source says the puzzle is not nearly as easy as it looks and records only one successful contemporary submission among a very large response; plate-count and tariff objectives interact with display feasibility."", ""hard_core"": false, ""modern_empirical_pilot_pending"": true, ""selection_method"": ""manual_source_read_plus_exact_answer_verification""}",needs_review,False,"{""answer_only_scorable"": true, ""benchmark_core"": false, ""counts_toward_official_topic_score"": false, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""historical_difficulty_candidate""}","{""author"": ""Henry Ernest Dudeney"", ""book_title"": ""Amusements in Mathematics"", ""ebook_url"": ""https://www.gutenberg.org/ebooks/16713"", ""local_upstream_file"": ""research/gutenberg/upstream/pg16713.txt"", ""original_puzzle_number"": 426, ""original_section_title"": ""THE HYMN-BOARD POSER."", ""plain_text_url"": ""https://www.gutenberg.org/cache/epub/16713/pg16713.txt"", ""publisher_of_digitization"": ""Project Gutenberg"", ""question_source_lines"": [11329, 11380], ""solution_source_lines"": [20696, 20799], ""upstream_sha256"": ""211a254547e147a9c0448121a4558ee9e8a05d550961dc9b6a434d802dee400d""}","{""jurisdiction_caveat"": ""Project Gutenberg's public-domain determination is for the United States. Re-check copyright status and any database/publication obligations in each target jurisdiction."", ""permission_required"": false, ""project_gutenberg_packaging_removed"": true, ""public_domain_us"": true, ""release_track"": ""open_commercial_core"", ""rights_status"": ""project_gutenberg_marks_ebook_public_domain_in_the_usa"", ""trademark_note"": ""Dataset rows do not include Project Gutenberg header/footer, licence boilerplate, or branding; source links and factual provenance are retained.""}"
+jane-street-2014-01,Jane Street Monthly Puzzles,Sum of Squares,2014-01,optimization,grid_deduction | number_theory,divisibility | digit_constraints | constraint_propagation | branch_and_bound | computational_verification,grid_fill | optimization_challenge | code_search | numeric_answer,"Place a digit in each of the 25 spots in the below 5×5 grid, so that each
+5-digit number (leading zeroes are ok) reading across and reading down is
+divisible by the number outside the grid, trying to maximize the sum of the 25
+numbers you enter. An example of a completed grid with sum 100 is presented on
+the right.
+Please submit your answer (along with any other comments you want to provide) as
+an ordered pair of your sum, and your 25 numbers, reading left to right, top to
+bottom.
+Example submission: (100,1623552460048932486847030)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/niedermaier1.png","Best published official sum (not proved optimal): (205,9899999998798999989689890)","The best solutions we received had a sum of
+205
+; there were 3 entrants who
+managed to reach that total. Congratulations to Tomas Vaškevičius for being
+randomly selected to win a Jane Street t-shirt! His submission appears here.
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Jan14_Solution_updated.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/sum-of-squares-index/"", ""retrieved_at"": ""2026-09-21T09:12:37.441284+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/sum-of-squares-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2014-03,Jane Street Monthly Puzzles,Altered States,2014-03,optimization,word_language | grid_deduction | graph_network,word_search | pathfinding | lexical_search | branch_and_bound | constructive_search,word_search | grid_fill | optimization_challenge | open_ended,"Enter letters into the 5×5 grid above to achieve the
+highest score you can
+. You
+earn points for each of the
+50 U.S. states
+present in your grid.
+States can be spelled by making
+King’s moves
+from square to square (see
+example).
+The score for a state is its length; e.g. OREGON scores 6 points, RHODEISLAND
+scores 11, etc. The example above scores 13 points
+1
+(for IDAHO, IOWA, and OHIO).
+If a state appears multiple times in your grid, it only scores once.
+Please submit your total score, your grid rows reading across, and a list of
+the states present in your grid (along with any comments you’d like to
+provide).
+Note that HAWAII is
+not
+scored, as ‘staying put’ is not a legal King’s move. (We would need to add an I to one of the neighboring empty squares.)
+↩
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/grid_new.png","Best published official score (not proved optimal): 123; board rows DCMOI/HAWSH/TRKAN/UOLID/NISLI; states ALASKA, ARKANSAS, HAWAII, IDAHO, ILLINOIS, INDIANA, IOWA, KANSAS, LOUISIANA, NORTHCAROLINA, NORTHDAKOTA, OHIO, OKLAHOMA, SOUTHCAROLINA, SOUTHDAKOTA, UTAH","For a long while the best grid we knew of scored 95 points. In early 2024, puzzler Laura reached out to us with an improved grid (above left), which scores
+98
+points. Her grid contains these states:
+ARKANSAS (8)
+COLORADO (8)
+INDIANA (7)
+KANSAS (6)
+LOUISIANA (9)
+NEBRASKA (8)
+NORTHCAROLINA (13)
+NORTHDAKOTA (11)
+SOUTHCAROLINA (13)
+SOUTHDAKOTA (11)
+UTAH (4)
+After
+reviving
+the theme in 2024, we received a handful of grids that scored even higher. The best one we have received so far comes courtesy of Luke Yang, whose grid (above right) scores a whopping
+123
+points. It contains the following states:
+ARKANSAS (8)
+HAWAII (6)
+IDAHO (5)
+ILLINOIS (8)
+INDIANA (7)
+IOWA (4)
+KANSAS (6)
+LOUISIANA (9)
+NORTHCAROLINA (13)
+NORTHDAKOTA (11)
+OHIO (4)
+OKLAHOMA (8)
+SOUTHCAROLINA (13)
+SOUTHDAKOTA (11)
+UTAH (4)
+If you can do better, feel free to send us your grid!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/sol_new_4.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/altered-states-index/"", ""retrieved_at"": ""2026-09-21T09:12:36.074550+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/altered-states-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2014-07,Jane Street Monthly Puzzles,Chain Reaction,2014-07,optimization,number_theory | graph_network,divisibility | graph_modeling | longest_path | constructive_search | computational_verification,path_route | optimization_challenge | open_ended | numeric_answer,"Write down a chain of integers between 1 and 100, with no repetition, such that
+if x and y are consecutive numbers in the chain, then x evenly divides y or y
+evenly divides x. Here is an example of such a chain, with length 12:
+37, 74, 2, 8, 4, 16, 48, 6, 3, 9, 27, 81
+What is the longest chain you can find?","Best published official chain (not proved optimal), length 77: 69 23 46 92 4 76 38 19 95 5 85 17 68 34 2 62 31 93 3 87 29 58 1 49 98 14 56 28 84 42 21 63 9 81 27 54 18 72 36 12 6 66 33 99 11 22 44 88 8 24 48 96 32 64 16 80 40 20 60 30 90 45 15 75 25 100 50 10 70 35 7 91 13 39 78 26 52","Tough, open-ended puzzle this month! Many came close, but we received 7
+submissions with chains of length 77, which is also the longest we could find.
+Congratulations to Alexander Chappell, one of the 7, and this month’s randomly
+chosen winner of a Jane Street t-shirt! His submission was: 69 23 46 92 4 76 38
+19 95 5 85 17 68 34 2 62 31 93 3 87 29 58 1 49 98 14 56 28 84 42 21 63 9 81 27
+54 18 72 36 12 6 66 33 99 11 22 44 88 8 24 48 96 32 64 16 80 40 20 60 30 90 45
+15 75 25 100 50 10 70 35 7 91 13 39 78 26 52","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/chain-reaction-index/"", ""retrieved_at"": ""2026-09-21T09:12:34.290978+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/chain-reaction-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2014-10,Jane Street Monthly Puzzles,Minesweeping,2014-10,optimization,grid_deduction | probability_stochastic | logic_constraints,constraint_propagation | combinatorial_counting | conditional_probability | exhaustive_search | constructive_search,grid_fill | optimization_challenge | open_ended | probabilistic_process,"The game
+minesweeper
+begins with a grid of un-revealed squares. Some squares contain mines beneath
+them, and the rest do not. If a square does not contain a mine, then that square
+will contain a number equal to the number of mines that square borders, even
+diagonally. Once the board is fully-revealed, every square will contain either a
+mine or a number. See Figure 1 for an example of a
+fully-revealed 3×3 minesweeper board, and Figure 2 for an example of a
+partially-revealed 3×4 minesweeper board.
+This month’s puzzle: Consider a partially-revealed minesweeper board. For a
+given unrevealed square S, let P(S) be the probability that S contains a mine,
+assuming that all possible solutions for the partially-revealed board are
+equally likely. Design your own partially-revealed
+4x4
+minesweeper board, trying
+to maximize the value of P(S) for the square of your choice, while keeping P(S)
+less than 1
+.
+For your submission, please submit your P and also your minesweeper grid, using
+dashes and numbers for each row, as in the example submission under Figure 2.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Oct14_Examples2.png","Best published official construction (not proved optimal): P(S)=38/39; board rows ----/-4--/---4/-4--; S=(row 4,column 3)","Another open-ended puzzle this month!
+We received a number of different solutions, but the 2 best arrangements we
+received are presented here. Congratulations to the 10 solvers who submitted the
+best solution with P = 38/39, and especially to Thomas Hansen, this month’s
+randomly-selected winner of a Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Oct14_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/minesweeping-index/"", ""retrieved_at"": ""2026-09-21T09:12:32.718628+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/minesweeping-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2015-04,Jane Street Monthly Puzzles,Hall of Mirrors,2015-04,optimization,grid_deduction | geometry_spatial,ray_tracing | pathfinding | constructive_search | upper_bound_proof | spatial_visualization,grid_fill | path_route | optimization_challenge | open_ended,"Alongside the grid above there are several arrows. Red arrows indicate a laser
+being shone in the given direction, from just off the edge of the grid. Blue
+arrows indicate a goal. Your job is to add diagonal mirrors to the grid so that
+as many lasers reach their goal as possible. A mirror cuts across one or more
+cells at a 45-degree angle (a cell can contain at most one mirror).
+You receive
+5 points
+for every incoming laser that gets redirected to a goal,
+and you lose
+(
+N
++2) points
+for every mirror you install, where
+N
+is the length of
+the mirror. (Mirrors may cross over each other. E.g. you could have an “X” shape
+using two length-2 mirrors, which would count as two length-2 mirrors and not as
+one length-4 mirror.)
+What’s the highest score you can achieve?
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/hall_of_mirrors_alt_20230213.PNG",77,"In this month’s puzzle it was hard to know for sure if you had an optimal
+solution, but there were a few things to note:
+There were more laser entrances (24) than exits (21), so not every laser can
+reach a target.
+You get more points for a successful laser than you lose for a wall of length
+1, so in general building mirrors is worthwhile, even if they’re small.
+There were some locations where placing one mirror caused 2 lasers on
+opposite ends to reach their goals.
+The best solution we received (and the best we’re aware of) totalled
+77
+points. It is shone above.
+Congratulations to Sébastien Geeraert, this month’s high-scorer and winner of a
+Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Apr15_77points.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hall-of-mirrors-index/"", ""retrieved_at"": ""2026-09-21T09:12:29.572628+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hall-of-mirrors-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2015-06,Jane Street Monthly Puzzles,Polymath,2015-06,optimization,geometry_spatial | combinatorics,tiling_packing | constructive_search | branch_and_bound | upper_bound_proof | discrete_optimization,placement | optimization_challenge | open_ended | numeric_answer,"Choose an
+n
+-omino (call it T) and place as many copies of it as you can on the
+10-by-10 board above.
+An
+n
+-omino is a connected region of
+n
+cells. You get to choose
+n
+.
+Rotations and reflections of T are allowed.
+Copies of T may not overlap with each other.
+Any given copy of T may not be placed over two cells of the same value.
+The score for each copy of T is the product of the cells it covers.
+Your total score is the sum of the scores for your T ‘s.
+What’s the highest total score you can get?
+Submit your score as your answer, and send us a picture of your solution at
+polymath-puzzle@janestreet.com
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Jun15_puzzle.png","Best published official score (not proved optimal): 20,160; T is the heptomino ...##/#####; placements (1-based row,column): {(3,4),(3,5),(4,1),(4,2),(4,3),(4,4),(4,5)}; {(4,6),(4,7),(5,6),(5,7),(6,6),(7,6),(8,6)}; {(5,8),(5,9),(6,8),(6,9),(7,9),(8,9),(9,9)}; {(9,6),(9,7),(10,3),(10,4),(10,5),(10,6),(10,7)}","As most solvers realized, it was better to try and use a large n with fewer
+n-ominoes than a smaller n with many n-ominoes. The top score we received from a
+handful of solvers was 20,160. Interestingly, there are (at least) 2 different
+ways of getting to this score — one way is presented here, see if you can find
+the other!
+Congratulations to Wouter Bosma, one of the 20,160 submitters, and this month’s
+randomly-chosen winner of a Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/polymath_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/polymath-index/"", ""retrieved_at"": ""2026-09-21T09:12:28.429832+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/polymath-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2017-09,Jane Street Monthly Puzzles,Square Run,2017-09,optimization,graph_network | game_theory_strategy,pathfinding | longest_path | chess_analysis | discrete_optimization | computational_verification,path_route | board_game | optimization_challenge | numeric_answer,"A queen is located at
+a1
+and wishes to travel to
+h8
+via a series of one or more
+moves. (These must be legal queen’s moves.)
+After each move, the numbers on each of the squares change.
+If the move is between two spaces which sum to a perfect square, every number on
+the board decreases by 1 after the move. Otherwise, each number decreases by 5.
+(The queen may stop on a square more than once.)
+What is the largest sum you can obtain from the squares you visit over each move
+in your journey?
+Please send us your sum and your list of moves.
+Example:
+a5, a3, b3, d1, a1, d4, h8, a1, h8
+would have a sum of 0 + 26 + 29 + 12
+– 7 + 17 + 20 – 10 + 18 = 105.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20170905_square_run.png",305,"The largest sum possible for the queen’s journey is
+305
+. It turns out that there
+are 36 paths that achieve such a score, one of which is:
+c3, c7, d8, d1, g4, h3, a3, a4, e8, f7, b3, a3, e7, e5, b5, c4, f4, d4, f2, c2,
+c8, e8, b5, c4, c2, b3, f7, e8, h8,
+which scores as 8 + 29 + 21 + 16 + 21 + 16 + 21 + 5 + 21 + 16 + 21 + 16 + 1 +
+9 + 17 + 9 + 8 + 9 + 8 + 9 – 7 + 8 + 9 + 1 + 4 + 6 – 1 + 2 + 2 =
+305
+.","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/square-run-index/"", ""retrieved_at"": ""2026-09-21T09:12:13.514248+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/square-run-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-09,Jane Street Monthly Puzzles,Spiral Region,2018-09,optimization,grid_deduction | geometry_spatial,symmetry_reduction | connected_components | constraint_propagation | constructive_search | discrete_optimization,grid_shading | optimization_challenge | geometry_problem | numeric_answer,"Shade some cells in the grid above such that the set of shaded cells is
+connected, has 90-degree rotational symmetry about its center, and contains the
+same number of shaded cells in each outlined region.
+The answer to this puzzle is the smallest possible product of the areas of the
+connected groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20180904_spiral_region.png",1203200,"The smallest product we were able to find is
+1203200
+, which results from the
+shading shown above. Congrats to those of you who found it!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20181001_spiral_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/spiral-region-index/"", ""retrieved_at"": ""2026-09-21T09:12:07.228478+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/spiral-region-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-11,Jane Street Monthly Puzzles,'Pent-up' Frustration,2018-11,optimization,geometry_spatial | combinatorics,tiling_packing | constructive_search | branch_and_bound | upper_bound_proof | spatial_visualization,placement | optimization_challenge | open_ended | geometry_problem,"Place as many distinct pentominoes as you want into an 8-by-8 grid, in such a
+way that the placement is “tight” — i.e., no piece(s) can freely slide around
+within the grid.
+The score for a given placement is the
+sum of the square roots of the areas of
+the empty regions
+in the grid.
+What is the largest score you can obtain?
+This month, when you send in your entry, please send in your grid. Please use
+the
+standard
+notation
+, — i.e. F,
+I, L, N, P, T, U, V, W, X, Y, Z — and use “.” to denote empty spaces. (So the
+top row in the valid placement example would be “…Z..LL”)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20181101_pent-up.png",14 + 4√2 (≈ 19.66),"The highest-scoring configuration is shown here, scoring 14 + 4*sqrt(2), or
+about
+19.66
+points.
+The top 31-scoring entries we received all used exactly 8 pentominos; the
+highest-scoring entry to use a different number of pentominos was 17.83 (which
+used 9).
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20181203_pent-up_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/pent-up-frustration-index/"", ""retrieved_at"": ""2026-09-21T09:12:06.216801+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/pent-up-frustration-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-07,Jane Street Monthly Puzzles,Scraggle,2019-07,optimization,word_language | grid_deduction,lexical_search | pathfinding | backtracking_search | branch_and_bound | constructive_search,word_puzzle | grid_fill | optimization_challenge | open_ended,"Let’s try something complicated this month:
+Above is a 6-by-6 grid with vowels placed in some squares. Place
+distinct
+consonants (allowing Y) into some or all of the empty squares so that you can
+form a
+4-word chain
+. The first word in your chain must start and end inside the
+red outlined region. Similarly, the second, third, and fourth words must start
+and end inside the blue, green, and purple outlined regions. The last letter
+(square) of the first word must be the first letter of the second word, the last
+letter of the second word must start the third, and the last letter of the third
+must start the fourth.
+(See the example.)
+Words are formed by making king’s move between squares. Squares may be revisited
+within a word.
+(As is done in the example, with the ‘E’ in ‘GROTESQUELY’.)
+Note
+that staying put (i.e. not moving) is
+not
+a legal “king’s move”.
+Words must be legal English-language SCRABBLE® words (as per the
+Official
+Scrabble Players Dictionary
+), and the score of a
+word is the sum of the English-language SCRABBLE® point values for the letters.
+(E.g. 10 points for Q, 4 points for a W.) Your four words must also be
+distinct
+.
+The score for your chain is the
+product
+of the scores of your four words.
+Please send us your board and your 4-word chain.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20190701_scroggle.png","Best published official score (not proved optimal): 824,670; board rows .O.E.U/I.AXA./.ESINO/A.OCER/.E.AHI/U.IPOZ; chain SCHIZOPHRENIAS→SCHIZOPHRENICS→SCHIZOPHRENIC→CHRONAXIE","The top-scoring entries for this month’s puzzle were, as it turns out,
+literally quite crazy. The top-scoring board is shown above.
+(There were some trivial variations we received, too.)
+Well done, solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20190805_scraggle_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/scraggle-index/"", ""retrieved_at"": ""2026-09-21T09:12:01.781739+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/scraggle-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-08,Jane Street Monthly Puzzles,Knight Moves 3,2019-08,optimization,graph_network | grid_deduction,pathfinding | graph_modeling | chess_analysis | constructive_search | discrete_optimization,path_route | board_game | optimization_challenge | numeric_answer,"Place the numbers 1, 2,…,
+N
+(for some
+N
+) on a subset of the squares
+above, so that it is possible for a knight to move from 1 to
+N
+via a
+series of legal knight’s moves. Each number
+inside
+the grid represents
+the height of a building located at that square, and we can think of
+the knight as jumping from rooftop to rooftop on this series of
+incrementally taller buildings.
+A number
+outside
+the grid indicates the first (i.e. smallest) number
+for which the knight was visible looking into the grid in the
+direction of that row or column. (As shown in the example.)
+The answer to this puzzle is the
+smallest achievable product
+of the
+areas of the connected groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20190805_knight_moves_3.png",144,"The lowest possible product of the areas of the empty regions is 144,
+which can be achieved in a few ways. (One is shown above.)
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20190831_knight_moves_3_sol.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/knight-moves-3-index/"", ""retrieved_at"": ""2026-09-21T09:12:01.258157+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/knight-moves-3-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2022-02,Jane Street Monthly Puzzles,Eldrow,2022-02,optimization,word_language | algorithms_computation,lexical_search | state_transition | backtracking_search | branch_and_bound | computational_verification,word_puzzle | code_search | optimization_challenge | open_ended,"The daily puzzle game
+Wordle
+has taken the world by storm! Wordlers
+try to track down the mystery five-letter word in as few guesses as
+possible each day, with each guess returning the information of
+whether its letters are:
+in the exact position they appear in the mystery word (these letters turn green),
+in the mystery word but NOT in the position guessed and NOT already
+accounted for by green or yellow letters, counting duplicity (these letters turn yellow), or
+not in the mystery word at all (these letters turn gray).
+The marking happens in this specific order. First all correctly placed letters are
+marked green. Then of the remaining letters, from left to right, all letters that exist in the mystery word but haven’t been
+accounted for by greens or yellows so far are marked yellow. The
+remaining letters are marked gray. If the mystery word is
+ROVER
+,
+the guess of ERROR would be marked
+ER
+R
+O
+R
+When operating in
+hard-mode
+, every subsequent guess has to satisfy all
+clues left by previous guesses, i.e., each guess has to have a
+possibility of being the mystery word conditional on the responses of
+all previous guesses
+1
+. For example, if
+TIGER
+is the mystery
+word, and a player’s first guess is TRACK, it would be colored
+T
+R
+ACK
+and any future guess couldn’t be
+DIRTY, because the mystery word starts with T
+TROMP, because the mystery word’s second letter isn’t R
+TARDY, because the mystery word doesn’t contain an A
+TEPID, because the mystery word must contain an R.
+There are many other disqualified future guesses, but TOWER for
+example would be allowed.
+We are playing
+Eldrow
+, the game of searching for the longest possible
+chain of hard-mode guesses (we ignore the limit of 6 guesses
+in Wordle). Choose the target word and sequence of hard-mode guesses
+from
+2
+this list
+(
+SPOILER ALERT
+: this is an alphabetized copy of the
+list of Wordle mystery words, found from inspection of the website’s
+source code).
+What is the longest hard-mode guess sequence you can find
+3
+? Submit your
+answer as a comma-separated list of words from the list linked above,
+in the order guessed, with the final word being the chosen target
+word. For example, “TRACK,TOWER,TIGER” would be a somewhat
+underwhelming submission (and “TRACK,TROMP,TIGER” would not
+qualify). We will keep a leaderboard of the longest qualifying
+submissions on this page!
+In the actual Wordle game, this isn’t precisely true. The exact
+requirement is that, in every future guess, all green letters
+discovered so far appear in the position discovered and all yellow
+letters discovered so far continue to appear in future
+guesses. So in the example above with
+TIGER
+as the mystery word, the
+sequence
+T
+R
+ACK
+T
+R
+OMP
+is allowed, even though
+the player knows that the R can’t be in the second
+position after the first guess because it would’ve
+been colored green in the first row. We will use our definition of
+hard-mode: every guess has to be a potential winner given all the
+information gathered so far (so by the above logic this sequence
+would NOT be allowed).
+↩
+If you’d prefer to solve by hand without testing each word
+against this list, your can still submit but your leaderboard
+entry may have an asterisk.
+↩
+Note there is a fairly straightforward proof that an (unachievable) upper bound
+on the length of an Eldrow sequence is 26 words. If your
+process is generating longer sequences, please recheck the rules.
+↩","Best published length (not rigorously proved optimal): 16; witness: GAZER,INNER,QUEER,ODDER,BOXER,FOYER,HOVER,JOKER,WOOER,LOWER,MOWER,POWER,ROWER,SOWER,TOWER,COWER","This month’s puzzle drew several different solution methods, some
+employing code and others using a hand search of the word
+list. The longest solutions so far discovered are length
+16
+, the
+first submission of this length was
+GAZER,INNER,QUEER,ODDER,BOXER,FOYER,HOVER,JOKER,
+WOOER,LOWER,MOWER,POWER,ROWER,SOWER,TOWER,COWER
+submitted by solver Andrew Sultana, who noted that every letter of the
+alphabet is used!
+Solver Karl Mahlburg came up with a similar sequence, and also an
+explanation for why there wasn’t a length 17 Eldrow solution (while
+admitting it wasn’t a completely rigorous proof). Essentially, each
+word adds letters to the list of eliminated letters by having grayed
+out letters, and so we can focus our search on the parts of the
+sequence where eliminated letters could be reduced. Running code to
+search these areas failed to find a longer sequence.
+Nice work solvers! We are certainly happy with our 16-length Eldrow
+sequences, and curious if some magical 17-length sequence is lurking
+out there…
+Congrats to this month’s solvers, ordered by descending length, with
+ties broken by who submitted earliest.","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/eldrow-index/"", ""retrieved_at"": ""2026-09-21T09:11:46.578843+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/eldrow-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2022-04,Jane Street Monthly Puzzles,Almost Magic,2022-04,optimization,grid_deduction | number_theory,integer_programming | constraint_propagation | branch_and_bound | constructive_search | exact_arithmetic,grid_fill | optimization_challenge | construction_challenge | numeric_answer,"For the purposes of this puzzle, define a
+magic square
+to be a 3-by-3 grid of positive integers for which the rows, columns, and two diagonals all have the same sum. An example is shown top left; the 8 sums all equal 39.
+An
+almost magic square
+is, well,
+almost
+a magic square. It differs from a magic square in that the 8 sums may differ from each other by at most 1. An example is shown top right; the sums are all 138 or 139
+1
+.
+For this puzzle, place
+distinct
+positive integers into the empty grid above such that each of four bold-outlined 3-by-3 regions is an almost magic square. Your goal is to do so in a way that
+minimizes
+the overall sum of the integers you use.
+[1] Not that it matters for this puzzle, but a magic square is, technically, also an almost magic square.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/almost_magic.png",470,"April’s challenge had solvers searching for a novel arrangement of
+almost magic squares with no repeated numbers. The lower the total sum
+of entries the better, and the best number achieved was
+470
+. Above
+is an example of one of these optimal grids.
+Congrats to this month’s solvers that were able to submit almost
+magic square arrangements with acceptably-small total sum!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/almost_magic_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/almost-magic-index/"", ""retrieved_at"": ""2026-09-21T09:11:45.528374+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/almost-magic-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2023-11,Jane Street Monthly Puzzles,Knight Moves 5,2023-11,optimization,graph_network | geometry_spatial,pathfinding | state_transition | constructive_search | computational_verification | upper_bound_proof,open_ended | path_route | optimization_challenge | code_search,"An 8-by-8 “lattice” is represented above. A knight arrives at
+a1
+at time
+T
+=0, and wishes to travel to the upper-right corner (
+h8
+). This lattice respresents a
+3-dimensional landscape
+; the numbers at each “point” represent their
+altitudes
+.
+But there’s a big problem here, which is that this grid was built on a swamp, and the lattice points are prone to
+sinking
+. Whenever the knight arrives on a lattice point of altitude
+A
+, that point and
+all others with the same altitude
+start sinking at the rate of 1 unit per
+n
+minutes, where
+n
+is the number of lattice points of altitude
+A
+. Furthermore, the lattice point
+diametrically opposite
+the one the knight is on
+rises
+at the rate of 1 unit per
+n
+minutes. This sinking (and rising) continues only while the knight remains stationary, which may be for as much or as little time as the knight chooses. No other points move or begin to move during this time. (Altitudes can become negative. In the event that the “opposite” point is at the same initial altitude, it neither rises nor sinks, and is ignored for the purpose of calculating
+n
+.)
+The knight is only allowed to make 3-dimensional jumps that are permutations of (0,±1,±2) – that is, jumps that move exactly 0 units in one dimension, exactly 1 unit in another, and exactly 2 units in the third. Jumps take 0 time to complete. In the spirit of a knight’s “tour”, your goal is to find the path to the upper-right corner that takes
+as much time as possible
+. Tours of
+180 minutes or longer
+are eligible for the leaderboard.
+Updated 11/6:
+Due to some shortsightedness on our part we forgot to include the following extra rule. All “sinks” in a tour must be
+necessary
+sinks. That is, if a jump (
+t, P
+) has
+t
+> 0, it
+must
+be the case that there exists a value
+t’
+such that replacing (
+t, P
+) with (
+t’, P
+) would result in an illegal move
+or
+would cause a move later in the tour to be illegal. (Our tour operator regrets the oversight.)
+To enter, send in a
+comma-separated list of moves
+. Please use the notation (
+t
+,
+P
+) to describe a move, where
+t
+is the number of minutes you wait at your current lattice point before jumping to lattice point
+P
+. (The 19-move sequence in the example above would begin “(1,
+b3
+), (0,
+a3
+), (0,
+a2
+),…”.) Your tour ends as soon as you first reach
+h8
+; all other lattice points may be visited at most 3 times. (Your starting state at
+a1
+counts towards this limit.)
+Updated 11/21:
+We’ve really enjoyed the variety of tours we’ve received thus far! The regional tourism board has designated certain tours for being particularly special, using the following citations:
+LT
+: very Long tours (in total Time spent)
+LJ
+: very Long tours (in total number of Jumps)
+SJ
+: very Short tours (in total number of Jumps)
+E
+: visits Every point at least once
+U
+: does not visit any point more than once (i.e. Unique points)
+H
+: finishes at a High-altitude
+h8
+L
+: finishes at a Low-altitude
+h8
+S
+: contains at least once very large Sink
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20231101_knight_moves_5.png","Best published official result (not proved optimal): 1547 minutes; witness tour: (0,b1),(0,b3),(0,c3),(0,a3),(0,a4),(0,a5),(0,c4),(0,c6),(0,b6),(0,b7),(0,c7),(3,e8),(0,f8),(0,e6),(0,e5),(0,g5),(7,f5),(0,h5),(6,h6),(0,h7),(0,g7),(3,g6),(4,e6),(0,e7),(0,f7),(9,f5),(0,e5),(0,d5),(0,c5),(0,c4),(0,d4),(0,d2),(0,c2),(0,b2),(0,b3),(16,c3),(0,c2),(0,b2),(16,c2),(12,d2),(7,e4),(0,d4),(0,c4),(0,c5),(0,d5),(0,f4),(0,h5),(0,h6),(0,g8),(0,f8),(0,e8),(0,c7),(0,e7),(0,f7),(0,g7),(0,g6),(8,g7),(4,f7),(12,e7),(2,c8),(20,d6),(0,d8),(5,b7),(28,d6),(58,f6),(10,h7),(39,g5),(47,h7),(49,f6),(0,g4),(0,h2),(0,f3),(0,h2),(0,g4),(0,f6),(0,e8),(54,c7),(0,e6),(0,f4),(0,h5),(57,g3),(0,e2),(0,c1),(126,a2),(0,c3),(0,b1),(62,d2),(0,b3),(122,c1),(0,a2),(0,b4),(120,c6),(0,d4),(0,b5),(118,a7),(0,c6),(0,a5),(116,b7),(0,c5),(0,a6),(114,b4),(0,d5),(0,b6),(56,d7),(0,b8),(110,d7),(0,b6),(0,c8),(108,d6),(0,e4),(0,f2),(0,f1),(0,g1),(0,g3),(0,h3),(0,h4),(0,g4),(0,g5),(0,g6),(0,g8),(0,f8),(19,h8)","This month’s puzzle was an open-ended challenge: to find a knight’s tour from a1 to h8 on a constantly shifting 3-dimensional board.
+In the end we received a wide variety of tours. We’ll mention a few of the most interesting ones below. (Their “finishing states” are all shown above.)
+The longest
+1
+valid tour came from
+Brandon Cage
+, which takes
+1547 minutes
+.
+The second-longest
+2
+, at 1482 minutes, came from
+Calvin Pozderac
+. This tour also set the records for “lowest finishing altitude” (-32) and “longest individual sink” (364 minutes).
+The most efficient tour
+3
+came from
+Sondre Rogde
+, who managed to get from a1 to h8 in just
+33 jumps
+.
+The first tour
+4
+(out of just two) we received that managed to visit every point at least once came from
+Anton 3 Terekhov
+.
+Those were some of our favorites, but
+congrats to everyone who managed to find a valid tour!
+Some open problems we were pondering:
+What’s the longest valid tour? (Can 2000 minutes be achieved?)
+What’s the highest possible finishing altitude? (The highest we saw was 19; could it be as high as 25?)
+Does there exist a valid tour that does not repeat a single point? (I.e. the unclaimed “
+U
+” designation from the tourism board.)
+Is it possible to finish a tour with every point at the same altitude? If not, what’s the largest group of same-altitude points that can be obtained?
+Does there exist a valid tour with “max sink” < 10? (The lowest “max sink” we saw across any valid tour was 27.)
+If you’re able to solve any of these problems, feel free to let us know! (We might update the leaderboard for especially interesting submissions.)
+(0, b1), (0, b3), (0, c3), (0, a3), (0, a4), (0, a5), (0, c4), (0, c6), (0, b6), (0, b7), (0, c7), (3, e8), (0, f8), (0, e6), (0, e5), (0, g5), (7, f5), (0, h5), (6, h6), (0, h7), (0, g7), (3, g6), (4, e6), (0, e7), (0, f7), (9, f5), (0, e5), (0, d5), (0, c5), (0, c4), (0, d4), (0, d2), (0, c2), (0, b2), (0, b3), (16, c3), (0, c2), (0, b2), (16, c2), (12, d2), (7, e4), (0, d4), (0, c4), (0, c5), (0, d5), (0, f4), (0, h5), (0, h6), (0, g8), (0, f8), (0, e8), (0, c7), (0, e7), (0, f7), (0, g7), (0, g6), (8, g7), (4, f7), (12, e7), (2, c8), (20, d6), (0, d8), (5, b7), (28, d6), (58, f6), (10, h7), (39, g5), (47, h7), (49, f6), (0, g4), (0, h2), (0, f3), (0, h2), (0, g4), (0, f6), (0, e8), (54, c7), (0, e6), (0, f4), (0, h5), (57, g3), (0, e2), (0, c1), (126, a2), (0, c3), (0, b1), (62, d2), (0, b3), (122, c1), (0, a2), (0, b4), (120, c6), (0, d4), (0, b5), (118, a7), (0, c6), (0, a5), (116, b7), (0, c5), (0, a6), (114, b4), (0, d5), (0, b6), (56, d7), (0, b8), (110, d7), (0, b6), (0, c8), (108, d6), (0, e4), (0, f2), (0, f1), (0, g1), (0, g3), (0, h3), (0, h4), (0, g4), (0, g5), (0, g6), (0, g8), (0, f8), (19, h8)
+↩
+(0, b1), (0, c1), (30, a1), (0, b1), (35, c1), (6, c2), (3, a1), (0, c1), (18, d3), (0, d4), (0, c4), (0, a5), (0, a4), (0, a3), (0, c2), (0, d2), (0, d1), (0, e1), (4, f1), (5, h2), (0, h3), (7, g5), (0, f3), (14, f1), (60, h2), (0, h1), (0, g1), (0, e2), (0, d4), (0, c4), (0, a5), (0, a4), (0, a3), (0, c2), (0, d2), (0, d1), (2, e1), (0, f3), (0, g5), (0, e4), (0, c5), (0, c6), (0, d6), (5, d7), (6, e7), (0, c7), (16, c5), (0, c6), (1, d6), (5, f5), (0, f3), (2, h4), (3, h3), (0, g5), (0, g4), (0, f4), (0, h5), (0, h6), (0, h7), (0, f7), (24, d8), (0, d6), (0, d5), (0, f4), (0, h5), (0, h6), (0, h7), (0, g7), (1, g8), (0, f8), (14, e8), (12, f8), (12, h7), (45, f8), (19, g6), (364, f6), (20, f7), (112, f6), (20, f7), (112, f6), (20, g6), (112, f4), (0, h3), (0, h2), (5, f2), (27, e4), (26, g3), (25, h5), (0, g3), (0, e4), (0, c5), (0, d5), (0, e5), (24, d5), (1, b6), (9, b5), (116, b6), (12, b5), (116, a7), (0, b5), (0, b6), (12, b7), (0, d8), (0, c6), (0, e7), (0, g6), (0, h8)
+↩
+(0, b1), (0, b3), (0, c3), (0, a2), (9, a3), (0, a4), (0, a5), (0, c4), (0, b4), (0, b6), (0, b7), (0, c7), (6, a8), (18, b6), (0, d5), (0, f4), (0, g2), (0, h4), (0, f3), (68, d3), (0, b3), (95, a3), (0, a4), (0, a5), (0, c4), (0, e4), (2, e5), (0, e6), (0, e7), (0, f7), (0, g7), (1, h7), (0, h8)
+↩
+(0, b1), (0, b3), (8, c3), (0, e3), (0, d3), (0, d4), (0, c4), (0, e4), (0, f2), (0, f3), (0, g5), (0, h5), (6, h3), (0, g5), (0, e5), (0, c5), (0, c6), (0, a6), (0, a4), (3, a2), (0, c3), (0, e3), (0, d3), (0, d4), (0, c4), (0, b4), (40, a4), (0, a2), (0, c2), (0, b2), (0, d2), (0, d4), (0, c4), (0, c6), (0, b6), (0, b8), (0, c8), (0, d8), (0, f7), (0, g7), (0, g5), (0, g6), (10, g7), (2, g8), (0, h6), (0, g6), (6, h4), (10, g4), (0, h4), (32, f5), (54, f3), (7, h4), (0, g2), (0, f4), (70, f2), (4, h1), (0, g1), (0, e2), (0, e1), (42, g1), (0, g3), (0, e4), (0, d6), (0, b7), (0, c7), (0, c5), (1, b5), (0, a7), (0, c8), (0, e7), (0, d5), (120, e5), (0, e6), (0, f6), (0, f5), (0, g3), (0, h1), (0, h2), (0, f1), (0, d1), (0, d3), (0, c1), (0, c3), (0, a3), (0, b5), (0, b4), (0, b3), (0, a5), (0, b3), (0, a1), (0, c2), (0, e1), (0, e2), (0, e4), (2, e6), (0, f8), (0, h7), (0, f8), (0, d7), (0, b6), (0, a8), (0, b6), (0, c8), (0, d6), (0, e8), (0, d6), (0, f7), (0, h8)
+↩
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20231130_knight_moves_sol.PNG","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/knight-moves-5-index/"", ""retrieved_at"": ""2026-09-21T09:11:35.735458+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/knight-moves-5-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2024-06,Jane Street Monthly Puzzles,Altered States 2,2024-06,optimization,word_language | grid_deduction | graph_network,lexical_search | pathfinding | backtracking_search | branch_and_bound | constructive_search,open_ended | optimization_challenge | grid_fill | word_puzzle,"A little while ago
+we asked solvers to smoosh as many of the 50 U.S. states into a 5-by-5 grid as possible.
+Now we’re at it again! Once more, your goal is to score
+as many points as possible
+by placing
+U.S. states
+in a 5-by-5 grid.
+States can be spelled by making
+King’s moves
+from square to square. (See the example.)
+This time around, the score for a state is its
+population
+in the
+2020 U.S. Census
+. So, for example, CALIFORNIA scores 39,538,223 points.
+In the true spirit of the puzzle’s title, you may “alter” the name of a state by
+at most one letter
+. “Altering” a state means replacing a letter with another letter. (So NEW
+P
+ORK, NEWYOR
+F
+, and NEWYORK would all score for NEWYORK, but NEWYRK and NEWY
+RO
+K would not.)
+If a state appears multiple times in your grid, it only scores once.
+The 3-by-3 example above scores
+32,913,047 points
+, for Illinois (Inlinois), Ohio, Utah (Atah), Iowa (Ioha), and
+Idaho (Ieaho).
+To send in your entry, please render your grid as
+one unbroken 25-digit string
+by concatenating the rows. (The 3-by-3 grid from the example would be “thoainesl”.)
+To qualify for the leaderboard, your entry must score
+at least half
+of the available points. (So: at least 165,379,868.)
+Beyond that requirement, the local tourism authority has established awards for particularly special boards, using the following citations:
+20S
+: visits at least 20 states
+200M
+: scores at least 200 million
+PA
+: visits Pennsylvania
+M8
+: contains all 8 states that begin with an M
+4C
+: contains the “
+Four Corners
+” states
+NOCAL
+: avoids California
+C2C
+: contains a coast-to-coast
+1
+chain
+“Coast-to-coast” means “East coast to West coast”. States in the chain must have positive joint border length (e.g. Arizona-to-Colorado would not count as a “step” in the chain); “East coast” states range from Florida (southernmost) to Maine (northernmost).
+↩
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/june-2024.png","Best published official example (not proved optimal): score 263,137,868; board rows WUOYW/FIREO/LCNST/AOIAH/HMRGC","We received
+over 500
+valid boards for this month’s challenge. Above are some of our favorites, courtesy (in order) of Alex Jian, Cathan Gormley, David Spencer, Mark Rothery, Josh Perks, and Daan Oorts.
+A table containing many of the entries we received
+1
+can be viewed
+here
+. A few interesting points:
+The most commonly used stated was
+Texas
+, narrowly beating out Ohio and Iowa.
+Connecticut and Rhode Island were the only states to appear in exactly zero boards. (Does there exist a valid board that contains both of these,
+and
+which excludes Texas?)
+The number of states appearing in valid boards ranged from 12 to 33. (Does there exist a valid board with fewer than 12? Or more than 33?)
+We also received a handful of improvements to the
+original
+Altered States
+.
+Thanks to everyone who sent in a valid board!
+We tried to limit this doc to one board per submitter.
+↩
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/june-2024-ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/altered-states-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:31.371992+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/altered-states-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2025-01,Jane Street Monthly Puzzles,Somewhat Square Sudoku,2025-01,optimization,grid_deduction | number_theory,latin_square_reasoning | gcd_reasoning | branch_and_bound | modular_arithmetic | computational_verification,sudoku_variant | optimization_challenge | code_search | numeric_answer,"Fill the empty cells in the grid above with digits such that each row, column, and outlined 3-by-3 box contains the same set of nine unique digits
+1
+, and such that the nine 9-digit numbers
+2
+formed by the rows of the grid has the highest-possible GCD over
+any
+such grid.
+Some of the cells have already been filled in. The answer to this puzzle is the 9-digit number formed by the middle row in the completed grid.
+that is, you’ll be using nine of the ten digits (0-9) in completing this grid
+↩
+possibly with a leading 0
+↩
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20250101_sudoku.png","283,950,617","There are a few ways one could go about this month’s puzzle. Many of you took a purely
+code-based approach, and were able to find the board above.
+But a number-theory approach also works. Let
+S
+be the sum of the digits in the first
+row, and let
+d
+be the GCD of the 9-digit numbers formed by the nine rows. The sum of
+these 9-digit numbers will be 111,111,111×
+S
+= 3×3×37×333,667×
+S
+, and so
+d
+must be a
+divisor of this value. Furthermore, one can show that if a 9-digit number
+N
+is a multiple of
+any prime divisor
+p
+of 999,999,999, then it will remain a multiple of
+p
+under cyclic
+permutation of its digits
+1
+.
+We know our rows all contain 0, 2, and 5. One of them begins with a 0, so let’s look at
+large divisors of 111,111,111 to see if mutliples of any of them are 8-digit numbers with
+distinct positive digits and which contain a 2 and a 5. It turns out 37×333,667 =
+12,345,679 is one such number. The only other 8-digit multiples of 12,345,679 with
+distinct positive digits are 24,691,358, 49,382,716, and 61,728,395. This last value, when
+cyclically shifted 8 times, is the one that can validly populate the sudoku grid. The
+9-digit number formed by the unclued middle row is
+283,950,617
+, the answer to this
+month’s puzzle.
+Congrats to the January solvers for finding the optimizing grid!
+This works for any base and any number of digits. E.g. since 99,999 is a multiple of 271, any 5-digit multiple of 271 (such as 45,528) remains a multiple of 271 under cyclic permutation (55,284, 52,845, 28,455, and 84,552).
+↩
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/somewhat-square-sudoku-solution.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/somewhat-square-sudoku-index/"", ""retrieved_at"": ""2026-09-21T09:11:27.705598+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/somewhat-square-sudoku-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2025-07,Jane Street Monthly Puzzles,Robot Road Trip,2025-07,optimization,probability_stochastic | algebra_equations,calculus_integration | continuous_optimization | geometric_probability | numerical_root_finding | exact_arithmetic,probabilistic_process | optimization_challenge | approximate_value,"Robot cars have a top speed (which they prefer to maintain at all times while driving)
+that’s a real number randomly drawn uniformly between 1 and 2 miles per minute. A two-lane
+highway for robot cars has a fast lane (with minimum speed
+a
+) and a slow lane (with
+maximum speed
+a
+). When a faster car overtakes a slower car in the same lane, the slower
+car is required to decelerate to either change lanes (if both cars start in the fast lane)
+or stop on the shoulder (if both cars start in the slow lane). Robot cars decelerate and
+accelerate at a constant rate of 1 mile per minute per minute, timed so the faster,
+overtaking car doesn’t have to change speed at all, and passing happens
+instantaneously. If cars rarely meet (so you never have to consider a car meeting more
+than one other car on its trip, see Mathematical clarification below), and you want to
+minimize the miles not driven due to passing, what should
+a
+be set to, in miles per
+minute? Give your answer to
+10 decimal places
+.
+Example car interactions: suppose
+a
+is set to 1.2 miles per minute. If a car with top
+speed 1.8 overtakes a car with top speed 1.1, neither has to slow down because they are in
+different lanes. If instead the car with top speed 1.8 overtakes one with top speed 1.7,
+the slower car computes the optimal time to start decelerating for 30 seconds (to reach
+1.2 miles per minute to switch to the other lane) so the faster car instantly passes and
+the slower car can immediately start accelerating for another 30 seconds to return to 1.7
+miles per minute. This pass cost 0.25 miles (how far behind where the slower car would be
+if it continued at 1.7 miles per minute).
+If a car with top speed 1.1 overtakes one with top speed 1.0 in the slow lane, the slower
+(slowest!) car must decelerate for a full minute all the way to 0 to allow the pass, and
+then accelerate for a full minute to reestablish its speed, losing exactly 1 mile of
+distance.
+Assume all car trips are of constant length
+N
+, starting at arbitrary points and times
+along an infinitely long highway. This is made more mathematically precise below.
+Mathematical clarification
+: Say car trips arrive at a rate of
+z
+car trip beginnings
+per mile per minute, uniformly across the infinite highway (cars enter and exit their
+trips at their preferred speed due to on/off ramps), and car trips have a constant length
+of
+N
+miles. Define
+f
+(
+z
+,
+N
+) to be the value of
+a
+that minimizes the expected lost
+distance per car trip due to passing. Find:
+the limit of [the limit of
+f
+(
+z
+,
+N
+) as
+z
+-> 0+] as
+N
+-> infinity.",1.1771414168,"The trickiest part of this probability puzzle is determining the relative base rates
+between cars of different speeds overtaking each other. The notes about how cars rarely
+meet and all trips are the same long length
+N
+(made precise by taking limits) implies
+that we can minimize the “first order term” of the cost of exactly two cars meeting and
+we can ignore the boundary effects of meeting near the beginning or end of one of the
+cars’ journeys. We know each car’s speed is uniformly chosen in [1,2], so to find the
+relative rates of overtaking we can integrate over two speeds being drawn and then
+consider the set of positions in distance and time (which we are also given as being
+uniform) that the slower car would’ve had to start at to be overtaken by the faster car.
+So say the two speeds we select are
+u
+<
+v
+, and without loss of generality we fix the
+position of the car traveling
+v
+to enter the highway at (0, 0) (the first coordinate is
+in distance and the second is in time). Then the car will exit the highway at (
+N
+,
+N/v
+), and the starting positions of the
+u
+-speed car that need to be overtaken by the
+v
+-speed car are those within the pictured parallelogram (again we are ignoring weirdness
+along the boundary because it will go to zero in the limit). A few different methods can
+compute the area of this parallelogram to be
+N
+2
+(1/
+u
+- 1/
+v
+). There are other ways
+to reason out this base rate but I like drawing parallelograms.
+Now we must compute the cost of each overtake as a function of the speed of the overtaken
+car, it turns out to be in proportion to the square of the difference between
+u
+and the
+speed the car must reduce to. This implies we are trying to choose
+a
+to minimize the sum
+of the integrals pictured. The first integral is the cost of reducing speed from the slow
+lane to zero and the second integral is the cost of reducing speed from the fast lane to
+the slow lane. The
+N
+2
+factors out and can be ignored, and some fundamental
+theorem of calculus and integration computing can get to an expression in
+a
+whose
+solution is
+1.1771414168
+…
+Congrats to all the solvers able to find the optimal speed limit!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/robot-road-trip-solution.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/robot-road-trip-index/"", ""retrieved_at"": ""2026-09-21T09:11:24.573216+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/robot-road-trip-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+tangled-tale-knot-05-oughts-and-crosses,Lewis Carroll — A Tangled Tale,Oughts and Crosses,1885,optimization,combinatorics,discrete_optimization | inclusion_exclusion | constructive_search,optimization_challenge | grid_fill,"To mark pictures, giving 3 x's to 2 or 3, 2 to 4 or 5, and 1 to 9 or 10; also giving 3 o's to 1 or 2, 2 to 3 or 4 and 1 to 8 or 9; so as to mark the smallest possible number of pictures, and to give them the largest possible number of marks.
+
+Normalized assumptions:
+- There are three marking columns, so a picture receives at most three total marks.
+- Counts are cumulative: a picture with three crosses also counts among those with two and one, and similarly for oughts.
+- Each 'or' names the two permitted integer counts.","10 pictures; 29 marks; arranged thus:--
+
+x  x  x  x  x  x  x  x  x  o
+x  x  x  x  x     o  o  o  o
+x  x  o  o  o  o  o  o  o  o","By giving all the x's possible, putting into brackets the optional ones, we get 10 pictures marked thus:--
+
+x  x  x  x  x  x  x  x  x (x)
+x  x  x  x (x)
+x  x (x)
+
+By then assigning o's in the same way, beginning at the other end, we get 9 pictures marked thus:--
+
+(o) o
+(o) o  o  o
+(o) o  o  o  o  o  o  o  o
+
+All we have now to do is to run these two wedges as close together as they will go, so as to get the minimum number of pictures----erasing optional marks where by so doing we can run them closer, but otherwise letting them stand. There are 10 necessary marks in the 1st row, and in the 3rd; but only 7 in the 2nd. Hence we erase all optional marks in the 1st and 3rd rows, but let them stand in the 2nd.","{""bucket"": ""hard_candidate_historical"", ""evidence_note"": ""Only 8 of 22 submissions supplied a valid worked solution; 5 more stated the right result without working."", ""hard_core"": false, ""historical_response_stats"": {""correct_answer_without_working"": 5, ""responses"": 22, ""valid_worked_solutions"": 8, ""wrong"": 9}, ""modern_pilot_pending"": true, ""selection_rule"": ""Published mathematical Knot with a complete author solution and nontrivial historical error/working evidence; modern benchmark pilot still required.""}",needs_review,False,"{""answer_only_scorable"": true, ""benchmark_core"": false, ""counts_toward_official_topic_score"": false, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""historical_difficulty_candidate""}","{""author"": ""Lewis Carroll"", ""catalog_url"": ""https://www.gutenberg.org/ebooks/29042"", ""collection"": ""A Tangled Tale"", ""ebook_number"": 29042, ""original_publication_year"": 1885, ""publisher"": ""Project Gutenberg"", ""retrieved_at"": ""2026-09-21T00:00:00+08:00"", ""source_line_end"": 2529, ""source_line_start"": 2434, ""source_locator"": ""ANSWERS TO KNOT V."", ""source_sha256"": ""16cb712f4735328ea2d57dec6088b700ae2a469e820c7d5c6874f762814b60e3"", ""text_url"": ""https://www.gutenberg.org/cache/epub/29042/pg29042.txt""}","{""attribution_recommended"": ""Lewis Carroll, A Tangled Tale (1885), Project Gutenberg eBook #29042."", ""attribution_required"": false, ""commercial_use_allowed_in_us"": true, ""distribution_basis"": ""public_domain_us"", ""evidence_text"": ""Project Gutenberg catalog: Copyright — Public domain in the USA."", ""evidence_url"": ""https://www.gutenberg.org/ebooks/29042"", ""jurisdiction_caveat"": ""Project Gutenberg instructs users outside the United States to check local law before reuse."", ""modifications_allowed_in_us"": true, ""permission_required_in_us"": false, ""public_domain_us"": true, ""release_decision"": ""redistributable_public_domain_us"", ""release_track"": ""open_commercial_core""}"
+tangled-tale-knot-06-scarves,Lewis Carroll — A Tangled Tale,Her Radiancy: The Scarves,1885,optimization,algebra_equations,algebraic_manipulation | exact_arithmetic | optimization_modeling,multi_part | numeric_answer,"L makes 5 scarves, while M makes 2: Z makes 4 while L makes 3. Five scarves of Z's weigh one of L's; 5 of M's weigh 3 of Z's. One of M's is as warm as 4 of Z's: and one of L's as warm as 3 of M's. Which is best, giving equal weight in the result to rapidity of work, lightness, and warmth?
+
+Normalized assumptions:
+- Equal weighting uses the multiplicative index of the three dimensionless merit ratios, equivalently their geometric mean, as in the published solution.","The order is M, L, Z.","As to rapidity (other things being constant) L's merit is to M's in the ratio of 5 to 2: Z's to L's in the ratio of 4 to 3. In order to get one set of 3 numbers fulfilling these conditions, it is perhaps simplest to take the one that occurs twice as unity, and reduce the others to fractions: this gives, for L, M, and Z, the marks 1, 2/5, 4/3. In estimating for lightness, we observe that the greater the weight, the less the merit, so that Z's merit is to L's as 5 to 1. Thus the marks for lightness are 1/5, 5/3, 1. And similarly, the marks for warmth are 3, 1, 1/4. To get the total result, we must multiply L's 3 marks together, and do the same for M and for Z. The final numbers are 1 x 1/5 x 3, 2/5 x 5/3 x 1, 4/3 x 1 x 1/4; i.e. 3/5, 2/3, 1/3; i.e. multiplying throughout by 15 (which will not alter the proportion), 9, 10, 5; showing the order of merit to be M, L, Z.","{""bucket"": ""hard_candidate_historical"", ""evidence_note"": ""Only 5 of 29 submitted answers were correct."", ""hard_core"": false, ""historical_response_stats"": {""fully_correct"": 5, ""responses"": 29, ""wrong"": 24}, ""modern_pilot_pending"": true, ""selection_rule"": ""Published mathematical Knot with a complete author solution and nontrivial historical error/working evidence; modern benchmark pilot still required.""}",needs_review,False,"{""answer_only_scorable"": true, ""benchmark_core"": false, ""counts_toward_official_topic_score"": false, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""optimization"", ""track"": ""historical_difficulty_candidate""}","{""author"": ""Lewis Carroll"", ""catalog_url"": ""https://www.gutenberg.org/ebooks/29042"", ""collection"": ""A Tangled Tale"", ""ebook_number"": 29042, ""original_publication_year"": 1885, ""publisher"": ""Project Gutenberg"", ""retrieved_at"": ""2026-09-21T00:00:00+08:00"", ""source_line_end"": 2685, ""source_line_start"": 2563, ""source_locator"": ""_Problem 2._--"", ""source_sha256"": ""16cb712f4735328ea2d57dec6088b700ae2a469e820c7d5c6874f762814b60e3"", ""text_url"": ""https://www.gutenberg.org/cache/epub/29042/pg29042.txt""}","{""attribution_recommended"": ""Lewis Carroll, A Tangled Tale (1885), Project Gutenberg eBook #29042."", ""attribution_required"": false, ""commercial_use_allowed_in_us"": true, ""distribution_basis"": ""public_domain_us"", ""evidence_text"": ""Project Gutenberg catalog: Copyright — Public domain in the USA."", ""evidence_url"": ""https://www.gutenberg.org/ebooks/29042"", ""jurisdiction_caveat"": ""Project Gutenberg instructs users outside the United States to check local law before reuse."", ""modifications_allowed_in_us"": true, ""permission_required_in_us"": false, ""public_domain_us"": true, ""release_decision"": ""redistributable_public_domain_us"", ""release_track"": ""open_commercial_core""}"

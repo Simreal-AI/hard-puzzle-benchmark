@@ -1,0 +1,1061 @@
+id,source_name,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,evaluation,source,rights
+jane-street-2014-02,Jane Street Monthly Puzzles,Hooks,2014-02,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | exact_arithmetic | proof_of_uniqueness,grid_fill | logic_grid | numeric_answer,"In the grid below, enter nine 9’s in the outermost hook, eight 8’s in the next
+hook, then seven 7’s, six 6’s, and so on, down to the one 1 (already entered),
+so that the row and column sums match the values given along the border.
+Once you’ve completed the puzzle, submit as your answer the sum of the values of
+the shaded squares.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/hooks_grid.png",158,"The sum of the shaded squares in the completed grid is
+158
+. Congratulations to
+Phil Isenberg for being randomly selected from the dozens of correct submissions
+to win a Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/hooks_sol.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-index/"", ""retrieved_at"": ""2026-09-21T09:12:36.917436+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2014-05,Jane Street Monthly Puzzles,Tile and Trouble,2014-05,grid_deduction,geometry_spatial | logic_constraints,tiling_packing | constraint_propagation | exact_arithmetic | connected_components | proof_of_uniqueness,grid_fill | tiling_packing | logic_grid | numeric_answer,"Add square tiles to the 12-by-12 grid so that the total points in each row and
+each column matches the corresponding value outside the grid.
+A tile can have any side length (e.g., 1-by-1, 2-by-2, 3-by-3, etc.)
+Every cell within an
+n
+-by-
+n
+tile is worth
+n
+points.
+Tiles may not overlap. Not every cell in the 12-by-12 grid needs to be inside
+one of the tiles.
+For your answer, submit the product of the areas of each contiguous empty
+space in the solved grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/TileAndTrouble_updated.png",20160,"The completed grid is shown above; the product of the areas of the empty regions is
+20160
+.
+Congratulations to Katie Rue, this month’s randomly chosen winner, and recipient of a Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20140501_solution_updated.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/tile-and-trouble-index/"", ""retrieved_at"": ""2026-09-21T09:12:35.338192+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/tile-and-trouble-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2014-08,Jane Street Monthly Puzzles,Number Cross,2014-08,grid_deduction,number_theory | logic_constraints,digit_constraints | constraint_propagation | divisibility | backtracking_search | proof_of_uniqueness,crossnumber | grid_fill | logic_grid | numeric_answer,"Place the digits 1 thru 9 (no zeroes) in the crossword grid below so that all of
+the clues are satisfied. No digit is repeated in any one grid entry (e.g.
+1-across is a grid entry), and no grid entry is used more than once within the
+puzzle.
+For your answer, submit the sum of the 8 5-digit grid entries in the completed
+grid (e.g. 4-down, 18-across, etc.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/number_crossword_with_clues.png",407358,"The answer to August’s puzzle is 407358. Congratulations to Chen-Yu Yang, this
+month’s randomly chosen winner and proud recipient of a Jane Street t-shirt!
+The full solution is presented here.
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Aug14_Solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/number-cross-index/"", ""retrieved_at"": ""2026-09-21T09:12:33.765928+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/number-cross-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2014-11,Jane Street Monthly Puzzles,Wrong Division,2014-11,grid_deduction,number_theory | logic_constraints,digit_constraints | divisibility | constraint_propagation | backtracking_search | exact_arithmetic,crossnumber | logic_grid | numeric_answer,"Each digit shown is off by one. Given that there is no remainder, can you
+determine the 8-digit dividend?
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Nov14.png",58975605,"The answer to November’s puzzle is
+58975605
+. Congratulations to the many correct
+solvers, especially Pallav Shinghal, this month’s randomly-chosen winner of a
+Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Nov14_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/wrong-division-index/"", ""retrieved_at"": ""2026-09-21T09:12:32.194778+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/wrong-division-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2015-08,Jane Street Monthly Puzzles,Number Cross 2,2015-08,grid_deduction,number_theory | logic_constraints,digit_constraints | constraint_propagation | exact_arithmetic | backtracking_search | proof_of_uniqueness,crossnumber | grid_fill | logic_grid | numeric_answer,"Fill the cells in this crossword with the digits 1 through 9 (no zeroes). Each
+clue in this crossword represents either the sum of the digits or the product of
+the digits in its corresponding answer — it’s up to you to decide which. The
+clue could potentially represent both the sum and the product, if the sum and
+product are the same. Digits can be repeated within an answer, and answers can
+be repeated in the grid.
+As your answer, submit the sum of all of the digits you entered into the
+completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/number_crossword_2.png",276,"The solution to this month’s puzzle is presented here, and the sum of the digits
+of the grid is 276. Congratulations to all of the correct solvers, especially
+Sherry Zhang, this month’s winner of a Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/number_crossword_2_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/number-cross-2-index/"", ""retrieved_at"": ""2026-09-21T09:12:27.477722+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/number-cross-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2015-10,Jane Street Monthly Puzzles,Hex-agony,2015-10,grid_deduction,optimization | number_theory,constraint_propagation | digit_constraints | discrete_optimization | backtracking_search | exact_arithmetic,grid_fill | logic_grid | optimization_challenge | numeric_answer,"[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Oct15.png","256,391","As it turns out there is only one valid solution to the puzzle, and the sum of
+the numbers in the center column is 256,391.
+Congratulations to this month’s correct solvers, especially Priscilla
+Cheung, this month’s randomly-chosen winner of a Jane Street t-shirt!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/hexagony_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hex-agony-index/"", ""retrieved_at"": ""2026-09-21T09:12:26.426209+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hex-agony-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2016-05,Jane Street Monthly Puzzles,Hooks #2,2016-05,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid below can be partitioned into 9 L-shaped “hooks”. The largest is 9-by-9
+(contains 17 squares), the next largest is 8-by-8 (contains 15 squares), and so
+on. The smallest hook is just a single square.
+Find where the hooks are located, and place nine 9’s in the largest hook, eight
+8’s in the next-largest, etc., down to one 1 in the smallest hook.
+The goal is for the sum of the numbers in each row and column to match the
+number given outside the grid.
+As your answer to this puzzle, submit the largest product one can achieve using
+a subset of the numbered squares in the completed grid, satisfying the condition
+that no two squares in the subset are in the same row or column.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/may16_puzzle_expanded.png","17,418,240","The unique configuration that completes the grid is shown here, and the largest
+possible product of squares in a valid subset is
+17,418,240
+. Congrats to all
+of this month’s correct solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/may16_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-2-index/"", ""retrieved_at"": ""2026-09-21T09:12:22.428892+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2016-07,Jane Street Monthly Puzzles,Number Cross #3,2016-07,grid_deduction,number_theory | logic_constraints,digit_constraints | constraint_propagation | backtracking_search | exact_arithmetic | proof_of_uniqueness,crossnumber | grid_fill | logic_grid | numeric_answer,"Enter the digits 1 thru 9, or their negatives, in each of the squares in the
+crossword grid. The crossword clues represent the sum of the digits in each
+answer. Ignoring sign, no digit will appear more than once in any row or column
+in the completed grid. Also, every row and column of the completed grid has
+exactly one negative number.
+For your answer, submit the sum of all numbers in the grid which share a border
+(horizontal or vertical) with one of the negative numbers.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/jul16_puzzle.png",148,"The completed grid is presented here, and the sum of all numbers bordering the
+negative numbers is
+148
+. Congratulations to all of this month’s correct
+solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/jul16_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/number-cross-3-index/"", ""retrieved_at"": ""2026-09-21T09:12:21.617552+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/number-cross-3-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2016-09,Jane Street Monthly Puzzles,Chess Dance,2016-09,grid_deduction,game_theory_strategy | optimization | logic_constraints,chess_analysis | constraint_propagation | discrete_optimization | backtracking_search | exact_arithmetic,grid_fill | chess_problem | optimization_challenge | numeric_answer,"Five chess pieces are placed on a chessboard: a
+Q
+ueen,
+K
+ing,
+R
+ook,
+B
+*ishop, and k
+N
+ight, as shown.
+They all move simultaneously, and finish at squares that we’ll label Q1, K1, B1,
+R1, and N1. They continue moving, and no square is ever visited more than once,
+for a total of
+8 moves
+. (So in total, 45 squares will be labeled: Q0 through
+Q8, K0 through K8, etc.)
+Pieces move according to the same rules as chess (e.g. a Rook can move anywhere
+along its row or column). After each move, no piece is allowed to be under
+attack from any other piece.
+The numbers along the rows and columns presented here are the products of the
+non-zero numbers that were visible after
+only 7 moves
+.
+After all 8 moves are finished, the 8 row products and the 8 column products are
+recalculated (non-zero numbers only).
+The answer to this month’s puzzle is the largest possible sum for these 16
+products.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/sep16_puzzle.png","62,943","There’s quite a bit of logic to sift through with this month’s puzzle, but when
+the dust settles, this is the completed grid that maximizes the sum of the 16
+products, which is
+62,943
+. Congratulations to everyone who managed to crack this
+one!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/sep16_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/chess-dance-index/"", ""retrieved_at"": ""2026-09-21T09:12:19.807069+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/chess-dance-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2017-01,Jane Street Monthly Puzzles,Hex-agony #2,2017-01,grid_deduction,optimization | number_theory,constraint_propagation | digit_constraints | discrete_optimization | backtracking_search | exact_arithmetic,grid_fill | logic_grid | optimization_challenge | numeric_answer,"[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Jan17_Puzzle.png",1043263,"The largest possible sum for the numbers in the middle column of the hexagonal
+grid is
+1043263
+, with the completed grid shown here. Several solvers also found
+the second-best solution of 1042925, which doesn’t make use of the extra blue
+169.
+Congratulations to everyone who managed to solve this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Jan17_solution_.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hex-agony-2-index/"", ""retrieved_at"": ""2026-09-21T09:12:17.715024+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hex-agony-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2017-05,Jane Street Monthly Puzzles,KenKen (Concatenated),2017-05,grid_deduction,logic_constraints | number_theory,latin_square_reasoning | constraint_propagation | digit_constraints | backtracking_search | exact_arithmetic,latin_square | grid_fill | logic_grid | numeric_answer,"A variant of KenKen: fill each cell with a digit between 1 and 9 so that each
+row and column contains each digit once. Like a normal KenKen puzzle, the
+numbers within each region should form the indicated amount under the given
+operation. However, when calculating, horizontally adjacent cells within a
+region should be concatenated to form a single number. (E.g., a 2 next to a 3
+would become a 23).
+The answer to this month’s puzzle is the sum of the largest number in each
+region. (Still using concatenation: the largest number in a region may comprise
+1, 2, or 3 digits.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/may17_puzzle.png",4282,"The answer to May 2017’s puzzle is
+4282
+, and the completed puzzle is presented
+here. Congratulations to everyone who submitted the correct answer!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/May17_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/kenken-concatenated-index/"", ""retrieved_at"": ""2026-09-21T09:12:15.612262+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/kenken-concatenated-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2017-07,Jane Street Monthly Puzzles,Split Division,2017-07,grid_deduction,number_theory | logic_constraints,digit_constraints | divisibility | constraint_propagation | backtracking_search | exact_arithmetic,crossnumber | logic_grid | numeric_answer,"Two long division problems were calculated, and both problems had the exact same
+shape. At some spots, both problems had positive digits, one of which divides
+evenly into the other. All of those spots are marked below with their respective
+quotients.
+The answer to this month’s puzzle is the sum of the two 7-digit dividends in the
+completed long division problems.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Jul17_puzzle-2.png",5516808,"The two long division problems are presented here, and the sum of the two
+7-digit dividends is
+5516808
+, this month’s answer. Congratulations to everyone
+who solved this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20180101_split_division_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/split-division-index/"", ""retrieved_at"": ""2026-09-21T09:12:14.568288+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/split-division-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2017-11,Jane Street Monthly Puzzles,Block Party,2017-11,grid_deduction,logic_constraints | number_theory,constraint_propagation | exact_arithmetic | backtracking_search | proof_of_uniqueness,grid_fill | logic_grid | numeric_answer,"[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20171101_block_party.png",6647,"There are two ways to complete this month’s puzzle, one of which is shown here.
+(The other comes from switching the 1 and 2 in the shaded region.) In either
+case, the sum of the largest concatenated values (the values in red) in each
+region is
+6647
+, which is the answer to this month’s puzzle.
+Congrats to all of you who solved this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20171201_block_party_completed.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/block-party-index/"", ""retrieved_at"": ""2026-09-21T09:12:12.466778+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/block-party-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-01,Jane Street Monthly Puzzles,Rather Square Sudoku,2018-01,grid_deduction,logic_constraints,latin_square_reasoning | constraint_propagation | backtracking_search | digit_constraints | proof_of_uniqueness,sudoku_variant | grid_fill | logic_grid | numeric_answer,"Fill each cell in the grid above – even the ones with grey numbers – with a digit between 1 and 9 so that each row, column, and outlined 3-by-3 region contains each digit once.
+Each grey number shown below is equal to the
+product
+of 2 of the orthogonally adjacent cells in the completed grid.
+The answer to this puzzle is the sum of the
+squares
+of the numbers that are written over the gray numbers in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/rather_square_sudoku.png",1146,"The completed grid is shown above, and the sum of the squares of the
+numbers written over the grey clue values is
+1146
+.
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20180201_sudoku_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/rather-square-sudoku-index/"", ""retrieved_at"": ""2026-09-21T09:12:11.416822+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/rather-square-sudoku-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-02,Jane Street Monthly Puzzles,Hooks #3,2018-02,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid presented here can be partitioned into 9 L-shaped “hooks”.
+The largest is 9-by-9 (contains 17 squares), the next largest is
+8-by-8 (contains 15 squares), and so on. The smallest hook is just a
+single square. Find where the hooks are located, and place nine 9’s in
+the largest hook, eight 8’s in the next-largest, etc., down to one 1
+in the smallest hook.
+The filled squares must form a connected region. (Squares are
+“connected” if they are orthogonally adjacent.) Furthermore, every
+2-by-2 region must contain at least one unfilled square.
+A number outside the grid indicates the product of the first 2 numbers visible from the end of that particular row or column.
+(So each row and column must have at least two filled squares.)
+The answer to this puzzle is the product of the areas of the connected
+groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20230109_hooks_3_replacement.png",20736,"Many solvers were able to find the unique filling of this grid that has all the
+filled squares connected, and also satisfies the edge product and hook placement
+conditions. (Shown to the left.) The product of the areas of the regions of
+empty squares is
+20736
+.
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20180228_hooks_3_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-3-index/"", ""retrieved_at"": ""2026-09-21T09:12:10.898925+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-3-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-03,Jane Street Monthly Puzzles,It’s Symmetric!,2018-03,grid_deduction,geometry_spatial | logic_constraints,symmetry_reduction | pathfinding | constraint_propagation | grouping_partition | proof_of_uniqueness,grid_fill | logic_grid | geometry_problem | numeric_answer,"The grid below can be partitioned into several regions, each of which is
+symmetric in some way (be it rotation or reflection). A cell with a number
+indicates the length of the shortest walk, within that region, to an “opposite”
+cell in the region. (i.e. a cell that could potentially be moved to the
+location of the numbered cell under a non-trivial rotation or reflection of the
+plane.)
+(A few examples: In a 1-by-N region, all cells could be labeled 0, since a
+reflection across the longer mid-line takes every cell to itself. In the
+“S”-shaped Tetris piece, the cells could be labeled 3, 1, 1, 3.)
+The answer to this puzzle is the
+sum of the cubes of the areas
+of the
+regions in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20180301_symmetric.png","33,679","The completed grid is presented here, and the sum of the cubes of the areas of
+the different regions is
+33,679
+. Congrats to everyone who solved this month’s
+puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Mar18_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/it-s-symmetric-index/"", ""retrieved_at"": ""2026-09-21T09:12:10.368233+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/it-s-symmetric-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-06,Jane Street Monthly Puzzles,Twenty Four Seven,2018-06,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | connected_components | exact_arithmetic | proof_of_uniqueness,grid_fill | logic_grid | numeric_answer,"The grid is incomplete. Place numbers in some of the empty cells above so that
+in total the grid contains one 1, two 2’s, etc., up to seven 7’s. Furthermore,
+each row and column must contain exactly 4 numbers which sum to 20. Finally, the
+numbered cells must form a connected region, but every 2-by-2 subsquare in the
+completed grid must contain at least one empty cell.
+The answer to this puzzle is the product of the areas of the connected groups of
+orthogonally adjacent empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20180604_20_4_7.png",240,"The completed grid is shown above. The product of the areas of the regions
+of blank squares is
+240
+.
+Congrats to everyone who solved this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20180702_20_4_7_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-index/"", ""retrieved_at"": ""2026-09-21T09:12:08.801137+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-08,Jane Street Monthly Puzzles,Hooks #4,2018-08,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid presented here can be partitioned into 9 L-shaped “hooks”. The largest
+is 9-by-9 (contains 17 squares), the next largest is 8-by-8 (contains 15
+squares), and so on. The smallest hook is just a single square. Find where the
+hooks are located, and place nine 9’s in the largest hook, eight 8’s in the
+next-largest, etc., down to one 1 in the smallest hook.
+The filled squares must form a connected region. (Squares are “connected” if
+they are orthogonally adjacent.)
+A number outside the grid indicates the sum of the products of consecutive
+groups of squares in that row or column. (As shown in the example.
+The answer to this puzzle is the product of the areas of the connected groups of
+empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/aug18_puzzle_bold.png",6000,"The completed grid is shown to the left. The product of the areas of the regions
+of blank squares is
+6000
+.
+Congrats to everyone who solved this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20180801_hooks_4_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-4-index/"", ""retrieved_at"": ""2026-09-21T09:12:07.796819+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-4-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-10,Jane Street Monthly Puzzles,Subtiles,2018-10,grid_deduction,geometry_spatial | logic_constraints,tiling_packing | constraint_propagation | symmetry_reduction | backtracking_search | proof_of_uniqueness,grid_fill | tiling_packing | logic_grid | numeric_answer,"Place an integer between 1 and 17 into some of the empty cells in the grid. When
+completed, the grid should have one 1, two 2’s, etc., up to seventeen 17’s.
+Furthermore, for all:
+N
+larger than 1, the squares marked
+N
+must form a connected
+N
+-omino whose shape “contains” the (
+N
+−1)-omino determined by the (
+N
+−1)’s.
+(Reflections and rotations are allowed. Some of the cells have already been
+labeled.
+The answer to this puzzle is the product of the areas of the empty regions in
+the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20181001_subtiles.png",256,"The unique configuration that satisfies the “sub-tiles” property is shown above; the product of the areas of the empty regions is
+256
+. Congrats to this
+month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20181031_subtiles_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/subtiles-index/"", ""retrieved_at"": ""2026-09-21T09:12:06.700315+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/subtiles-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2018-12,Jane Street Monthly Puzzles,Block Party 2,2018-12,grid_deduction,number_theory | optimization | logic_constraints,constraint_propagation | digit_constraints | discrete_optimization | backtracking_search | exact_arithmetic,grid_fill | logic_grid | optimization_challenge | numeric_answer,"Fill each cell with a positive integer such that integers do not repeat within
+any row, column, or outlined region. Within each region, one cell must be equal
+to the product of the other cells, and these “product” cells may not share edges
+with “product” cells from other regions. (See the example.)
+The answer to this month’s puzzle is the
+smallest possible sum
+for the
+“product” cells.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20181203_block_party_2.png",210,"The minimum possible sum is
+210
+, which can be achieved in a handful of different ways. The one shown above is the only placement that has a 15 in the tetromino. (All the other placements use a 12.)
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20181228_block_party_2_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/block-party-2-index/"", ""retrieved_at"": ""2026-09-21T09:12:05.738793+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/block-party-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-01,Jane Street Monthly Puzzles,Fences,2019-01,grid_deduction,graph_network | geometry_spatial | logic_constraints,constraint_propagation | pathfinding | graph_connectivity | spatial_visualization | proof_of_uniqueness,logic_grid | path_route | geometry_problem | numeric_answer,"A 17-by-17 field is divided into unit squares. Some of the squares contain
+“posts” at their center. Each post is represented below by a number. Construct
+one or more fences emanating from each post, such that the total length of fence
+connected to a post equals the number given. Fences have integer length and can
+only be constructed horizontally or vertically. Fences from different posts may
+not touch, nor may a fence from one post touch a different post.
+The goal of this puzzle is to build your fences in such a manner that it is
+possible to draw a
+closed loop
+through some of the remaining empty squares.
+The loop must enclose at least one post, and must be
+symmetric
+in some way
+(either via rotation or reflection). As in the example, the loop must be
+rectilinear, passing through the centers of adjacent empty squares.
+The answer to this puzzle is the
+product of the fence-lengths
+of the fences
+inside the loop
+.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20190101_fences.png","10,077,696","The unique configuration that works is shown above. The product of the
+lengths of the fences inside the loop is
+10,077,696
+. Nicely done, solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20190130_fences_solved.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/fences-index/"", ""retrieved_at"": ""2026-09-21T09:12:05.047989+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/fences-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-03,Jane Street Monthly Puzzles,Twenty Four Seven 2-by-2,2019-03,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | connected_components | exact_arithmetic | proof_of_uniqueness,grid_fill | logic_grid | multi_part | numeric_answer,"The grids above are incomplete. For each grid, place numbers in some of the
+empty cells so that in total the interiors of each grid contain one 1, two
+2’s, etc., up to 7’s. Furthermore, within each grid each row and column must contain exactly 4
+numbers which sum to 20. Finally, the numbered cells must form a connected
+region, but every 2-by-2 subsquare in the completed grid must contain at least
+one empty cell.
+Numbers located along the outside of a grid indicate the first number that is
+“viewable” when looking into the grid along that row or column.
+Once you have solved all four grids, compute their “sum”. (I.e., the 7-by-7 grid
+that is the coordinatewise sum of the interiors of the fourfinished grids. Each
+cell in the “sum” grid should necessarily contain an integer between 0 and 28,
+and each row and column should add up to 80. Treat blank cells as 0’s).
+Submit the
+sum of the squares
+of the 49 numbers in this “sum” grid as the
+answer to this month’s puzzle.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20230110_20_4_7_alt.PNG",8150,"The completed grids are shown to the left, and below (in blue) is the “sum”
+grid. The sum of the squares of the values in this grid is
+8150
+.
+Congrats to everyone who solved this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20190329_20_4_7_solved.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-2-by-2-index/"", ""retrieved_at"": ""2026-09-21T09:12:03.884199+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-2-by-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-04,Jane Street Monthly Puzzles,Remote Sudoku,2019-04,grid_deduction,logic_constraints,latin_square_reasoning | constraint_propagation | backtracking_search | digit_constraints | proof_of_uniqueness,sudoku_variant | grid_fill | logic_grid | numeric_answer,"Fill each cell — even the ones with grey numbers — with a digit between 1 and 9
+so that each row, column, and outlined 3-by-3 squares contains each digit once.
+A grey number
+N
+indicates that there is an
+N
+exactly
+N
+squares away
+(horizontally or vertically).
+The answer to this month’s puzzle is the sum of the squares of the numbers
+written over the gray numbers in the completed grid.
+(For example, if a 7 is written over one of the grey numbers, that would
+contribute 49 towards the sum.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20190401_remote_sudoku.png",1105,"The completed grid is shown above. The sum of the squares of the numbers
+written over the gray clues is
+1105
+. Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20190430_remote_sudoku_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/remote-sudoku-index/"", ""retrieved_at"": ""2026-09-21T09:12:03.353926+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/remote-sudoku-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-06,Jane Street Monthly Puzzles,Hooks #5,2019-06,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid presented here can be partitioned into 9 L-shaped “hooks”. The largest
+is 9-by-9 (contains 17 squares), the next largest is 8-by-8 (contains 15
+squares), and so on. The smallest hook is just a single square. Find where the
+hooks are located, and place nine 9’s in the largest hook, eight 8’s in the
+next-largest, etc., down to one 1 in the smallest hook.
+The filled squares must form a connected region. (Squares are “connected” if
+they are orthogonally adjacent.)
+A number outside the grid indicates the sum of the first consecutive block of
+filled squares when looking in that direction. (As shown in the example.)
+Furthermore, every 2-by-2 region must contain at least one unfilled square.
+The answer to this puzzle is the product of the areas of the connected groups of
+empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/hooks_5.png",78125,"The completed grid is shown above. The product of the areas of the regions of blank squares is
+78125
+.
+Congrats to everyone who solved this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20230724_hooks_5_sol.PNG","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-5-index/"", ""retrieved_at"": ""2026-09-21T09:12:02.312029+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-5-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-09,Jane Street Monthly Puzzles,Block Party 3,2019-09,grid_deduction,logic_constraints | number_theory,constraint_propagation | exact_arithmetic | backtracking_search | proof_of_uniqueness,grid_fill | logic_grid | numeric_answer,"Fill each region with the digits 1 though
+N
+, where
+N
+is the number of
+cells in the given region. For every cell in the grid, if
+K
+denotes
+the number in that cell, then the nearest value of
+K
+(looking only
+horizontally or vertically) must be located
+exactly
+K
+cells away. (As
+in the example.) Some of the cells have already been filled in.
+Once the grid is completed, take the largest “horizontally
+concatenated number” from each region and compute the sum of these
+values.
+Enter this sum as your answer.
+Good luck!
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20190903_block_party_3.png",6092,"The completed grid is shown above; the sum of the largest horizontally concatenated number in each region is
+6092
+.
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20190931_block_party_3_sol.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/block-party-3-index/"", ""retrieved_at"": ""2026-09-21T09:12:00.737850+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/block-party-3-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-10,Jane Street Monthly Puzzles,"Tri, Tri Again, Again",2019-10,grid_deduction,geometry_spatial | logic_constraints,tiling_packing | constraint_propagation | spatial_visualization | backtracking_search | exact_arithmetic,grid_fill | tiling_packing | geometry_problem | numeric_answer,"Place a collection of right triangles into the grid above. The
+triangles must have integer-length legs, and the legs must be along
+grid lines.
+Each triangle must contain exactly one number. That number represents
+the
+area
+of the triangle containing it. (Every number must eventually
+be contained in exactly one triangle.) The entire square (1-by-1 cell)
+containing the number must be inside the triangle.
+Triangles’ interiors may not overlap. (But triangles’ boundaries may
+intersect, as seen in the example.)
+As your answer to this month’s puzzle, please send in the product of
+the
+odd horizontal leg
+lengths.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20191002_tri_again.png",31185,"The answer’s puzzle is
+31185
+, and the completed grid is presented above.
+Congratulations to everyone who got the correct answer this month!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Oct19_Solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/tri-tri-again-again-index/"", ""retrieved_at"": ""2026-09-21T09:12:00.288203+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/tri-tri-again-again-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2019-11,Jane Street Monthly Puzzles,Hooks #6,2019-11,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid presented here can be partitioned into 9 L-shaped “hooks”.
+The largest is 9-by-9 (contains 17 squares), the next largest is
+8-by-8 (contains 15 squares), and so on. The smallest hook is just a
+single square. Find where the hooks are located, and place nine 9’s in
+the largest hook, eight 8’s in the next-largest, etc., down to one 1
+in the smallest hook.
+The filled squares must form a connected region. (Squares are
+“connected” if they are orthogonally adjacent.) Furthermore, every
+2-by-2 region must contain at least one unfilled square.
+A black number outside the grid indicates the product of the
+concatenated numbers in that row or column, when viewed from that
+position. (See the example, below.) A red number indicates the
+greatest common factor of these concatenated numbers, again when
+viewed from that position.
+The answer to this puzzle is the product of the areas of the connected
+groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/Nov19_puzzle.png","10,000","The answer to this month’s puzzle is
+10,000
+. Congrats to everyone
+who solved it!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/Nov19_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-6-index/"", ""retrieved_at"": ""2026-09-21T09:11:59.705110+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-6-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2020-12,Jane Street Monthly Puzzles,Twenty Four Seven 2-by-2 #2,2020-12,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | connected_components | exact_arithmetic | proof_of_uniqueness,grid_fill | logic_grid | multi_part | numeric_answer,"Each of the grids above is incomplete. Place numbers in some of the
+empty cells so that in total each grid’s interior contains one 1, two
+2’s, etc., up to seven 7’s. Furthermore, each row and column within
+each grid must contain exactly 4 numbers which sum to 20. Finally, the
+numbered cells must form a connected region, but every 2-by-2
+subsquare in the completed grid must contain at least one empty cell.
+Some numbers have been placed inside each grid. Additionally, some
+blue numbers have been placed outside of the grids. These blue numbers
+indicate the first value seen in the corresponding row or column when
+looking into the grid from that location.
+Once each of the grids is complete, create a 7-by-7 grid by “adding”
+the four grids’ interiors together (as if they were 7-by-7 matrices).
+The answer to this month’s puzzle is the sum of the
+squares
+of the
+values in this final grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/twenty-four-seven-2-2-2.png",8520,"The four completed grids are shown above, and below them is the
+sum of the corresponding entries, whose sums of squares came to
+8520
+.
+Below is the list of the successful solvers of the December challenge!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/2020_12_Solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-2-by-2-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:53.923667+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-2-by-2-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2021-02,Jane Street Monthly Puzzles,Hooks #7,2021-02,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid above can be partitioned into 9 L-shaped “hooks”. The largest
+is 9-by-9 (contains 17 squares), the next largest is 8-by-8 (contains
+15 squares), and so on. The smallest hook is just a single square.
+Find where the hooks are located, and place nine 9’s in the largest
+hook, eight 8’s in the next-largest, etc., down to one 1 in the
+smallest hook.
+The filled squares must form a connected region. (Squares are
+“connected” if they are orthogonally adjacent.) Furthermore, every
+2-by-2 region must contain at least one unfilled square.
+The sum of the values in each of the
+connected
+shaded regions must be
+the same (there are 19 such regions).
+The answer to this puzzle is the product of the areas of the connected
+groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20210217_hooks_7.png",2200,"Here is the completed grid for this Hooks puzzle, which when you take
+the product of the sizes of the empty regions gives
+2200
+.
+Congrats to the following people that managed to find the unique solution!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20210228_hooks_7_ans-1.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-7-index/"", ""retrieved_at"": ""2026-09-21T09:11:52.868765+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-7-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2021-07,Jane Street Monthly Puzzles,It's Symmetric 2,2021-07,grid_deduction,geometry_spatial | logic_constraints,constraint_propagation | symmetry_reduction | connected_components | spatial_visualization | proof_of_uniqueness,grid_shading | logic_grid | geometry_problem | numeric_answer,"Shade some of the cells in the grid above so that the region of shaded
+cells is connected and symmetric in some way (either by rotation or
+reflection). Some of the cells have been numbered. These cells are in
+the shaded region, and the numbers denote the products of the number
+of shaded cells one can “see” within the region, in each of the 4
+cardinal directions, before encountering an unshaded cell. (As in the
+example, above.)
+The answer to this puzzle is the sum of the squares of the areas of
+connected unshaded squares in the completed grid. (Squares are
+“connected” if they are orthogonally adjacent.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/2021-07-01-its-symmetric-2.png",503,"The above image shows the shaded region, which exhibits 180-degree
+symmetry about its center (which sneakily doesn’t coincide with the
+center of the given grid). The sum of the squares of the area of the
+connected unshaded regions comes to 503.
+Congrats to this month’s solvers who successfully found the answer!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/2021-07-01-its-symmetric-2-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/it-s-symmetric-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:50.247404+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/it-s-symmetric-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2021-11,Jane Street Monthly Puzzles,Split Division 2,2021-11,grid_deduction,number_theory | logic_constraints,digit_constraints | gcd_reasoning | constraint_propagation | backtracking_search | exact_arithmetic,crossnumber | logic_grid | numeric_answer,"Two long division problems were calculated, and both problems had the
+exact same shape. At some places, the digits from the two problems
+were both positive and had a greatest common divisor that was larger
+than 1.
+All
+of those spots are marked with their respective GCDs.
+The answer to this puzzle is the
+sum
+of the two 7-digit dividends in
+the completed long division problems.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/2021-11-01-split-division-2.png",6467972,"The above image shows the two division problems for which
+all
+of
+the GCDs larger than 1 are as specified in the original puzzle. The
+sum of the two seven-digit dividends is
+6467972
+.
+Congrats to this month’s solvers who successfully split the division!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/2023-01-18-split-division-2-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/split-division-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:48.150852+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/split-division-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2022-01,Jane Street Monthly Puzzles,Hooks 8,2022-01,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid above can be partitioned into 9 L-shaped “hooks”. The largest
+is 9-by-9 (contains 17 squares), the next largest is 8-by-8 (contains
+15 squares), and so on. The smallest hook is just a single
+square. Find where the hooks are located, and place nine 9’s in one of
+the hooks, eight 8’s in another, seven 7’s in another, and so on.
+The filled squares must form a connected region. (Squares are
+“connected” if they are orthogonally adjacent.) Furthermore, every
+2-by-2 region must contain at least one unfilled square.
+The sum of the values in each of the connected regions must be
+the same.
+The answer to this puzzle is the product of the areas of the connected
+groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/2022-01-01-hooks-8.png",680,"The above image shows the shaded L shapes with the assigned numbers that
+satisfies the requirements. The empty regions have areas 1, 1, 1, 2,
+1, 1, 1, 17, 5, 1, 1, and 4, which multiply to
+680
+.
+Congrats to this month’s solvers who successfully completed the
+logic puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/2022-01-01-hooks-8-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-8-index/"", ""retrieved_at"": ""2026-09-21T09:11:47.159745+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-8-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2022-06,Jane Street Monthly Puzzles,Block Party 4,2022-06,grid_deduction,logic_constraints | number_theory,constraint_propagation | exact_arithmetic | backtracking_search | proof_of_uniqueness,grid_fill | logic_grid | numeric_answer,"Fill each region with the numbers 1 through
+N
+, where
+N
+is the
+number of cells in the region. For each number
+K
+in the grid, the
+nearest
+K
+via taxicab distance
+must be exactly
+K
+cells away.
+Once the grid is completed, the answer to the puzzle is found as
+follows: compute the product of the values in each row, and then take
+the sum of these products.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/block-party-4.png",24405360,"The completed grid is shown above; the sum of the products of the rows is
+24405360
+.
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/block-party-4-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/block-party-4-index/"", ""retrieved_at"": ""2026-09-21T09:11:44.489241+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/block-party-4-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2022-12,Jane Street Monthly Puzzles,Die Agony,2022-12,grid_deduction,graph_network | physics_mechanics | logic_constraints,state_transition | pathfinding | constraint_propagation | spatial_visualization | proof_of_uniqueness,path_route | grid_fill | physical_simulation | numeric_answer,"A six-sided die, with numbers written on each of its faces, is placed
+on the 6-by-6 grid above, in the lower-left (yellow) corner. It then
+makes a sequence of “moves”. Each move consists of tipping the die
+into an orthogonally adjacent square within the grid.
+The die starts with a “score” of 0. On the Nth move, its score
+increases by N times the value of the die facing up after the
+move. However, the die is only allowed to move into a square if its
+score after the move matches the value in the square. Also, the die
+cannot be translated or rotated in place in addition to these moves.
+After some number of moves the die arrives in the upper-right (blue)
+corner.
+The answer to this puzzle is the sum of values in the unvisited
+squares from the die’s journey.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/die-agony.png",1935,"For December’s puzzle, you were asked to figure out which numbers to
+place on the sides of a six-sided die that would allow it to “legally”
+travel from the bottom-left to the top-right squares in the grid.
+The only labeling of the die that permits such a route is:
+−
+3, 9, 5,
+−
+9, 7, 9
+. And the
+only legal path that successfully travels from the yellow square to
+the blue square is outlined above. The sum of the unvisited squares
+(shaded in orange, above) is
+1935
+.
+(Of interest, note in the upper grid the placement of the die after
+the 26th move. Several entries claimed that a path existed through the
+452 immediately
+north
+of the 317. But to move to that cell would
+cause the score to increase by 27
+×
+9, which is not a
+legal move. The only legal move is to the eastern 452, as 452 = 317 +
+27
+×
+5.)
+Congrats to those of you who successfully navigated the die area!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/die-agony-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/die-agony-index/"", ""retrieved_at"": ""2026-09-21T09:11:41.351538+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/die-agony-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2023-02,Jane Street Monthly Puzzles,Twenty Four Seven (Four-in-One),2023-02,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | connected_components | exact_arithmetic | proof_of_uniqueness,grid_fill | logic_grid | multi_part | numeric_answer,"Four
+Twenty Four Seven
+grids have been smooshified together within the 12-by-12 grid above.
+Place numbers in some of the empty cells so that in total each of the four 7-by-7 outlined grids is a legal “Twenty Four Seven” grid. Namely: each 7-by-7 grid’s interior should contain one 1, two 2’s, etc., up to seven 7’s. Furthermore, each row and column within the 7-by-7’s must contain exactly 4 numbers which sum to 20. Finally, the numbered cells must form a connected region, but every 2-by-2 subsquare in the completed grid must contain at least one empty cell.
+Some numbers have been placed inside the grid. Additionally, some blue numbers have been placed
+outside
+the grid. A number outside the grid represents either the sum of the row or column it is facing,
+or
+the value of the first number it sees in that row or column.
+Once completed, you can submit as your answer the product of the areas of the connected groups of orthogonally adjacent empty squares in the grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20230201_twenty_four_seven.PNG","74,649,600","For February’s puzzle, you were asked to solve four overlapping
+“Twenty Four Seven” grids smooshified into one big puzzle. Pictured
+above is the fully completed grid. The empty regions of size greater
+than 1 have sizes 5, 3, 5, 8, 6, 4, 4, 9, 6, 3, 4, and 2, which
+multiply to
+74,649,600
+.
+Congrats to those of you who successfully completed the grid!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/twenty-four-seven-four-in-one-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-four-in-one-index/"", ""retrieved_at"": ""2026-09-21T09:11:40.303341+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/twenty-four-seven-four-in-one-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2023-06,Jane Street Monthly Puzzles,Hooks 9,2023-06,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid above can be partitioned into 9 L-shaped “hooks”. The largest
+is 9-by-9 (contains 17 squares), the next largest is 8-by-8 (contains
+15 squares), and so on. The smallest hook is just a single
+square. Find where the hooks are located, and place nine 9’s in one of
+the hooks, eight 8’s in another, seven 7’s in another, and so on.
+The filled squares must form a connected region. (Squares are
+“connected” if they are orthogonally adjacent.) Furthermore, every
+2-by-2 region must contain at least one unfilled square.
+The numbers outside the grid denote the greatest common divisors
+(GCDs) of the numbers formed by concatenating digits in consecutive
+squares when reading left-to-right (within rows) or top-to-bottom
+(within columns).
+The answer to this puzzle is the product of the areas of the connected
+groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/hooks-9.png",15552,"The above image shows the shaded L shapes with the assigned numbers
+that satisfies the requirements. The empty regions have areas 3, 3, 8,
+1, 1, 1, 1, 6, 3, 1, 6, 2, 1 which multiply to
+15552
+.
+Congrats to this month’s solvers who successfully completed the puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/hooks-9-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-9-index/"", ""retrieved_at"": ""2026-09-21T09:11:38.192626+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-9-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2023-07,Jane Street Monthly Puzzles,Choco Banana,2023-07,grid_deduction,logic_constraints | graph_network,constraint_propagation | connected_components | backtracking_search | proof_of_uniqueness | exact_arithmetic,grid_shading | logic_grid | numeric_answer,"If we shade a subset of the cells in the above grid, we partition the
+cells into orthogonally connected
+regions
+of shaded and unshaded
+cells. The goal of this puzzle is to shade the cells so that
+all regions of shaded cells are rectangular,
+all regions of unshaded cells are
+not
+rectangular, and
+all number clues in the grid give the size of the region (shaded or
+unshaded) that the clue is in.
+The answer to this puzzle is the product of the number of unshaded
+cells in each row.
+Below the grid is a smaller example puzzle with solution and answer
+extraction.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/choco-banana.png",809321103360,"The above image shows the shaded regions that satisfy the
+requirements. The rows have unshaded cell counts 15, 6, 12, 9, 11, 12,
+11, 7, 8, 16, 8, and 8 which multiply to
+809321103360
+.
+Congrats to this month’s solvers who successfully completed the puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/choco-banana-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/choco-banana-index/"", ""retrieved_at"": ""2026-09-21T09:11:37.663272+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/choco-banana-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2023-12,Jane Street Monthly Puzzles,Hall of Mirrors 2,2023-12,grid_deduction,geometry_spatial | cryptography_ciphers | mixed_meta,ray_tracing | constraint_propagation | encoding_decoding | meta_extraction | spatial_visualization,grid_fill | path_route | cryptogram | meta_puzzle,"[Official puzzle resources]
+- https://www.janestreet.com/puzzles/20231201_mirrors_2.PNG",SEASON’S GREETINGS,"This month’s puzzle was a callback to not one but
+two
+older website puzzles. The first
+Hall of Mirrors
+puzzle focused on the idea of bouncing a ray of light off a series of mirrors placed inside a grid. As many solvers found, it was possible to have a ray of light reflecting across a series of mirrors, with both ends hitting perpendicular (and just off-center) mirrors.
+But what to do next? Well, similar to
+another
+puzzle from the vault,
+Crosswords
+, the ultimate goal was to find a message within a completed picture, and to do so without any other help or instructions.
+And so for this grid: the path of light passes through each of the sixteen white 3-by-3 regions, through their centers, and at angles that are multiples of π/8. This corresponds to
+flag semaphore lettering
+. (Weakly alluded to by the yellow and red coloring of the boundary cells.) When translated, and noting the extra orange segment (above) is an apostrophe, not a mirror, we get the answer to this month’s puzzle,
+SEASON’S GREETINGS
+.
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/20240102_sol.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hall-of-mirrors-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:34.567777+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hall-of-mirrors-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2024-01,Jane Street Monthly Puzzles,Some F Squares,2024-01,grid_deduction,geometry_spatial | logic_constraints,tiling_packing | constraint_propagation | exact_arithmetic | connected_components | proof_of_uniqueness,grid_fill | tiling_packing | logic_grid | numeric_answer,"Place some non-overlapping “F”-shaped pentominos into the grid. Pentominos can be rotated, reflected, and enlarged. Place a 1 inside each square in an unenlarged pentomino. For a pentomino that has been enlarged by a factor of
+N
+> 1, place an
+N
+inside each square. The sum of the numbered squares inside each outlined region must be the same. A number outside the grid represents the sum of all numbered squares in the corresponding row or column of the completed grid.
+Once completed, you can submit as your answer the product of the areas of the connected groups of orthogonally adjacent empty squares in the grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/some_f_squares_2.png","346,816,512","For this, our 10th anniversary puzzle
+1
+, solvers were tasked with
+smooshing F-pentominos of various sizes into an empty grid. The unique
+arranement that satisfies the row-, column- and region-sum constraints
+is shown above. The product of the areas of the leftover regions is
+346,816,512
+.
+Congrats to this month’s solvers!
+Our
+first puzzle
+.
+↩
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/some_f_squares_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/some-f-squares-index/"", ""retrieved_at"": ""2026-09-21T09:11:33.992961+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/some-f-squares-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2024-03,Jane Street Monthly Puzzles,Hooks 10,2024-03,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid above can be partitioned into 9 L-shaped “hooks”. The largest is 9-by-9 (contains 17 squares), the next largest is 8-by-8 (contains 15 squares), and so on. The smallest hook is just a single square. Find where the hooks are located, and place nine 9’s in one of the hooks, eight 8’s in another, seven 7’s in another, and so on.
+The filled squares must form a connected region. (Squares are “connected” if they are orthogonally adjacent.) Furthermore, every 2-by-2 region must contain at least one unfilled square.
+The clues in the grid are placed in cells that are
+not
+filled in the completed grid. A number in the grid represents the
+sum
+of all values in orthogonally adjacent cells in the completed grid.
+The answer to this puzzle is the product of the areas of the connected groups of empty squares in the completed grid.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/hooks-10.png",8400,"The above image shows the completed grid; the product of the areas of the empty regions is
+8400
+.
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/hooks-10-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-10-index/"", ""retrieved_at"": ""2026-09-21T09:11:32.949249+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-10-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2024-05,Jane Street Monthly Puzzles,Number Cross 4,2024-05,grid_deduction,number_theory | logic_constraints,digit_constraints | constraint_propagation | backtracking_search | exact_arithmetic | proof_of_uniqueness,crossnumber | grid_fill | logic_grid | numeric_answer,"The 11-by-11 grid above has been divided into various regions. Shade some of the cells black, then place digits (0-9) into the remaining cells. Shading must be “sparse”: that is, no two shaded cells may share an edge.
+Every cell within a region must contain the same digit, and orthogonally adjacent cells in different regions must have different digits. (Note that shading cells may break up regions or change which pairs of regions are adjacent. See the example, below.)
+Each row has been supplied with a clue.
+Every
+number formed by concatenating consecutive groups of unshaded cells within a row must satisfy the clue given for the row. (As in the example.) Numbers must be at least
+two digits long
+and may not begin with a 0.
+The answer to this month’s puzzle is the sum of all the numbers formed in the completed grid. (As in the example.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/number-cross-4-updated.PNG",88243711283,"The completed grid is shown above, and the sum of the concatenated numbers is
+88243711283
+.
+Of special note is the top row, 11122233444, which is both a square and has
+non-decreasing digits
+.
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/may-2024-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/number-cross-4-index/"", ""retrieved_at"": ""2026-09-21T09:11:31.896816+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/number-cross-4-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2024-09,Jane Street Monthly Puzzles,Fences 2,2024-09,grid_deduction,geometry_spatial | graph_network | logic_constraints,constraint_propagation | spatial_visualization | pathfinding | symmetry_reduction | constructive_search,logic_grid | path_route | geometry_problem | numeric_answer,"A field is divided into hexagonal cells of width 1. Some of the cells contain “posts” at
+their center. Each post is represented in the field (grid) by a number. Construct one or
+more fences emanating from each post, such that the total length of fence connected to a
+post equals the number given. Fences are straight line segments with integer length and
+can only intersect cell walls at right angles. Fences from different posts may not touch,
+nor may a fence from one post touch a different post.
+The goal of this puzzle is to build your fences in such a manner that it is possible to
+draw a
+closed loop
+through some of the
+remaining empty cells
+. The loop may only
+make 120-degree turns, and it must visit each of the six colored regions. Finally, the
+loop must be
+symmetric
+in some way (either via rotation or reflection).
+As in the example, the loop must be rectilinear, passing through the centers of adjacent
+empty cells.
+Once you have completed the loop, determine the number of cells it visits in each of the
+six colored regions. The answer to this month’s puzzle is the
+product
+of these six
+values.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/september-2024.png","404,320","The configuration of posts that permits a symmetric loop, passing through all six colored regions and making only 120-degree turns, is shown above. The product of the number of cells visited by the loop in each of the six regions is
+404,320
+.
+Congrats to those of you who solved this month’s puzzle!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/september-2024-ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/fences-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:29.825290+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/fences-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2025-03,Jane Street Monthly Puzzles,Hall of Mirrors 3,2025-03,grid_deduction,geometry_spatial | logic_constraints,ray_tracing | constraint_propagation | spatial_visualization | backtracking_search | exact_arithmetic,grid_fill | path_route | geometry_problem | numeric_answer,"The perimeter of a 10-by-10 square field is surrounded by lasers pointing into the field. (Each laser begins half a unit from the edge of the field, as indicated by the •’s.)
+Some of the lasers have numbers beside them. Place diagonal mirrors in some of the cells so that the
+product
+of the
+segment lengths
+of a laser’s path matches the clue numbers. (For instance, the segments for the “75” path in the example puzzle have lengths 5, 3, 5.) Mirrors may not be placed in orthogonally adjacent cells.
+Once finished, determine the missing clue numbers for the perimeter, and calculate the sum of these clues for each side of the square. The answer to this puzzle is the
+product
+of these
+four sums
+.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/mirrors_3.png","601,931,086,080","The unique placement of mirrors that satisfies all the provided clue numbers (in black) is shown above. The
+missing
+clue numbers are in red. Clockwise from the top they sum to 480, 166, 3356, and 2251. This gives a product of
+601,931,086,080
+.
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/mirrors-3-sol.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hall-of-mirrors-3-index/"", ""retrieved_at"": ""2026-09-21T09:11:26.657667+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hall-of-mirrors-3-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2025-05,Jane Street Monthly Puzzles,Number Cross 5,2025-05,grid_deduction,number_theory | logic_constraints,digit_constraints | constraint_propagation | backtracking_search | exact_arithmetic | proof_of_uniqueness,crossnumber | grid_fill | logic_grid | numeric_answer,"The 11-by-11 grid above is divided into several regions. Place positive digits (1-9) into the cells. Every cell within a region must contain the same digit, and orthogonally adjacent cells in different regions must have different digits.
+After doing this, place some
+tiles
+into the grid. Tiles are represented by blacking out a cell, and no two tiles are allowed to share a common edge. When a tile is placed on a cell, it
+displaces
+the value (digit) in that cell. That means the orthogonally adjacent cells, collectively, must be incremented by that displaced value. (For instance, in the example the rightmost tile displaces a 5. That displaced 5 results in increments of 1 for the cells below and to the left of the tile, and an increment of 3 for the cell above it.)
+Digits may not be incremented any higher than 9. Incrementing digits may cause neighboring cells from different regions to contain the same value – this is fine. Some cells have been highlighted: these cells may not contain tiles and may not be altered by any of the increments.
+And finally! Each row has been supplied with a clue.
+Every
+number formed by concatenating consecutive groups of un-tiled cells within a row must satisfy the clue given for the row. (As in the example.) Numbers must be at least
+two digits long
+and
+may not repeat
+in the grid.
+The answer to this month’s puzzle is the sum of all the numbers formed in the completed grid. (As in the example.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/may-2025-update.png",4135658,"The unique configuration of initial numbers, tiles, and displaced values that satisfies the many constraints of the puzzle results in the grid shown above. The sum of the concatenated numbers in the completed grid is
+4135658
+.
+Big congrats to everyone who managed to slog through this one!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/number-cross-5-sol.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/number-cross-5-index/"", ""retrieved_at"": ""2026-09-21T09:11:25.496000+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/number-cross-5-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2025-09,Jane Street Monthly Puzzles,Hooks 11,2025-09,grid_deduction,logic_constraints | combinatorics,constraint_propagation | backtracking_search | grouping_partition | graph_connectivity | tiling_packing | proof_of_uniqueness,grid_fill | logic_grid | tiling_packing | numeric_answer,"The grid above can be partitioned into 9 L-shaped “hooks”. The largest is 9-by-9 (contains 17 squares), the next largest is 8-by-8 (contains 15 squares), and so on. The smallest hook is just a single square. Find where the hooks are located, and place nine 9’s in one of the hooks, eight 8’s in another, seven 7’s in another, and so on.
+The filled squares must form a connected region. (Squares are “connected” if they are orthogonally adjacent.) Furthermore, every 2-by-2 region must contain at least one unfilled square.
+The set of filled squares must be decomposable into
+9 distinct pentominos
+, with no repeated shapes (including reflection or rotation). Finally, the sum of the of the values in each pentomino must be a multiple of 5.
+A value
+outside
+the grid denotes the either first number or pentomino
+1
+(from the decomposition) seen when looking into that row or column.
+The answer to this puzzle is the product of the areas of the connected groups of empty squares in the completed grid.
+Using the canonical pentomino naming scheme – F, I, L, N, P, T, U, V, W, X, Y, Z.
+↩
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/hooks-11.jpg",1620,"The above image shows the completed grid, first with numbers assigned and second with
+pentomino letters labeled. The product of the empty regions is
+1620
+. Quick note that
+1296 was the most common incorrect answer submitted, which is what you get if you slide
+the I pentomino composed of 5’s to the left one square. Alas, that arrangement leaves the
+filled squares in two disconnected regions so is not a valid arrangement.
+Congrats to this month’s solvers!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/hooks-11-solution.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/hooks-11-index/"", ""retrieved_at"": ""2026-09-21T09:11:23.509995+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/hooks-11-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2026-02,Jane Street Monthly Puzzles,Subtiles 2,2026-02,grid_deduction,logic_constraints | geometry_spatial | algebra_equations,constraint_propagation | tiling_packing | algebraic_manipulation | symmetry_reduction | proof_of_uniqueness,grid_fill | tiling_packing | logic_grid | numeric_answer,"Place positive integers in some of the cells above, so that the grid contains one 1, two 2’s, three 3’s, and so on, up to
+N
+N
+’s. (For some
+N
+.)
+For any integer
+K
+in the grid, the cells labeled
+K
+must form an orthogonally connected region (a “
+K
+-omino”).
+Furthermore, for each
+K
+> 1 the
+K
+-omino must “contain” the shape formed by the (
+K
+−1)’s. (Rotations and reflections
+are allowed.)
+Some of the cells have been labeled, but unlike our previous
+Subtiles
+, we have used variables to obscure those values. (As in the example, at the bottom.)
+After completing the grid, compute, in each row, the sum of the labeled cells. The answer to this puzzle is the product of the maximum and minimum row sums.
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/subtiles-2.jpg",9072,"The unique values of
+a
+,
+b
+, and
+c
+that allow all the clued entries to resolve to a positive integer between 1 and 17 are
+a
+= 1/4,
+b
+= -3, and
+c
+= 1/2. The completed grid is shown above; the product of the smallest and largest sums is 56 × 162 =
+9072
+.
+Congrats to those of you who toiled through the tiling!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/subtiles-ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/subtiles-2-index/"", ""retrieved_at"": ""2026-09-21T09:11:20.783517+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/subtiles-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+jane-street-2026-05,Jane Street Monthly Puzzles,Arch Madness,2026-05,grid_deduction,geometry_spatial | logic_constraints,constraint_propagation | euclidean_geometry | area_dissection | spatial_visualization | exact_arithmetic,grid_fill | geometry_problem | logic_grid | numeric_answer,"Draw 90-degree arcs in some of the white cells. Arcs may not go in green cells. An arc has radius 1, connecting one corner of a cell to the opposite corner. (A cell may contain at most one arc.)
+When finished, the arcs must divide the grid into
+regions
+, and those regions must have
+integer area
+. (Arcs are not allowed to “dangle” – that is, the two parts of a cell containing an arc must belong to distinct regions.)
+For each region, compute the number of “smooth” (continuously differentible) pieces that comprise its perimeter. Multiply that number by the region’s area to get its SCORE.
+A cell labeled with a number indicates the score of the region that contains at least half (and possibly all) of that cell.
+After completing the grid, fill each of the un-numbered cells with the score of the region that contains at least half of that cell. The answer to this month’s puzzle is the sum of the
+squares
+of the row sums,
+plus
+the sum of the
+squares
+of the column sums. (As in the example.)
+
+[Official puzzle resources]
+- https://www.janestreet.com/puzzles/arch-madness.jpg","13,682,882","The completed grid is shown above. The sum of the squares of the row and column sums is
+13,682,882
+.
+Congrats to everyone who found the solution!
+
+[Official solution resources]
+- https://www.janestreet.com/puzzles/arch-madness-sol.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""grid_deduction"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/arch-madness-index/"", ""retrieved_at"": ""2026-09-21T09:11:19.602185+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/arch-madness-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"

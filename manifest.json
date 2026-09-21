@@ -1,0 +1,421 @@
+{
+  "format_version": "1.0.0",
+  "snapshot_date": "2026-09-22",
+  "package_status": "final_candidate",
+  "layout": "topic_only",
+  "source_file": "data/puzzle_benchmark_internal_seed.jsonl",
+  "source_sha256": "18c5664e550a76cc7f234b0967d691189cbb4eeb8289b80e0d0a88a14efde92a",
+  "row_count": 751,
+  "unique_id_count": 751,
+  "topic_count": 15,
+  "required_row_fields": [
+    "question",
+    "answer_only",
+    "explanation"
+  ],
+  "columns": [
+    "id",
+    "source_name",
+    "title",
+    "date",
+    "domain_primary",
+    "domain_secondary",
+    "reasoning_skills",
+    "puzzle_format",
+    "question",
+    "answer_only",
+    "explanation",
+    "difficulty",
+    "quality_status",
+    "requires_assets",
+    "evaluation",
+    "source",
+    "rights"
+  ],
+  "official_score_eligible_count": 709,
+  "answer_only_time_limit_minutes": 30,
+  "proof_certificate_time_limit_minutes": 60,
+  "topics": [
+    {
+      "topic": "algebra_equations",
+      "topic_label_zh": "代数与方程",
+      "total_rows": 127,
+      "benchmark_core": 123,
+      "answer_only_scorable": 127,
+      "by_source": {
+        "HARP": 123,
+        "Lewis Carroll — A Tangled Tale": 4
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/algebra_equations.jsonl",
+          "rows": 127,
+          "sha256": "1bd9c4f3b24392ebe6afbd9720234bb0bf25d51b09c7eb165901b05e0409095c"
+        },
+        {
+          "format": "csv",
+          "path": "topics/algebra_equations.csv",
+          "rows": 127,
+          "sha256": "ea0274686c7f15a164115e0678f07f32a598b504b71a9732a7f29f3319fa1f85"
+        }
+      ]
+    },
+    {
+      "topic": "algorithms_computation",
+      "topic_label_zh": "算法与计算",
+      "total_rows": 4,
+      "benchmark_core": 3,
+      "answer_only_scorable": 4,
+      "by_source": {
+        "Dudeney Public Domain Puzzles": 1,
+        "Jane Street Monthly Puzzles": 3
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/algorithms_computation.jsonl",
+          "rows": 4,
+          "sha256": "aa63e5f3c2156b736547d72fdb5c2234898a9e06de2f79eedea126d3819686a0"
+        },
+        {
+          "format": "csv",
+          "path": "topics/algorithms_computation.csv",
+          "rows": 4,
+          "sha256": "9aa34b628168417d0c111e40dcb169fd4926e10b77fd23e33514956aef8962a2"
+        }
+      ]
+    },
+    {
+      "topic": "combinatorics",
+      "topic_label_zh": "组合数学",
+      "total_rows": 63,
+      "benchmark_core": 55,
+      "answer_only_scorable": 63,
+      "by_source": {
+        "Dudeney Public Domain Puzzles": 6,
+        "HARP": 53,
+        "Jane Street Monthly Puzzles": 2,
+        "Lewis Carroll — A Tangled Tale": 2
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/combinatorics.jsonl",
+          "rows": 63,
+          "sha256": "aaf76e3fb0bcbfc20fe7f355cb2c670d7b56b1debbb3b65ead3f78d83751a308"
+        },
+        {
+          "format": "csv",
+          "path": "topics/combinatorics.csv",
+          "rows": 63,
+          "sha256": "79f1c2155ff969fb1d29cff79efe481559591390dde4a5714be89d95bee6193d"
+        }
+      ]
+    },
+    {
+      "topic": "cryptography_ciphers",
+      "topic_label_zh": "密码与编码",
+      "total_rows": 12,
+      "benchmark_core": 12,
+      "answer_only_scorable": 12,
+      "by_source": {
+        "Jane Street Monthly Puzzles": 4,
+        "PuzzleWorld": 8
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/cryptography_ciphers.jsonl",
+          "rows": 12,
+          "sha256": "23536a61552c4ae69c0d7bbdd47a5325a03a2b953ba5ae94be0ffb9abfb4081a"
+        },
+        {
+          "format": "csv",
+          "path": "topics/cryptography_ciphers.csv",
+          "rows": 12,
+          "sha256": "b03e1182ea74a70c188b5983ab2617bc8ed155ff6764d124797b2dc2d6c04cfd"
+        }
+      ]
+    },
+    {
+      "topic": "game_theory_strategy",
+      "topic_label_zh": "博弈论与策略",
+      "total_rows": 14,
+      "benchmark_core": 13,
+      "answer_only_scorable": 14,
+      "by_source": {
+        "Dudeney Public Domain Puzzles": 1,
+        "Jane Street Monthly Puzzles": 13
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/game_theory_strategy.jsonl",
+          "rows": 14,
+          "sha256": "fdd98ba6a47676c67294e3e1254c67c1e90c04676c7de83421755bd2ab03b49c"
+        },
+        {
+          "format": "csv",
+          "path": "topics/game_theory_strategy.csv",
+          "rows": 14,
+          "sha256": "abf5093548d9f781e29d6449bdbf1703e8a63423d888ba9e2a1a66d9818f393f"
+        }
+      ]
+    },
+    {
+      "topic": "geometry_spatial",
+      "topic_label_zh": "几何与空间",
+      "total_rows": 166,
+      "benchmark_core": 147,
+      "answer_only_scorable": 148,
+      "by_source": {
+        "AlphaGeometry JGEX proof certificates": 18,
+        "HARP": 130,
+        "Jane Street Monthly Puzzles": 5,
+        "Lewis Carroll — A Tangled Tale": 1,
+        "PuzzleWorld": 12
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/geometry_spatial.jsonl",
+          "rows": 166,
+          "sha256": "dc98f6db876f3ca6ca8111223ab0cce8b2a005b8e5554b9b9b9c14b47171d424"
+        },
+        {
+          "format": "csv",
+          "path": "topics/geometry_spatial.csv",
+          "rows": 166,
+          "sha256": "9533970b4701fe269e6c0cb0e9bad8c59acc731999669faa682b9a06c872b5cc"
+        }
+      ]
+    },
+    {
+      "topic": "graph_network",
+      "topic_label_zh": "图论与网络",
+      "total_rows": 7,
+      "benchmark_core": 7,
+      "answer_only_scorable": 7,
+      "by_source": {
+        "Jane Street Monthly Puzzles": 7
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/graph_network.jsonl",
+          "rows": 7,
+          "sha256": "14963ab6b3c5197250b3d2b5c100b5d32f2cad0e213908da77726291d7b05391"
+        },
+        {
+          "format": "csv",
+          "path": "topics/graph_network.csv",
+          "rows": 7,
+          "sha256": "e34f3cc34fd78949ab9c8392b192d492eaeee2fea6ccbb9f74deb4a4c3728fa9"
+        }
+      ]
+    },
+    {
+      "topic": "grid_deduction",
+      "topic_label_zh": "网格推理",
+      "total_rows": 47,
+      "benchmark_core": 47,
+      "answer_only_scorable": 47,
+      "by_source": {
+        "Jane Street Monthly Puzzles": 47
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/grid_deduction.jsonl",
+          "rows": 47,
+          "sha256": "54107ca0e430aca1bf49775ab957fb94691a34a4872d2c404357cc4340999aa3"
+        },
+        {
+          "format": "csv",
+          "path": "topics/grid_deduction.csv",
+          "rows": 47,
+          "sha256": "fe0939f7f6b7780cbf8fce0934623e5b08e5381994d50605d731061b934e02a6"
+        }
+      ]
+    },
+    {
+      "topic": "logic_constraints",
+      "topic_label_zh": "逻辑与约束",
+      "total_rows": 137,
+      "benchmark_core": 136,
+      "answer_only_scorable": 137,
+      "by_source": {
+        "Dudeney Public Domain Puzzles": 1,
+        "Jane Street Monthly Puzzles": 4,
+        "PuzzleWorld": 132
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/logic_constraints.jsonl",
+          "rows": 137,
+          "sha256": "e9d7d19e6655c8436e8753d827c6f671c1904113d94c4c21b934ad1b6f9e730a"
+        },
+        {
+          "format": "csv",
+          "path": "topics/logic_constraints.csv",
+          "rows": 137,
+          "sha256": "9d7b7a128c65e9886bf7aa9fb66f0dd01f84d71c7d4344d71d59ecad20c82bd9"
+        }
+      ]
+    },
+    {
+      "topic": "mixed_meta",
+      "topic_label_zh": "综合与元谜题",
+      "total_rows": 20,
+      "benchmark_core": 20,
+      "answer_only_scorable": 20,
+      "by_source": {
+        "Jane Street Monthly Puzzles": 17,
+        "PuzzleWorld": 3
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/mixed_meta.jsonl",
+          "rows": 20,
+          "sha256": "5ad30bcc3d7574d9216e415ca7af0e7861404e6771b4fc1659f41ec8b06faac6"
+        },
+        {
+          "format": "csv",
+          "path": "topics/mixed_meta.csv",
+          "rows": 20,
+          "sha256": "a6e21f7a4ba6fd6d6eaf80f93cf4a5ecce1ba758b99dc008989c63ebdd42ea20"
+        }
+      ]
+    },
+    {
+      "topic": "number_theory",
+      "topic_label_zh": "数论",
+      "total_rows": 62,
+      "benchmark_core": 58,
+      "answer_only_scorable": 62,
+      "by_source": {
+        "Dudeney Public Domain Puzzles": 4,
+        "HARP": 55,
+        "Jane Street Monthly Puzzles": 3
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/number_theory.jsonl",
+          "rows": 62,
+          "sha256": "f6e0e66b49b802b8396eefee291b03fbf282c5372d9fd2e60288dac904edcbdf"
+        },
+        {
+          "format": "csv",
+          "path": "topics/number_theory.csv",
+          "rows": 62,
+          "sha256": "f3b1e90b5f271279d679c70771ccc213b99a41a869c3cfb400d9ece944921c7d"
+        }
+      ]
+    },
+    {
+      "topic": "optimization",
+      "topic_label_zh": "优化",
+      "total_rows": 20,
+      "benchmark_core": 17,
+      "answer_only_scorable": 20,
+      "by_source": {
+        "Dudeney Public Domain Puzzles": 1,
+        "Jane Street Monthly Puzzles": 17,
+        "Lewis Carroll — A Tangled Tale": 2
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/optimization.jsonl",
+          "rows": 20,
+          "sha256": "7ec232a1f2652fa0c6e67e9585569cccddbd5a27dc0a8289ab72ce5161efd1d7"
+        },
+        {
+          "format": "csv",
+          "path": "topics/optimization.csv",
+          "rows": 20,
+          "sha256": "993868bda00e19c414af61916177975b41ffaf65f6c0ce673ec59604e90b02c8"
+        }
+      ]
+    },
+    {
+      "topic": "physics_mechanics",
+      "topic_label_zh": "物理与力学",
+      "total_rows": 2,
+      "benchmark_core": 1,
+      "answer_only_scorable": 2,
+      "by_source": {
+        "Jane Street Monthly Puzzles": 1,
+        "Lewis Carroll — A Tangled Tale": 1
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/physics_mechanics.jsonl",
+          "rows": 2,
+          "sha256": "6a99cc1a81a21c7a390ef3fcee346d576b76b4813bfb0bc170c3b6f7c651bd1b"
+        },
+        {
+          "format": "csv",
+          "path": "topics/physics_mechanics.csv",
+          "rows": 2,
+          "sha256": "2139cac4f865130f433ff5f519549e744d383c49e7e21e42597b5a94326628b8"
+        }
+      ]
+    },
+    {
+      "topic": "probability_stochastic",
+      "topic_label_zh": "概率与随机",
+      "total_rows": 43,
+      "benchmark_core": 43,
+      "answer_only_scorable": 43,
+      "by_source": {
+        "HARP": 29,
+        "Jane Street Monthly Puzzles": 14
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/probability_stochastic.jsonl",
+          "rows": 43,
+          "sha256": "0a48db33feeca4bd411a88477e7d9eeaf36bf732fbdf2df62f66653084ea1850"
+        },
+        {
+          "format": "csv",
+          "path": "topics/probability_stochastic.csv",
+          "rows": 43,
+          "sha256": "0418ae8e3f8488dee55108d7ed1e1bb87dcb11af83fd4ae96e27c5f1930851bd"
+        }
+      ]
+    },
+    {
+      "topic": "word_language",
+      "topic_label_zh": "文字与语言",
+      "total_rows": 27,
+      "benchmark_core": 27,
+      "answer_only_scorable": 27,
+      "by_source": {
+        "Jane Street Monthly Puzzles": 10,
+        "PuzzleWorld": 17
+      },
+      "files": [
+        {
+          "format": "jsonl",
+          "path": "topics/word_language.jsonl",
+          "rows": 27,
+          "sha256": "b6caf376b86f344718c6a6e7285c1bc4bfcd4b5b65e32c62629f9cc1a06f01f5"
+        },
+        {
+          "format": "csv",
+          "path": "topics/word_language.csv",
+          "rows": 27,
+          "sha256": "ecc2f5779c22c72c325db2beeee3269833cbb77920d48d9da0ac14efe225ce98"
+        }
+      ]
+    }
+  ]
+}
