@@ -1,7 +1,6 @@
-id,source_name,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,evaluation,source,rights
-dudeney-amusements-085,Dudeney Public Domain Puzzles,The Cab Numbers,1917,algorithms_computation,number_theory | combinatorics,exhaustive_search | divisibility | branch_and_bound | digit_constraints,optimization_challenge | exact_value,"Split the digits 1 through 9 into two positive integers, using every digit exactly once across the two factors and no digit twice.  Their product must itself be a 9-digit number that uses digits 1 through 9 exactly once.  Among all such pairs of factors, maximize the product.  What are the factors and product?","8,745,231 * 96 = 839,542,176","The factors use 1,2,3,4,5,6,7,8,9 once, and the product 839542176 is also 1-to-9 pandigital.  Dudeney reduces the search with digital roots: the two factor roots must be one of (3,6), (9,9), (2,2), or (5,8), and the product's digit sum must consequently be 18, 27, 22, or 31.  This prunes most digit partitions before multiplication.  For benchmark QA, every permutation of 123456789 and every split point (with factor order canonicalized) was exhaustively tested; among all valid products, 839,542,176 is the maximum.","{""bucket"": ""source_curated_hard_candidate"", ""evidence"": ""The naive space is millions of split permutations; the book reports hours of elimination work and develops non-obvious digital-root pruning."", ""hard_core"": false, ""modern_empirical_pilot_pending"": true, ""selection_method"": ""manual_source_read_plus_exact_answer_verification""}",needs_review,False,"{""answer_only_scorable"": true, ""benchmark_core"": false, ""counts_toward_official_topic_score"": false, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""historical_difficulty_candidate""}","{""author"": ""Henry Ernest Dudeney"", ""book_title"": ""Amusements in Mathematics"", ""ebook_url"": ""https://www.gutenberg.org/ebooks/16713"", ""local_upstream_file"": ""research/gutenberg/upstream/pg16713.txt"", ""original_puzzle_number"": 85, ""original_section_title"": ""THE CAB NUMBERS."", ""plain_text_url"": ""https://www.gutenberg.org/cache/epub/16713/pg16713.txt"", ""publisher_of_digitization"": ""Project Gutenberg"", ""question_source_lines"": [1777, 1800], ""solution_source_lines"": [12561, 12666], ""upstream_sha256"": ""211a254547e147a9c0448121a4558ee9e8a05d550961dc9b6a434d802dee400d""}","{""jurisdiction_caveat"": ""Project Gutenberg's public-domain determination is for the United States. Re-check copyright status and any database/publication obligations in each target jurisdiction."", ""permission_required"": false, ""project_gutenberg_packaging_removed"": true, ""public_domain_us"": true, ""release_track"": ""open_commercial_core"", ""rights_status"": ""project_gutenberg_marks_ebook_public_domain_in_the_usa"", ""trademark_note"": ""Dataset rows do not include Project Gutenberg header/footer, licence boilerplate, or branding; source links and factual provenance are retained.""}"
-jane-street-2020-05,Jane Street Monthly Puzzles,Expelled,2020-05,algorithms_computation,sequences_patterns,state_transition | simulation | recurrence_relations | pattern_recognition | computational_verification,sequence_process | code_search | numeric_answer,"[Official puzzle resources]
-- https://www.janestreet.com/puzzles/expelled_.jpg",416,"The answer to this month’s puzzle is
+id,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,assets,evaluation
+puzzle-1231b22ac4c216d05ec4,Expelled,2020-05,algorithms_computation,sequences_patterns,state_transition | simulation | recurrence_relations | pattern_recognition | computational_verification,sequence_process | code_search | numeric_answer,"[Question assets]
+- assets/3645f6223bcf0c7c11d09e44e3b4a89dcbce779501ebb306f2c5a1e41ba2b5b2.jpg",416,"The answer to this month’s puzzle is
 416
 .
 As suggested by the title, one number is expelled in each row. The nth
@@ -20,66 +19,10 @@ would have been essential if we had asked for the row where the number
 48 is expelled!
 Congratulations to everyone who solved this month’s puzzle!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/expelled_sol.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/expelled-index/"", ""retrieved_at"": ""2026-09-21T09:11:57.064632+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/expelled-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2020-09,Jane Street Monthly Puzzles,Tangled!,2020-09,algorithms_computation,geometry_spatial | optimization | physics_mechanics,state_transition | rational_tangles | continued_fractions | topology | constructive_search,sequence_process | physical_simulation | optimization_challenge | open_ended,"While on vacation in Terniquaternaria, Decimus got to experience the
-country’s traditional folkloric dance, which they call the
-“Yawn-ock”
-.
-The people of Terniquaternaria pride themselves on being
-rational
-, so
-they dance the Yawn-ock by the following strict rules. Four dancers
-hold one end of two long pieces of rope and never let go. They
-initially take the following positions:
-A D
-\_________/
-_________
-/ \
-B C
-During the entire dance, only two types of move are allowed:
-The entire group rotates 90 degrees counterclockwise (ie the dancer
-in A moves to B, dancer in B moves to C, etc). This step is called a
-“Rotate” (R).
-Dancers in C and D swap places, with D holding the rope up while C
-is passing under. This step is called a “Swap” (S).
-From the initial configuration, a dance master calls out successive
-R/S steps randomly, that the dancers diligently execute accompanied by
-music. After this, there is usually quite a tangled mess of rope in
-the middle!
-A participant from the crowd can then step forward and attempt to
-untangle the ropes by shouting a sequence of the same two moves as
-above, that the dancers execute. If this person succeeds in fully
-untangling the ropes, he/she gets crowned King/Queen for the day!
-Decimus took careful note of the sequence of moves executed by the
-dancers:
-SRSRRSSRSRSSRSSRRSSRSSSSSRSSRSSRSRS
-SRSSRSSSSSSSSRSSRSSSSSRSSRSSRRSSRSS
-SSSRSSRSSRSSSSSSSSSSSSSSSSSRSSRSSRS
-He would really like to become King, no matter how much research it
-might take. What sequence would untangle the ropes?
-2020-09-09 update:
-Turns out the Yawn-ock dancers have a limited
-amount of endurance, and prefer a shorter sequence of untangling
-commands over a longer one. As such we will keep the top of our
-leaderboard of solvers ranked by number of commands in the solution,
-with the solver with the shortest correct solution at the top. Any
-solvers that have already submitted can re-submit if they’d like to
-record their most efficient untying maneuver!",RSSSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSS / RSSRSSRSSRSSSSSRSSRSSRSSSRSSRSSSSRSSRS / SRSSSSRSSRSSRSSRSSRSSRSSSRSSSRSSRSSRSS,"The fastest sequence of untangling the ropes that was found was this 114-command beauty:
-RSSSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSS
-RSSRSSRSSRSSSSSRSSRSSRSSSRSSRSSSSRSSRS
-SRSSSSRSSRSSRSSRSSRSSRSSSRSSSRSSRSSRSS
-It could be discovered by using the theory of
-rational tangles
-, which
-maps ropes tangled by these commands onto rational numbers using
-continued fractions. The late John H. Conway of puzzle math fame
-worked on this, hence our silly name for the dance “Yawn-ock”
-(“Conway” is hidden in there backwards).
-Here are the solvers of this tangly challenge, with the first group
-having the shortest solutions and the second group being ordered
-chronologically.","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/tangled-index/"", ""retrieved_at"": ""2026-09-21T09:11:54.971364+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/tangled-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2023-01,Jane Street Monthly Puzzles,Lesses More,2023-01,algorithms_computation,sequences_patterns | optimization | algebra_equations,state_transition | fixed_point_analysis | algebraic_manipulation | numerical_root_finding | exhaustive_search | computational_verification,sequence_process | code_search | optimization_challenge | numeric_answer,"Assign four nonnegative integers to the corners of a square, which we
+[Explanation assets]
+- assets/3645f6223bcf0c7c11d09e44e3b4a89dcbce779501ebb306f2c5a1e41ba2b5b2.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 74669, ""content_type"": ""image/jpeg"", ""path"": ""assets/3645f6223bcf0c7c11d09e44e3b4a89dcbce779501ebb306f2c5a1e41ba2b5b2.jpg"", ""role"": ""question"", ""sha256"": ""3645f6223bcf0c7c11d09e44e3b4a89dcbce779501ebb306f2c5a1e41ba2b5b2""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""answer_only_collection_core""}"
+puzzle-60c697b0694c9fb5bdc1,The Cab Numbers,1917,algorithms_computation,number_theory | combinatorics,exhaustive_search | divisibility | branch_and_bound | digit_constraints,optimization_challenge | exact_value,"Split the digits 1 through 9 into two positive integers, using every digit exactly once across the two factors and no digit twice.  Their product must itself be a 9-digit number that uses digits 1 through 9 exactly once.  Among all such pairs of factors, maximize the product.  What are the factors and product?","8,745,231 * 96 = 839,542,176","The factors use 1,2,3,4,5,6,7,8,9 once, and the product 839542176 is also 1-to-9 pandigital.  the original author reduces the search with digital roots: the two factor roots must be one of (3,6), (9,9), (2,2), or (5,8), and the product's digit sum must consequently be 18, 27, 22, or 31.  This prunes most digit partitions before multiplication.  For benchmark QA, every permutation of 123456789 and every split point (with factor order canonicalized) was exhaustively tested; among all valid products, 839,542,176 is the maximum.","{""bucket"": ""source_curated_hard_candidate""}",needs_review,False,,"{""answer_only_scorable"": true, ""benchmark_core"": false, ""counts_toward_headline_score"": false, ""counts_toward_official_topic_score"": false, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""historical_difficulty_candidate""}"
+puzzle-aff5d31b6ccad14416a5,Lesses More,2023-01,algorithms_computation,sequences_patterns | optimization | algebra_equations,state_transition | fixed_point_analysis | algebraic_manipulation | numerical_root_finding | exhaustive_search | computational_verification,sequence_process | code_search | optimization_challenge | numeric_answer,"Assign four nonnegative integers to the corners of a square, which we
 designate the
 active square
 . During a
@@ -192,8 +135,8 @@ M
 . Enter your
 answer as a semicolon-separated list, 10;6;3;1 for example.
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/lesses-more.png",8646064;3945294;1389537;0,"This month we searched for a starting arrangement to an algorithm that
+[Question assets]
+- assets/e9a7e278d03cfe83ee35104754bb0078395a7ba91279dbbbb29bddf490bc2a06.png",8646064;3945294;1389537;0,"This month we searched for a starting arrangement to an algorithm that
 maximized its number of steps. We can generalize the active square’s
 corner numbers from integers to reals, consider the four
 numbers on the corners of the active square to be an element of
@@ -211,19 +154,15 @@ c
 d
 )) = (
 a
--
 b
 ,
 b
--
 c
 ,
 c
--
 d
 ,
 d
--
 a
 ).
 Without loss of generality we can consider an input (
@@ -255,7 +194,6 @@ subtracting
 d
 from everything, and then dividing by
 a
--
 d
 , to get
 a general input of the form (1,
@@ -279,7 +217,6 @@ matches the input. In normalized space, we want either
 x
 = (1-
 x
--
 y
 )/(1-
 y
@@ -305,7 +242,6 @@ AND
 y
 = (2
 x
--
 y
 -1)/
 x
@@ -365,4 +301,61 @@ solvers noticed some overlaps with these special input integers and the
 Tribonacci sequence
 !
 Congrats to this month’s solvers that found the smallest maximal
-input!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/lesses-more-index/"", ""retrieved_at"": ""2026-09-21T09:11:40.849213+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/lesses-more-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+input!","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 1904738, ""content_type"": ""image/png"", ""path"": ""assets/e9a7e278d03cfe83ee35104754bb0078395a7ba91279dbbbb29bddf490bc2a06.png"", ""role"": ""question"", ""sha256"": ""e9a7e278d03cfe83ee35104754bb0078395a7ba91279dbbbb29bddf490bc2a06""}]","{""answer_kind"": ""constructive_witness"", ""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""answer_only_collection_core""}"
+puzzle-ccb1827e46b42c1ac663,Tangled!,2020-09,algorithms_computation,geometry_spatial | optimization | physics_mechanics,state_transition | rational_tangles | continued_fractions | topology | constructive_search,sequence_process | physical_simulation | optimization_challenge | open_ended,"While on vacation in Terniquaternaria, Decimus got to experience the
+country’s traditional folkloric dance, which they call the
+“Yawn-ock”
+.
+The people of Terniquaternaria pride themselves on being
+rational
+, so
+they dance the Yawn-ock by the following strict rules. Four dancers
+hold one end of two long pieces of rope and never let go. They
+initially take the following positions:
+A D
+\_________/
+_________
+/ \
+B C
+During the entire dance, only two types of move are allowed:
+The entire group rotates 90 degrees counterclockwise (ie the dancer
+in A moves to B, dancer in B moves to C, etc). This step is called a
+“Rotate” (R).
+Dancers in C and D swap places, with D holding the rope up while C
+is passing under. This step is called a “Swap” (S).
+From the initial configuration, a dance master calls out successive
+R/S steps randomly, that the dancers diligently execute accompanied by
+music. After this, there is usually quite a tangled mess of rope in
+the middle!
+A participant from the crowd can then step forward and attempt to
+untangle the ropes by shouting a sequence of the same two moves as
+above, that the dancers execute. If this person succeeds in fully
+untangling the ropes, he/she gets crowned King/Queen for the day!
+Decimus took careful note of the sequence of moves executed by the
+dancers:
+SRSRRSSRSRSSRSSRRSSRSSSSSRSSRSSRSRS
+SRSSRSSSSSSSSRSSRSSSSSRSSRSSRRSSRSS
+SSSRSSRSSRSSSSSSSSSSSSSSSSSRSSRSSRS
+He would really like to become King, no matter how much research it
+might take. What sequence would untangle the ropes?
+2020-09-09 update:
+Turns out the Yawn-ock dancers have a limited
+amount of endurance, and prefer a shorter sequence of untangling
+commands over a longer one. As such we will keep the top of our
+leaderboard of solvers ranked by number of commands in the solution,
+with the solver with the shortest correct solution at the top. Any
+solvers that have already submitted can re-submit if they’d like to
+record their most efficient untying maneuver!",RSSSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSS / RSSRSSRSSRSSSSSRSSRSSRSSSRSSRSSSSRSSRS / SRSSSSRSSRSSRSSRSSRSSRSSSRSSSRSSRSSRSS,"The fastest sequence of untangling the ropes that was found was this 114-command beauty:
+RSSSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSSRSS
+RSSRSSRSSRSSSSSRSSRSSRSSSRSSRSSSSRSSRS
+SRSSSSRSSRSSRSSRSSRSSRSSSRSSSRSSRSSRSS
+It could be discovered by using the theory of
+rational tangles
+, which
+maps ropes tangled by these commands onto rational numbers using
+continued fractions. The late John H. Conway of puzzle math fame
+worked on this, hence our silly name for the dance “Yawn-ock”
+(“Conway” is hidden in there backwards).
+Here are the solvers of this tangly challenge, with the first group
+having the shortest solutions and the second group being ordered
+chronologically.","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,False,,"{""answer_kind"": ""constructive_witness"", ""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""reference_is_example_not_optimum"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""algorithms_computation"", ""track"": ""answer_only_collection_core""}"

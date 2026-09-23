@@ -1,21 +1,14 @@
 {
-  "row_count": 751,
-  "unique_id_count": 751,
+  "row_count": 749,
+  "unique_id_count": 749,
   "topic_count": 15,
+  "asset_file_count": 508,
+  "asset_reference_count": 508,
+  "excluded_incomplete_asset_count": 1,
+  "excluded_duplicate_count": 1,
   "all_core_fields_nonempty": true,
   "every_row_packaged_once": true,
-  "topic_row_count": 751,
-  "official_score_eligible_count": 709,
-  "by_time_limit_minutes": {
-    "30": 733,
-    "60": 18
-  },
-  "by_source": {
-    "AlphaGeometry JGEX proof certificates": 18,
-    "Dudeney Public Domain Puzzles": 14,
-    "HARP": 390,
-    "Jane Street Monthly Puzzles": 147,
-    "Lewis Carroll — A Tangled Tale": 10,
-    "PuzzleWorld": 172
-  }
+  "all_asset_files_present": true,
+  "official_core_item_count": 707,
+  "headline_item_count": 707
 }

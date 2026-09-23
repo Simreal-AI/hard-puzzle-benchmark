@@ -1,60 +1,13 @@
-id,source_name,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,evaluation,source,rights
-jane-street-2015-07,Jane Street Monthly Puzzles,Good Chemistry,2015-07,graph_network,mixed_meta | algebra_equations,graph_modeling | invariant | external_knowledge_linking | pattern_recognition | exact_arithmetic,graph_problem | meta_puzzle | numeric_answer,"V-E+F=2
-f(ethanol) = 6
-f(paracetamol) = 242
-f(caffeine) = 630
-f(acetone) = 12
-f(uracil) = 128
-f(naphthalene) = 330
-f(nitroglycerin) = 210
-f(adenosine triphosphate) = ?",4092,"Euler’s formula (V-E+F=2) applies to planar graphs as well as polyhedra. The
-molecular structure of each molecule corresponds to a planar graph, where
-Vertices are atoms (excluding hydrogens, per the typical convention for
-molecular diagrams), bonds are Edges, and “Faces” are the number of distinct
-regions into which the graph splits the plane. So for example, for paracetamol,
-V=11, E=11, and F=2.
-If you knew that, then you could probably figure out that we had set f(molecule)
-equal to V
-E
-F! So, f(adenosine triphosphate) = 31
-33
-4 =
-4092
-.
-Congratulations to those of you who solved this month’s puzzle, especially
-Jean-Baptiste Rouquier, this month’s randomly-chosen winner of a Jane Street
-t-shirt!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/good-chemistry-index/"", ""retrieved_at"": ""2026-09-21T09:12:28.000348+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/good-chemistry-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2016-03,Jane Street Monthly Puzzles,Knight Moves,2016-03,graph_network,grid_deduction | logic_constraints,pathfinding | chess_analysis | constraint_propagation | graph_modeling | proof_of_uniqueness,path_route | grid_fill | board_game | numeric_answer,"A knight was alone on a chessboard. It started on a square and marked it “1”,
-then moved to a square and marked it “2”, then moved to a square and marked it
-“3”, and so on, each time making legal knight’s moves, and never revisiting a
-square. Some of the squares it visited are marked on the chessboard presented
-here.
-The knight stopped on his 28th square, at which point the 28 visited squares
-formed a picture with spiral symmetry (90 degree rotational symmetry).
-The numbers along the sides of the 8 rows and 8 columns are the sums of the
-numbers of the squares visited by the knight in that row/column.
-The answer to this month’s puzzle is the largest product of the numbers in any
-one row or column.
-
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/Mar16_puzzle.png","19,675,656","The knight’s path is presented here, and the maximum product of the numbers in
-any row or column is
-19,675,656
-.
-Congrats to everyone who solved this month’s puzzle — we’ll be randomly picking
-a few submitters to receive Jane Street t-shirts!
-
-[Official solution resources]
-- https://www.janestreet.com/puzzles/mar16_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/knight-moves-index/"", ""retrieved_at"": ""2026-09-21T09:12:23.480675+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/knight-moves-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2016-10,Jane Street Monthly Puzzles,"Tri, Tri Again",2016-10,graph_network,geometry_spatial | physics_mechanics,state_transition | pathfinding | spatial_visualization | constraint_propagation | exact_arithmetic,path_route | physical_simulation | geometry_problem | numeric_answer,"Label the sides of a tetrahedron with 1, 17, 71, and 711. On the board presented
+id,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,assets,evaluation
+puzzle-2846eb7c517976a7cdca,"Tri, Tri Again",2016-10,graph_network,geometry_spatial | physics_mechanics,state_transition | pathfinding | spatial_visualization | constraint_propagation | exact_arithmetic,path_route | physical_simulation | geometry_problem | numeric_answer,"Label the sides of a tetrahedron with 1, 17, 71, and 711. On the board presented
 here, place the tetrahedron on one of the top 8 triangles, and roll it until it
 reaches one of the bottom 8 triangles, such that whenever the tetrahedron is
 touching the board (including its initial placement), the number on its base
 equals the number on the board. What is the lowest possible sum of numbers that
 your tetrahedron encounters?
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/oct16_puzzle.png",7252,"As it turns out there are very few paths the tetrahedron can take from top to
+[Question assets]
+- assets/f13294a42c341021d2395d249b08a6083182d88b3884bda62c7ea334f78bd72b.png",7252,"As it turns out there are very few paths the tetrahedron can take from top to
 bottom, and the shortest/cheapest one is presented here. The sum of the numbers
 the tetrahedron rolls over on its path is
 7252
@@ -67,54 +20,46 @@ on the paper form the pattern ABCABCABC… . From there, one can logically deduc
 the path the tetrahedron must take.
 Congratulations to everyone who solved this month’s puzzle!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/Oct16_Solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/tri-tri-again-index/"", ""retrieved_at"": ""2026-09-21T09:12:19.807289+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/tri-tri-again-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2017-04,Jane Street Monthly Puzzles,Knight Moves #2,2017-04,graph_network,grid_deduction | logic_constraints,pathfinding | chess_analysis | constraint_propagation | graph_modeling | proof_of_uniqueness,path_route | grid_fill | board_game | numeric_answer,"A knight is initially located in the grid above, on the square marked 1. It then proceeds to make a series of
+[Explanation assets]
+- assets/2095aba03799b5db46c4a084d096204cd735c0624047fb44fd0e1da4f0ce294c.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 105996, ""content_type"": ""image/png"", ""path"": ""assets/f13294a42c341021d2395d249b08a6083182d88b3884bda62c7ea334f78bd72b.png"", ""role"": ""question"", ""sha256"": ""f13294a42c341021d2395d249b08a6083182d88b3884bda62c7ea334f78bd72b""}, {""bytes"": 159549, ""content_type"": ""image/png"", ""path"": ""assets/2095aba03799b5db46c4a084d096204cd735c0624047fb44fd0e1da4f0ce294c.png"", ""role"": ""explanation"", ""sha256"": ""2095aba03799b5db46c4a084d096204cd735c0624047fb44fd0e1da4f0ce294c""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}"
+puzzle-2b6ef4b2c2ced076bc5d,Knight Moves #2,2017-04,graph_network,grid_deduction | logic_constraints,pathfinding | chess_analysis | constraint_propagation | graph_modeling | proof_of_uniqueness,path_route | grid_fill | board_game | numeric_answer,"A knight is initially located in the grid above, on the square marked 1. It then proceeds to make a series of
 moves, never re-visiting a square, and always changing region on each move. Each row and
 column is visited the same number of times, as is each region.
 Fill in the missing steps from the knight’s journey. The answer to this puzzle is the product of the areas of the orthogonally connected groups of
 empty squares in the completed grid. (Squares are “connected” if they border one
 another horizontally or vertically.)
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/20230109_knight_moves_2.png",17280,"The knight’s path is presented here, and the product of the areas of the empty regions is
+[Question assets]
+- assets/0aec49a2e19e8d4ac1ebd3a1888d91a513dbbc47c587d2a4ecda1ca4e2c91110.png",17280,"The knight’s path is presented here, and the product of the areas of the empty regions is
 17280
 .
 Congratulations to everyone who solved this month’s puzzle!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/Apr17_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/knight-moves-2-index/"", ""retrieved_at"": ""2026-09-21T09:12:16.141012+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/knight-moves-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2017-08,Jane Street Monthly Puzzles,Middlylinks,2017-08,graph_network,grid_deduction | geometry_spatial | logic_constraints,pathfinding | constraint_propagation | combinatorial_geometry | graph_connectivity | constructive_search,path_route | grid_fill | logic_grid | numeric_answer,"Draw a linked path from the symbols beside each number on the lefthand side of
-the grid to the symbols beside the same number on the right. Links are line
-segments whose endpoints are dots (or symbols) on the grid below. A number N
-beside a symbol indicates the square of the length of each link in its path. Two
-links from different paths may only intersect (cross or touch) at their
-midpoints. Paths may not pass through a dot or symbol more than once.
-Some of the other dots have been replaced by link symbols (star, circle,
-diamond, spade, heart, “at” sign) as clues. The appropriate path must make a
-stop at each point which is already labeled with a symbol.
-The answer to this month’s puzzle is the value of
-N(5)
-N(13)
-N(17)
-N(25)
-N(65)*N(125)
-, where N(k) is the number of links in the
-path for k in the completed grid.
-A smaller example puzzle is presented below as well for context. On that
-completed board, N(10) = 26, N(18) = 4, N(26) = 4, and N(90) = 2
+[Explanation assets]
+- assets/06218b6287436a30dbb48400f2f57ece6b503db08e4368c792d5616fb87da032.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 63115, ""content_type"": ""image/png"", ""path"": ""assets/0aec49a2e19e8d4ac1ebd3a1888d91a513dbbc47c587d2a4ecda1ca4e2c91110.png"", ""role"": ""question"", ""sha256"": ""0aec49a2e19e8d4ac1ebd3a1888d91a513dbbc47c587d2a4ecda1ca4e2c91110""}, {""bytes"": 55691, ""content_type"": ""image/png"", ""path"": ""assets/06218b6287436a30dbb48400f2f57ece6b503db08e4368c792d5616fb87da032.png"", ""role"": ""explanation"", ""sha256"": ""06218b6287436a30dbb48400f2f57ece6b503db08e4368c792d5616fb87da032""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}"
+puzzle-444976097bcc42324abc,Knight Moves,2016-03,graph_network,grid_deduction | logic_constraints,pathfinding | chess_analysis | constraint_propagation | graph_modeling | proof_of_uniqueness,path_route | grid_fill | board_game | numeric_answer,"A knight was alone on a chessboard. It started on a square and marked it “1”,
+then moved to a square and marked it “2”, then moved to a square and marked it
+“3”, and so on, each time making legal knight’s moves, and never revisiting a
+square. Some of the squares it visited are marked on the chessboard presented
+here.
+The knight stopped on his 28th square, at which point the 28 visited squares
+formed a picture with spiral symmetry (90 degree rotational symmetry).
+The numbers along the sides of the 8 rows and 8 columns are the sums of the
+numbers of the squares visited by the knight in that row/column.
+The answer to this month’s puzzle is the largest product of the numbers in any
+one row or column.
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/Aug17_puzzle.png","4,293,120","As some of our solvers noted, this month’s puzzle was under-determined. Eek! Our
-bad, we’ll try harder the next time. One of the solution grids is shown here;
-its “score” is
-4293120
+[Question assets]
+- assets/3ac670d2d012c6a707d12a233c9c12875ea721bab682a00f6148da404a6af2d4.png","19,675,656","The knight’s path is presented here, and the maximum product of the numbers in
+any row or column is
+19,675,656
 .
-Congrats to all of you who found a solution!
+Congrats to everyone who solved this month’s puzzle — we’ll be randomly picking
+a few submitters to receive the puzzle publisher t-shirts!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/20170905_middly_solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/middlylinks-index/"", ""retrieved_at"": ""2026-09-21T09:12:14.037183+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/middlylinks-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2021-09,Jane Street Monthly Puzzles,Knight Moves 4,2021-09,graph_network,grid_deduction | logic_constraints,pathfinding | constraint_propagation | graph_modeling | chess_analysis | exact_arithmetic,path_route | grid_fill | board_game | numeric_answer,"A knight was initially located in a square labeled 1. It then proceeded
+[Explanation assets]
+- assets/5587570a931c89eca6d4d2a70463217112298d9d4c191691159ed09049c503f3.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 26624, ""content_type"": ""image/png"", ""path"": ""assets/3ac670d2d012c6a707d12a233c9c12875ea721bab682a00f6148da404a6af2d4.png"", ""role"": ""question"", ""sha256"": ""3ac670d2d012c6a707d12a233c9c12875ea721bab682a00f6148da404a6af2d4""}, {""bytes"": 36310, ""content_type"": ""image/png"", ""path"": ""assets/5587570a931c89eca6d4d2a70463217112298d9d4c191691159ed09049c503f3.png"", ""role"": ""explanation"", ""sha256"": ""5587570a931c89eca6d4d2a70463217112298d9d4c191691159ed09049c503f3""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}"
+puzzle-69b286b3bb9b229522d3,Knight Moves 4,2021-09,graph_network,grid_deduction | logic_constraints,pathfinding | constraint_propagation | graph_modeling | chess_analysis | exact_arithmetic,path_route | grid_fill | board_game | numeric_answer,"A knight was initially located in a square labeled 1. It then proceeded
 to make a series of moves, never re-visiting a square, and labeled
 the visited squares in order. When the knight was finished, the
 labeled squares in each region of connected squares
@@ -129,8 +74,8 @@ of the largest
 label in each row of the completed grid, as in the example.
 [1]: E.g. the 14 and 33 are in different regions.
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/2021-09-01-knight-moves-4.png",14820,"The above image shows the reconstructed path of the knight. The move
+[Question assets]
+- assets/d797981e4ad1ea55258db417888fe35821edcc28b5d3c5c6196e972f694609cd.png",14820,"The above image shows the reconstructed path of the knight. The move
 count of 50 (and region sum of 75) can be deduced using three
 observations:
 the sum of all numbers must be a triangular number,
@@ -145,9 +90,9 @@ the squares of the maxima of each row comes to
 Congrats to this month’s solvers who successfully deduced the
 knight’s path!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/2021-09-01-knight-moves-4-solution.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/knight-moves-4-index/"", ""retrieved_at"": ""2026-09-21T09:11:49.200007+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/knight-moves-4-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2024-10,Jane Street Monthly Puzzles,Knight Moves 6,2024-10,graph_network,number_theory | optimization | grid_deduction,pathfinding | graph_modeling | constructive_search | exact_arithmetic | chess_analysis,path_route | board_game | optimization_challenge | numeric_answer,"Pick
+[Explanation assets]
+- assets/3b2353b279258bef5cfac6b42d79d6af2137d05f822f055d34ad90e365414fb7.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 129700, ""content_type"": ""image/png"", ""path"": ""assets/d797981e4ad1ea55258db417888fe35821edcc28b5d3c5c6196e972f694609cd.png"", ""role"": ""question"", ""sha256"": ""d797981e4ad1ea55258db417888fe35821edcc28b5d3c5c6196e972f694609cd""}, {""bytes"": 171807, ""content_type"": ""image/png"", ""path"": ""assets/3b2353b279258bef5cfac6b42d79d6af2137d05f822f055d34ad90e365414fb7.png"", ""role"": ""explanation"", ""sha256"": ""3b2353b279258bef5cfac6b42d79d6af2137d05f822f055d34ad90e365414fb7""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}"
+puzzle-6c6cdad5f7c9626be812,Knight Moves 6,2024-10,graph_network,number_theory | optimization | grid_deduction,pathfinding | graph_modeling | constructive_search | exact_arithmetic | chess_analysis,path_route | board_game | optimization_challenge | numeric_answer,"Pick
 distinct positive integers
 A
 ,
@@ -219,8 +164,8 @@ must be
 less than 50
 .
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/october-2024.png","Minimum A+B+C=6; witness (A,B,C)=(3,1,2); a1→f6 tour: a1,c2,a3,b1,d2,f3,e1,d3,b2,a4,c5,a6,b4,a2,c1,b3,a5,c4,e5,c6,d4,b5,d6,f5,e3,d5,f4,e2,c3,d1,f2,e4,f6; a6→f1 tour: a6,c5,d3,e1,f3,e5,c6,a5,b3,a1,c2,a3,b1,d2,c4,b6,a4,b2,d1,f2,e4,f6,d5,f4,e6,d4,e2,c1,a2,c3,b5,d6,f5,e3,f1","For this month’s puzzle, solvers were tasked with picking three distinct positive integers that could support not one but
+[Question assets]
+- assets/4abd3a370272d09d655f0b9ddba288be42fcf1cb48b226fe8fdec71299158dfd.png","Minimum A+B+C=6; witness (A,B,C)=(3,1,2); a1→f6 tour: a1,c2,a3,b1,d2,f3,e1,d3,b2,a4,c5,a6,b4,a2,c1,b3,a5,c4,e5,c6,d4,b5,d6,f5,e3,d5,f4,e2,c3,d1,f2,e4,f6; a6→f1 tour: a6,c5,d3,e1,f3,e5,c6,a5,b3,a1,c2,a3,b1,d2,c4,b6,a4,b2,d1,f2,e4,f6,d5,f4,e6,d4,e2,c1,a2,c3,b5,d6,f5,e3,f1","For this month’s puzzle, solvers were tasked with picking three distinct positive integers that could support not one but
 two
 corner-to-corner knight’s journeys on a 6-by-6 board, each
 scoring
@@ -303,4 +248,59 @@ C
 And finally, the least positive integer to appear in exactly zero entries was… 19.
 Congrats to everyone who sent us a valid entry!
 (4, 7, 8) and (1, 5, 2) were the most popular among those that did not achieve the minimal sum.
-↩","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/knight-moves-6-index/"", ""retrieved_at"": ""2026-09-21T09:11:29.322532+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/knight-moves-6-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
+↩","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 56070, ""content_type"": ""image/png"", ""path"": ""assets/4abd3a370272d09d655f0b9ddba288be42fcf1cb48b226fe8fdec71299158dfd.png"", ""role"": ""question"", ""sha256"": ""4abd3a370272d09d655f0b9ddba288be42fcf1cb48b226fe8fdec71299158dfd""}]","{""answer_kind"": ""constructive_witness"", ""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}"
+puzzle-a8f5e861cb9bda678661,Middlylinks,2017-08,graph_network,grid_deduction | geometry_spatial | logic_constraints,pathfinding | constraint_propagation | combinatorial_geometry | graph_connectivity | constructive_search,path_route | grid_fill | logic_grid | numeric_answer,"Draw a linked path from the symbols beside each number on the lefthand side of
+the grid to the symbols beside the same number on the right. Links are line
+segments whose endpoints are dots (or symbols) on the grid below. A number N
+beside a symbol indicates the square of the length of each link in its path. Two
+links from different paths may only intersect (cross or touch) at their
+midpoints. Paths may not pass through a dot or symbol more than once.
+Some of the other dots have been replaced by link symbols (star, circle,
+diamond, spade, heart, “at” sign) as clues. The appropriate path must make a
+stop at each point which is already labeled with a symbol.
+The answer to this month’s puzzle is the value of
+N(5)
+N(13)
+N(17)
+N(25)
+N(65)*N(125)
+, where N(k) is the number of links in the
+path for k in the completed grid.
+A smaller example puzzle is presented below as well for context. On that
+completed board, N(10) = 26, N(18) = 4, N(26) = 4, and N(90) = 2
+
+[Question assets]
+- assets/99e430777fe400e3aead2c28c99cfafbe785fe089623b8bec6dd197d189f1b2b.png","4,293,120","As some of our solvers noted, this month’s puzzle was under-determined. Eek! Our
+bad, we’ll try harder the next time. One of the solution grids is shown here;
+its “score” is
+4293120
+.
+Congrats to all of you who found a solution!
+
+[Explanation assets]
+- assets/3546294592d214a9466bddc236d2382a38c60258c0a7e51d37ada5bc20a52d70.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 207793, ""content_type"": ""image/png"", ""path"": ""assets/99e430777fe400e3aead2c28c99cfafbe785fe089623b8bec6dd197d189f1b2b.png"", ""role"": ""question"", ""sha256"": ""99e430777fe400e3aead2c28c99cfafbe785fe089623b8bec6dd197d189f1b2b""}, {""bytes"": 122355, ""content_type"": ""image/png"", ""path"": ""assets/3546294592d214a9466bddc236d2382a38c60258c0a7e51d37ada5bc20a52d70.png"", ""role"": ""explanation"", ""sha256"": ""3546294592d214a9466bddc236d2382a38c60258c0a7e51d37ada5bc20a52d70""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}"
+puzzle-c3a91a63697a83ae6381,Good Chemistry,2015-07,graph_network,mixed_meta | algebra_equations,graph_modeling | invariant | external_knowledge_linking | pattern_recognition | exact_arithmetic,graph_problem | meta_puzzle | numeric_answer,"V-E+F=2
+f(ethanol) = 6
+f(paracetamol) = 242
+f(caffeine) = 630
+f(acetone) = 12
+f(uracil) = 128
+f(naphthalene) = 330
+f(nitroglycerin) = 210
+f(adenosine triphosphate) = ?",4092,"Euler’s formula (V-E+F=2) applies to planar graphs as well as polyhedra. The
+molecular structure of each molecule corresponds to a planar graph, where
+Vertices are atoms (excluding hydrogens, per the typical convention for
+molecular diagrams), bonds are Edges, and “Faces” are the number of distinct
+regions into which the graph splits the plane. So for example, for paracetamol,
+V=11, E=11, and F=2.
+If you knew that, then you could probably figure out that we had set f(molecule)
+equal to V
+E
+F! So, f(adenosine triphosphate) = 31
+33
+4 =
+4092
+.
+Congratulations to those of you who solved this month’s puzzle, especially
+Jean-Baptiste Rouquier, this month’s randomly-chosen winner of a the puzzle publisher
+t-shirt!","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,False,,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""graph_network"", ""track"": ""answer_only_collection_core""}"

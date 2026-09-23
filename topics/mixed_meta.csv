@@ -1,123 +1,30 @@
-id,source_name,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,evaluation,source,rights
-jane-street-2014-04,Jane Street Monthly Puzzles,Chess Pains – White To Move,2014-04,mixed_meta,game_theory_strategy | word_language,chess_analysis | sorting_ordering | indexing_extraction | meta_extraction | logical_inference,chess_problem | meta_puzzle | word_puzzle,"The answer to this month’s puzzle is an 8-letter English word.
-
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/WhiteToMove.jpg",headache,"The answer is “headache”. The best moves for white, starting in the top left and
-moving clockwise, are H1H7, D4C6, A3A5, E2E8. Sorting those 8 squares
-numerically from 1 to 8 yields our answer. Congratulations to S.B., one of 8
-people to submit the correct answer, and winner of a Jane Street t-shirt!
-
-[Official solution resources]
-- https://www.janestreet.com/puzzles/Apr14_Solution.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/chess-pains-white-to-move-index/"", ""retrieved_at"": ""2026-09-21T09:12:35.864130+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/chess-pains-white-to-move-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2014-09,Jane Street Monthly Puzzles,Superflip,2014-09,mixed_meta,geometry_spatial | algorithms_computation,state_transition | spatial_visualization | visual_decoding | encoding_decoding | exact_arithmetic,image_puzzle | physical_simulation | meta_puzzle | numeric_answer,"[Official puzzle resources]
-- https://www.janestreet.com/puzzles/superflip_new.png","24,794,911,296","This month’s puzzle, as suggested by the colors of the letters, had to do with
-Rubiks Cubes. The title,
-“
-superflip
-“, is
-also the Rubiks Cube position from which it takes the most moves (20) to produce
-a fully-solved cube. If you were to take a Rubiks Cube with the letters as
-given, and turn it from a solved cube into a superflip, the faces would read out
-“What is the number of stickers on a Rubiks Cube squared then cubed”, which
-leads to this month’s answer,
-24,794,911,296
+id,title,date,domain_primary,domain_secondary,reasoning_skills,puzzle_format,question,answer_only,explanation,difficulty,quality_status,requires_assets,assets,evaluation
+puzzle-26121c6c420b38350d78,Timely Journey,2026-01,mixed_meta,word_language | cryptography_ciphers | geometry_spatial,crossword_solving | coordinate_geometry | caesar_shift | indexing_extraction | meta_extraction,crossword | cryptogram | meta_puzzle | image_puzzle,"[Question assets]
+- assets/21bcfba5de0b69dfdac1d4648bb3a67469c8e7e41aecde6503c792ebf2e33b3b.jpg",T and Z,"For January’s puzzle, “Timely Journey”, we presented a crossword grid and… no instructions.
+Some tiles on the side… C JS. Some dominoes… 20 16 - 04. If we “see” an earlier puzzle from April 2016, we find a similar title (“Long. Journey”) as well as a puzzle similarly devoid of direct instructions. And both puzzles, it turns out, featured
+coordinates
 .
-Congratulations to the dozen of you who solved this month’s puzzle, especially
-Ryan Brown, this month’s randomly-chosen winner of a Jane Street t-shirt!
-
-[Official solution resources]
-- https://www.janestreet.com/puzzles/superflip_ans_new.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/superflip-index/"", ""retrieved_at"": ""2026-09-21T09:12:32.940294+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/superflip-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2016-04,Jane Street Monthly Puzzles,Long. Journey,2016-04,mixed_meta,geometry_spatial | number_theory | algebra_equations,coordinate_geometry | external_knowledge_linking | algebraic_manipulation | information_synthesis | meta_extraction,image_puzzle | meta_puzzle | numeric_answer,"[Official puzzle resources]
-- https://www.janestreet.com/puzzles/apr16_puzzle_correct.png",602150,"This was our hardest puzzle since “Oh shoot!”, with only 3 correct submissions.
-Big congratulations to those who managed to solve it!
-A few hints are baked into this month’s puzzle:
-The title, “Long. Journey” (not “Long Journey”) suggests an abbreviation.
-The “o” in “positive” is not a letter, but actually a degree sign.
-The numbers on the left are probably not to be taken as the literal
-evaluations of the expressions on the right. (For one thing, it seems unlikely
-that a factorial equals 84514, even if you allow a change of base.)
-The variable names are not A, B, C, D, E, F, but instead are U, N, E, S, C, O.
-(And appear in that order when you read the first letter in the top 6
-expressions.)
-Most subtly, certain digits in the lefthand side are all “small” — namely, the
-tens and thousands digits are all 5 or smaller.
-So here’s what it all means:
-– Each of the six letters refers to a unique UNESCO World Heritage Site. Each
-site has a unique UNESCO-assigned identifying number, called a “reference
-number”. (For example, the Galápagos Islands have reference number 1, and the
-Taj Mahal has reference number 252.)
-– The numbers given on the left side of each expression are the longitudes of
-various heritage sites. It turns out that 8°45’14” is the longitude for the
-Messel Pit Fossil Site in Germany, which has reference #720. 720 is a factorial!
-The full set of sites / reference numbers for the first 8 expressions are:
-2936 –> 0°29’36”W (Forts and Castles of Accra, Ghana; reference #34)
-481729 –> 48°17’29”E (Sheikh Safi al-Din Khānegāh and Shrine Ensemble, Iran; #1345)
-22130 –> 2°21’30”W (City of Bath, UK; #428)
-1281959 –> 128°19’59”W (Henderson Island, UK; #487)
-85450 –> 8°54’50”E (Monte San Giorgio, Italy/Switzerland; #1090)
-363508 –> 36°35’08”E (Quseir Amra, Jordan; #327)
-200350 –> 20°3’50”E (Wieliczka and Bochnia Royal Salt Mines, Poland; #32)
-84514 –> 8°45’14”E (Messel Pit Fossil Site, Germany; #720)
-From here one can solve to get the following:
-U = 1102
-N = 243
-E = 27
-S = 946
-C = 2
-O = 545
-The right-hand side of the final expression evaluates to 543, which is the
-reference number for Itchan Kala in Uzbekistan. Its longitude (as per UNESCO’s
-official listing) is 60°21’50”E, hence the answer to this puzzle is
-602150
-.","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/long-journey-index/"", ""retrieved_at"": ""2026-09-21T09:12:22.954006+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/long-journey-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2016-12,Jane Street Monthly Puzzles,Star Search,2016-12,mixed_meta,word_language | combinatorics,visual_decoding | grouping_partition | external_knowledge_linking | information_synthesis | meta_extraction,image_puzzle | meta_puzzle | word_puzzle,"The answer to this month’s puzzle is a movie.
-
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/Dec16_Puzzle_revised.png",Inception,"The answer to this month’s puzzle is
-Inception
+Located above the grid in the
+original photo
+, several solvers noted the rebus of thyme (in the jar), the Z pentomino, and the dice (all showing 1). Thyme + Z + “ones”:
+time zones
 .
-This month’s puzzle required some creativity and also some movie knowledge!
-Each movie, as written, had three attributes – color, size, and style. There
-were a total of 81 movies presented, and exactly 3 movies had each possible set
-of attributes (e.g. small, red, and italicized). As hinted at by the title “Star
-Search”, each of those sets of 3 movies starred the same actor. For example,
-Apollo 13, True Lies, and Twister all starred Bill Paxton.
-From there, astute solvers noticed that those 27 actors could further be
-arranged into groups of 3 based on the color and style of the movies they’d
-originally starred in, and that those trios of actors all co-starred in another
-movie. For example, Bill Paxton, Kathy Bates, and Kate Winslet all starred in
-Titanic.
-From there, those 9 additional movies could be sorted (by the style of the
-original movies that starred its actors) into groups of 3 based on the actor
-they had in common. For example, Titanic, Catch Me if You Can, and The Departed
-all starred Leonardo DiCaprio.
-Finally, the 3 actors remaining (Leonardo DiCaprio, Ellen Page, and Michael
-Caine) were all co-stars in the same movie —
-Inception
-. Deep!
-Congratulations to everyone who managed to get through all of the layers of this
-month’s puzzle!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/star-search-index/"", ""retrieved_at"": ""2026-09-21T09:12:18.668648+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/star-search-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2017-10,Jane Street Monthly Puzzles,Turn-based Strategy Game,2017-10,mixed_meta,geometry_spatial | graph_network | cryptography_ciphers,graph_connectivity | spatial_visualization | base_conversion | ascii_decoding | meta_extraction,image_puzzle | cryptogram | meta_puzzle,"[Official puzzle resources]
-- https://www.janestreet.com/puzzles/20160704_puzzle.jpg",Caylus,"Only a few people were able to connect the dots to solve this month’s
-(super-hard) puzzle. And as it so happens, “connect the dots” is the first step
-in getting the solution. It is possible to rotate several of the octagonal tiles
-so that each group of similarly colored pegs is connected (as shown in the photo).
-The minimal amount of rotation (counter-clockwise) needed for the tiles in the
-top row is 1 one-eighth turn for the leftmost tile, 0 turns for the middle tile
-(as it has 8-fold rotational symmetry), and 3 one-eighth turns for the rightmost
-tile. In the next five rows the number of one-eigth turns needed for the left,
-middle, and right tiles is 1, 4, 1; 1, 7, 1; 1, 5, 4; 1, 6, 5; and 1, 6, 3. When
-the values 103, 141, 171, 154, 165, 163 are converted to ASCII as base-8
-integers, they yield the letters C, a, y, l, u, s, hence the diagram is
-ASCII-ing (“asking”) the word
-Caylus
-, a highly-rated strategy game and this
-month’s answer. Congrats to this month’s solvers!
+And so: in the grid itself, we have 24 words. Each corresponds to the name of a
+time zone
+. One can travel ‘round the world, one time zone offset at a time, via the 24 clues, starting at MADEIRA (UTC offset of 0; latitude clued by 324506 in place of 32°45’06”). Next is ALGIERS (UTC offset of +1, longitude clued by 30319). And so on. The full list of locations is filled in above.
+Finally, we shift the red and blue letters by the amounts indicated in the clues. (As suggested by the pushpins pointing at the “Shift” key in the photograph.) When shifted, the blue letters spell out “WHATREDLETTERSAREMISSING”. The red letters shift to “ABCDEFGHIJKLMNOPQRSUVWXY”. The missing letters – the answer to this month’s puzzle – are
+T
+and
+Z
+. They represent Time Zones, but also, as the 20th and 26th letters, they stand in for 2026 as well. (As suggested by the dice.)
+A timely journey indeed!
+Big
+congrats to everyone who figured this one out.
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/20171030_turn_based_cropped.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/turn-based-strategy-game-index/"", ""retrieved_at"": ""2026-09-21T09:12:12.988870+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/turn-based-strategy-game-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2017-12,Jane Street Monthly Puzzles,Crosswords,2017-12,mixed_meta,cryptography_ciphers | word_language | graph_network,pathfinding | visual_decoding | braille_decoding | encoding_decoding | meta_extraction,grid_fill | path_route | cryptogram | meta_puzzle,"[Official puzzle resources]
-- https://www.janestreet.com/puzzles/20171201_crosswords.png",NOVUS ANNUS,"The arrows in the diagram define two loops, which intersect each other at the
+[Explanation assets]
+- assets/06348bd42cc49d9937bcd98d28858d8a4a56d4de9a2a774849820343a18e93fe.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 778492, ""content_type"": ""image/jpeg"", ""path"": ""assets/21bcfba5de0b69dfdac1d4648bb3a67469c8e7e41aecde6503c792ebf2e33b3b.jpg"", ""role"": ""question"", ""sha256"": ""21bcfba5de0b69dfdac1d4648bb3a67469c8e7e41aecde6503c792ebf2e33b3b""}, {""bytes"": 231178, ""content_type"": ""image/jpeg"", ""path"": ""assets/06348bd42cc49d9937bcd98d28858d8a4a56d4de9a2a774849820343a18e93fe.jpg"", ""role"": ""explanation"", ""sha256"": ""06348bd42cc49d9937bcd98d28858d8a4a56d4de9a2a774849820343a18e93fe""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-2c61d5df39659d8727da,Crosswords,2017-12,mixed_meta,cryptography_ciphers | word_language | graph_network,pathfinding | visual_decoding | braille_decoding | encoding_decoding | meta_extraction,grid_fill | path_route | cryptogram | meta_puzzle,"[Question assets]
+- assets/439b37224a62c9a6a309e278c5898a746b68e21a6e3ab9e6fa1393cec00cc759.png",NOVUS ANNUS,"The arrows in the diagram define two loops, which intersect each other at the
 squares marked in the grid on the left. In each orange rectangular region, the
 marked squares can be interpreted as a letter of the Braille alphabet. Those
 letters spell out
@@ -126,26 +33,28 @@ NOVUS ANNUS
 puzzle.
 Congrats to this month’s solvers!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/20180101_crosswords_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/crosswords-index/"", ""retrieved_at"": ""2026-09-21T09:12:11.946043+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/crosswords-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2019-02,Jane Street Monthly Puzzles,Tile and Trouble 2,2019-02,mixed_meta,word_language | graph_network,pathfinding | chess_analysis | lexical_search | constraint_propagation | meta_extraction,word_puzzle | path_route | meta_puzzle,"TOURWTORTWRTZUPLEBEFADIEILOS UYSNIEAEAEACFMRVTRVTXRYUQS
-SPKNOLIOIGNIEADHDEAEACAEGDABEIGEHN…..????.
-(The answer to this month’s puzzle is something you’d probably prefer not to
-lose.)",MOJO,"Anyone looking for pointers for this month’s puzzle might have been well served
-by looking at the answer to January’s puzzle, in which the pens were literally
-pointing (1) to a knight, and (2) to the Scrabble tiles F, E, B.
-As shown above: the 100 scrabble tiles, when arranged in order into a
-10-by-10 grid. A knight’s tour of the grid, starting at the letters T, O, U, R,
-is spelled out for the first 90 steps. There is only one way to complete the
-last 10 steps (the shaded squares), and steps 96 through 99 — which correspond
-to the “????” in the original puzzle — spell the word
-MOJO
-.
-Congrats to this month’s solvers!
+[Explanation assets]
+- assets/a235173d056cd17a443c25d8daca718609d3581da0849ea3895d11ab89bc90d4.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 99866, ""content_type"": ""image/png"", ""path"": ""assets/439b37224a62c9a6a309e278c5898a746b68e21a6e3ab9e6fa1393cec00cc759.png"", ""role"": ""question"", ""sha256"": ""439b37224a62c9a6a309e278c5898a746b68e21a6e3ab9e6fa1393cec00cc759""}, {""bytes"": 162416, ""content_type"": ""image/png"", ""path"": ""assets/a235173d056cd17a443c25d8daca718609d3581da0849ea3895d11ab89bc90d4.png"", ""role"": ""explanation"", ""sha256"": ""a235173d056cd17a443c25d8daca718609d3581da0849ea3895d11ab89bc90d4""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-5ceb6a9faa79e08377dd,Final Recap Puzzle,,mixed_meta,logic_constraints | cryptography_ciphers,external_knowledge_linking | logical_inference | constraint_propagation | encoding_decoding | indexing_extraction | meta_extraction | anagramming,image_puzzle | multi_part | meta_puzzle | logic_grid,"Title: Final Recap Puzzle
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/20190228_tour_ans.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/tile-and-trouble-2-index/"", ""retrieved_at"": ""2026-09-21T09:12:04.407540+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/tile-and-trouble-2-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2019-12,Jane Street Monthly Puzzles,Poetry in Motion,2019-12,mixed_meta,game_theory_strategy | word_language | cryptography_ciphers,visual_decoding | encoding_decoding | chess_analysis | meta_extraction | pattern_recognition,word_puzzle | chess_problem | meta_puzzle,"Instructions:
+And we are back from our commercial brek.
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- assets/94b383e3ab0b49dc3342600b1968fd91335aecf164578a5af2385f7d383d987a.png
+
+Return the short canonical final answer.",EIGHT MAGNUMS,"1. Find the word corresponding to each clue for each category. In top-to-bottom, left-to-right order, the correct words are HOCKEY PUCK, BULLET, CLAY PIGEON, OAR, JAVELIN, CHOPSTICKS, DASHES, MARBLE, TWINKIE, ICOSAHEDRON, ELECTRONS, HEXAGON, SLIDE RULE, TELESCOPE, SPACE ELEVATOR, CAKE, BAGEL, LIFE SAVERS, PIZZA, APPLE PIE, EIFFEL TOWER, EMPIRE STATE BUILDING, SPACE, GUGGENHEIM, MONOLITH, QUARTER, STONE, PENNY. Note that the numbers below each box denote the number of letters. Two numbers means two words with corresponding lengths.
+
+2. Use the sequence of players answering to divide the board into boxes by the number of answers given by each player.
+   Reasoning figure: assets/e09009e21771e505dc37047430c2ae1554240feee70cf4060a91ec19bcbb4892.png
+
+3. Each of the clued words resemble either a dot or a dash. Label them accordingly.
+   Reasoning figure: assets/e09009e21771e505dc37047430c2ae1554240feee70cf4060a91ec19bcbb4892.png
+
+4. Translate the dots and dashes into Morse Code for each box.
+   Reasoning figure: assets/e09009e21771e505dc37047430c2ae1554240feee70cf4060a91ec19bcbb4892.png
+
+5. Unscramble the letters given to form the final answer: EIGHT MAGNUMS.","{""bucket"": ""hard""}",needs_review,True,"[{""bytes"": 840879, ""content_type"": ""image/png"", ""path"": ""assets/94b383e3ab0b49dc3342600b1968fd91335aecf164578a5af2385f7d383d987a.png"", ""role"": ""question"", ""sha256"": ""94b383e3ab0b49dc3342600b1968fd91335aecf164578a5af2385f7d383d987a""}, {""bytes"": 839154, ""content_type"": ""image/png"", ""path"": ""assets/e09009e21771e505dc37047430c2ae1554240feee70cf4060a91ec19bcbb4892.png"", ""role"": ""explanation"", ""sha256"": ""e09009e21771e505dc37047430c2ae1554240feee70cf4060a91ec19bcbb4892""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_upstream_hard_core""}"
+puzzle-8280fd7f1037bdef2b07,Poetry in Motion,2019-12,mixed_meta,game_theory_strategy | word_language | cryptography_ciphers,visual_decoding | encoding_decoding | chess_analysis | meta_extraction | pattern_recognition,word_puzzle | chess_problem | meta_puzzle,"Instructions:
 For this month’s puzzle, please submit your answer as
 well as a brief explanation of how you arrived at it. The puzzle is
 presented below. Happy solving!
@@ -203,98 +112,116 @@ credit to submitters who acknowledged that black could not castle, and
 found this 2 move checkmate as a result.
 Congratulations to everyone who solved this month’s puzzle!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/dec19_chessboard.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/poetry-in-motion-index/"", ""retrieved_at"": ""2026-09-21T09:11:59.161991+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/poetry-in-motion-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2020-08,Jane Street Monthly Puzzles,Study and Ponder,2020-08,mixed_meta,word_language | sequences_patterns,set_reasoning | lexical_search | pattern_recognition | external_knowledge_linking | meta_extraction,image_puzzle | meta_puzzle | word_puzzle,"Oh no, which one is missing?
-AMDISHBANTMUSBACMAAPLDOSPGRMNVDALKQCOMCDW
-BAXPNRGPNCMSIVBWABCDNSCHWECLXLNXRXELINCYUMS
-FTNTAPDVNOVMCOFBHSICERNVRSNPSWKSUDREXRAYAEEO
-GCHTROPXDDRILMNOWFCCITWDCNPVHALLEGISRGPSADBE
-NEMNSTSCOSTTWODFLTMOSLGWWHRLNTRSGEXPEGDLRC
-XOMLMTPRGOOGLWMTDGXCAHONLSNKETNFITBRK.
-BIOCBREQIXUNHFCCLCOPEPNWLTWTRVLOWSTZTSNADISC
-AGILDVAREGNBLLYBDXCMGMMMCKHCATOXYLNCLHXCMIN
-TCBOEWELLCMCSALGNLOKCMEXPDOWUNPFEBAYCHRWAT
-URINTUNMHKLACPRTGTJXJPMRKFRCTVAONUEVRGDEDLTR
-OLFRTDYAMZNEEFXAEPWRKMXIMSCIEXCPBCTSHWMBKN
-GJNJCINFOXAIVZIONDAQDUKSSULTAESSLBF.
-BBYDHRBLKOTISYYAMCRMDLZBRAMETROWYNNIDXXUHSY
-FANGUALXNOCFGJNPRUAALBXPKIMASBUXAFLIRMKCTASY
-KMIQVRTXAMTBKRJFTIFFIVRSKMBSXAPAYCTLABMDTEIXA
-MATVIACNCTXSEEQRVORCLVSJMARFMCHPEAKAMPCHDHII
-PGPCARROSTXNFLXADPZBHBIIBMYLUVTRHIGSREMROKEY
-SORLYVFCSCOTYLENWSAPHMKTXTFXHSTELANETFCXUPSX
-HPQHOLXAOSHESPYPLDISCKAPTVJKHYAVYAJGPPLABTADS
-KAIGJBHTHASHLTCOGPKGAVGOPPGAIZADMABBVANSSFAS
-TFTVAVBPAYXAWKCVSFDXDOVFLSFISVAZOHUMAMGNWRB
-COOPFGCVXCSXDFS",SPGI,"This month’s puzzle was quite a mess of capital letters with a couple
-decimals thrown in. Hopefully after
-S
-tudying
-&
-P
-ondering, the solver
-noticed that there were a few stock tickers among the jumble of
-letters. After that the “Aha!” of the letters being a string
-containing all but one of the S&P 500 index members would lead to a
-search ending with
-SPGI
-, the ticker of the corporation responsible for
-the index, a satisfyingly “meta” solution.","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/study-and-ponder-index/"", ""retrieved_at"": ""2026-09-21T09:11:55.497725+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/study-and-ponder-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2021-05,Jane Street Monthly Puzzles,Past Tens,2021-05,mixed_meta,word_language | sequences_patterns,sorting_ordering | pattern_recognition | external_knowledge_linking | indexing_extraction | meta_extraction,image_puzzle | meta_puzzle | word_puzzle,"Find the answer to the hidden question in this picture.
-(Download or open in a new tab to see it in full resolution.)
-Addendum:
-The V-shaped wedge near the righthand side is not a hint, it’s just how the records settled.
+[Explanation assets]
+- assets/4d410baef7405fdf6acee93dff8e52b307dedc15172a4778371c6fafdcc5d246.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 78166, ""content_type"": ""image/jpeg"", ""path"": ""assets/4d410baef7405fdf6acee93dff8e52b307dedc15172a4778371c6fafdcc5d246.jpg"", ""role"": ""explanation"", ""sha256"": ""4d410baef7405fdf6acee93dff8e52b307dedc15172a4778371c6fafdcc5d246""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-a5ee6c34a26dc51eb063,Long. Journey,2016-04,mixed_meta,geometry_spatial | number_theory | algebra_equations,coordinate_geometry | external_knowledge_linking | algebraic_manipulation | information_synthesis | meta_extraction,image_puzzle | meta_puzzle | numeric_answer,"[Question assets]
+- assets/a613fae910f1965bbe56086625e67948e2d186559c8916dce1b015f61c1daca3.png",602150,"This was our hardest puzzle since “Oh shoot!”, with only 3 correct submissions.
+Big congratulations to those who managed to solve it!
+A few hints are baked into this month’s puzzle:
+The title, “Long. Journey” (not “Long Journey”) suggests an abbreviation.
+The “o” in “positive” is not a letter, but actually a degree sign.
+The numbers on the left are probably not to be taken as the literal
+evaluations of the expressions on the right. (For one thing, it seems unlikely
+that a factorial equals 84514, even if you allow a change of base.)
+The variable names are not A, B, C, D, E, F, but instead are U, N, E, S, C, O.
+(And appear in that order when you read the first letter in the top 6
+expressions.)
+Most subtly, certain digits in the lefthand side are all “small” — namely, the
+tens and thousands digits are all 5 or smaller.
+So here’s what it all means:
+– Each of the six letters refers to a unique UNESCO World Heritage Site. Each
+site has a unique UNESCO-assigned identifying number, called a “reference
+number”. (For example, the Galápagos Islands have reference number 1, and the
+Taj Mahal has reference number 252.)
+– The numbers given on the left side of each expression are the longitudes of
+various heritage sites. It turns out that 8°45’14” is the longitude for the
+Messel Pit Fossil Site in Germany, which has reference #720. 720 is a factorial!
+The full set of sites / reference numbers for the first 8 expressions are:
+2936 –> 0°29’36”W (Forts and Castles of Accra, Ghana; reference #34)
+481729 –> 48°17’29”E (Sheikh Safi al-Din Khānegāh and Shrine Ensemble, Iran; #1345)
+22130 –> 2°21’30”W (City of Bath, UK; #428)
+1281959 –> 128°19’59”W (Henderson Island, UK; #487)
+85450 –> 8°54’50”E (Monte San Giorgio, Italy/Switzerland; #1090)
+363508 –> 36°35’08”E (Quseir Amra, Jordan; #327)
+200350 –> 20°3’50”E (Wieliczka and Bochnia Royal Salt Mines, Poland; #32)
+84514 –> 8°45’14”E (Messel Pit Fossil Site, Germany; #720)
+From here one can solve to get the following:
+U = 1102
+N = 243
+E = 27
+S = 946
+C = 2
+O = 545
+The right-hand side of the final expression evaluates to 543, which is the
+reference number for Itchan Kala in Uzbekistan. Its longitude (as per UNESCO’s
+official listing) is 60°21’50”E, hence the answer to this puzzle is
+602150
+.","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 73131, ""content_type"": ""image/png"", ""path"": ""assets/a613fae910f1965bbe56086625e67948e2d186559c8916dce1b015f61c1daca3.png"", ""role"": ""question"", ""sha256"": ""a613fae910f1965bbe56086625e67948e2d186559c8916dce1b015f61c1daca3""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-b2357c07c5189d1f11b4,The Marshy Mess,2022-10,mixed_meta,grid_deduction | graph_network | probability_stochastic,constraint_propagation | graph_modeling | meta_extraction | conditional_probability | combinatorial_counting,logic_grid | meta_puzzle | probabilistic_process | exact_value,"You’ve ventured warily into Puzzle Forest, and as you round a bend you
+see a rickety bridge crossing a stream into a swampy area up
+ahead. Papers with line diagrams and decks of playing cards are strewn
+about next to the trail here. A grotesque monster climbs out from
+under the bridge! Upon seeing your defensive stance, it screeches, “Oh
+have the faeries been telling stories about me again? I’m just Hashi, the poor old bridge
+troll of Puzzle Forest!”
+“I’m not so bad, but I do need some help arranging the
+spans through the four swampy fields up ahead (pictured above). Due to my trollish
+nature, each field has one island marked with the wrong number of
+bridges… sorry, I can’t help myself! I have three friends
+coming over to play cards later and I would love to set up the spans
+and correct the wrong numbers before then!”
+[The answer to this puzzle is a rational number between 0 and 1,
+please give it accurate to 7 digits (or exactly in lowest terms).]
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/2021-05-01-past-tens-hi-res.jpg",Paul McCartney & Wings,"With no clear instructions, this month’s puzzle was definitely on the harder side!
-Most of the records in the collection above are in alphabetical order, but not all. It turns out the records that are out of order are in positions 10, 11, 20, 21, 30, 31, …, 100, 101.
-The records in every 10th spot have each received a “perfect 10” rating from Pitchfork
-1
+[Question assets]
+- assets/f6d93c2dcf8744a5cb483e119b72c69785b932555bb8595a03a4aedca65e82c4.png",8640/28561~0.3025104,"Your travels through Puzzle Forest continue with an encounter with a
+strange sort of bridge troll… some vague directions and a puzzle
+layout suggested you solve a Hashi (a.k.a. Bridges) logic puzzle with a
+twist: each of the four puzzles had exactly one inaccurate
+number.
+Solving the four puzzles both revealed the correct numbers to be 5, 4, 3, and
+1, and also gave a secret message: the doubled bridges spelled out the
+words “Prob” “no ACES” “givEn” “ShaPE”. The references to packs of
+playing cards connected with this message to imply we were asking for
+the probability a bridge hand would have no aces given the shape
+5-4-3-1 of the corrected islands. This can be found going
+suit-by-suit, a hand with shape 5-4-3-1 would have probability
+8*9*10*12/13^4=
+8640/28561~0.3025104
+…
+not to have any aces.
+Congrats to this month’s solvers!
+
+[Explanation assets]
+- assets/30dab8396eee724a40f8d10f34ddb0d2a89ec678b73fc8d094328da882f0698d.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 120263, ""content_type"": ""image/png"", ""path"": ""assets/f6d93c2dcf8744a5cb483e119b72c69785b932555bb8595a03a4aedca65e82c4.png"", ""role"": ""question"", ""sha256"": ""f6d93c2dcf8744a5cb483e119b72c69785b932555bb8595a03a4aedca65e82c4""}, {""bytes"": 1599000, ""content_type"": ""image/png"", ""path"": ""assets/30dab8396eee724a40f8d10f34ddb0d2a89ec678b73fc8d094328da882f0698d.png"", ""role"": ""explanation"", ""sha256"": ""30dab8396eee724a40f8d10f34ddb0d2a89ec678b73fc8d094328da882f0698d""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-b29b328b678ccd2bbbde,Star Search,2016-12,mixed_meta,word_language | combinatorics,visual_decoding | grouping_partition | external_knowledge_linking | information_synthesis | meta_extraction,image_puzzle | meta_puzzle | word_puzzle,"The answer to this month’s puzzle is a movie.
+
+[Question assets]
+- assets/a8732733777b983d56bc6fa9b7c1706a2e6203062432b2c36c9679155e45b5f7.png",Inception,"The answer to this month’s puzzle is
+Inception
 .
-The records “past” these – i.e., the records in spots 11, 21, 31, …, 101, are:
-What’s
-Going On (by Marvin Gaye)
-The
-Dark Side of the Moon (Pink Floyd)
-Band
-on the Run (Paul McCartney & Wings)
-For
-You (Tatsuro Yamashita)
-The
-Slider (T. Rex)
-#1
-Record (Big Star)
-1973
-(Placebo)
-Song
-Cycle (Van Dyke Parks)
-My
-Favorite Things (John Coltrane)
-Love
-is the Message (MFSB)
-The first words of these “past tens” records form the question
-“What’s the band for the #1 1973 song ‘My Love’?”, and the answer is
-Paul McCartney
-2
-& Wings
-.
-[1] …those records being
-Low (David Bowie)
-On Fire (Galaxie 500)
-Unknown Pleasures (Joy Division)
-Loveless (My Bloody Valentine)
-Purple Rain (Prince)
-The Stone Roses
-Laughing Stock (Talk Talk)
-Remain in Light (Talking Heads)
-White Light/White Heat (The Velvet Underground)
-Germfree Adolescents (X-Ray Spex)
-[2] …who is alluded to with the knight on the lower-right corner and the
-die
-in the upper-left.
-Congrats to this month’s solvers who successfully decoded the question!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/past-tens-index/"", ""retrieved_at"": ""2026-09-21T09:11:51.316277+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/past-tens-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2022-03,Jane Street Monthly Puzzles,The Hidden Warning,2022-03,mixed_meta,word_language | cryptography_ciphers,crossword_solving | wordplay | encoding_decoding | indexing_extraction | meta_extraction,word_puzzle | crossword | cryptogram | meta_puzzle,"The faeries of Puzzle Forest have left a warning for you about an
+This month’s puzzle required some creativity and also some movie knowledge!
+Each movie, as written, had three attributes – color, size, and style. There
+were a total of 81 movies presented, and exactly 3 movies had each possible set
+of attributes (e.g. small, red, and italicized). As hinted at by the title “Star
+Search”, each of those sets of 3 movies starred the same actor. For example,
+Apollo 13, True Lies, and Twister all starred Bill Paxton.
+From there, astute solvers noticed that those 27 actors could further be
+arranged into groups of 3 based on the color and style of the movies they’d
+originally starred in, and that those trios of actors all co-starred in another
+movie. For example, Bill Paxton, Kathy Bates, and Kate Winslet all starred in
+Titanic.
+From there, those 9 additional movies could be sorted (by the style of the
+original movies that starred its actors) into groups of 3 based on the actor
+they had in common. For example, Titanic, Catch Me if You Can, and The Departed
+all starred Leonardo DiCaprio.
+Finally, the 3 actors remaining (Leonardo DiCaprio, Ellen Page, and Michael
+Caine) were all co-stars in the same movie —
+Inception
+. Deep!
+Congratulations to everyone who managed to get through all of the layers of this
+month’s puzzle!","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 314013, ""content_type"": ""image/png"", ""path"": ""assets/a8732733777b983d56bc6fa9b7c1706a2e6203062432b2c36c9679155e45b5f7.png"", ""role"": ""question"", ""sha256"": ""a8732733777b983d56bc6fa9b7c1706a2e6203062432b2c36c9679155e45b5f7""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-c0829a433ad7bbfa239c,The Hidden Warning,2022-03,mixed_meta,word_language | cryptography_ciphers,crossword_solving | wordplay | encoding_decoding | indexing_extraction | meta_extraction,word_puzzle | crossword | cryptogram | meta_puzzle,"The faeries of Puzzle Forest have left a warning for you about an
 upcoming obstacle on your path, but their choice of delivery seems
 rather opaque. What should you prepare for?
 Early stage of an animal
@@ -377,50 +304,99 @@ BRIDGE TROLL
 , an 11 letter answer that could be an obstacle
 discovered in a Puzzle Forest full of cryptic faeries.
 Congrats to this month’s solvers that were able to fully decrypt the
-hidden warning offered by the faeries of Puzzle Forest!","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,False,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/the-hidden-warning-index/"", ""retrieved_at"": ""2026-09-21T09:11:46.052221+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/the-hidden-warning-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2022-10,Jane Street Monthly Puzzles,The Marshy Mess,2022-10,mixed_meta,grid_deduction | graph_network | probability_stochastic,constraint_propagation | graph_modeling | meta_extraction | conditional_probability | combinatorial_counting,logic_grid | meta_puzzle | probabilistic_process | exact_value,"You’ve ventured warily into Puzzle Forest, and as you round a bend you
-see a rickety bridge crossing a stream into a swampy area up
-ahead. Papers with line diagrams and decks of playing cards are strewn
-about next to the trail here. A grotesque monster climbs out from
-under the bridge! Upon seeing your defensive stance, it screeches, “Oh
-have the faeries been telling stories about me again? I’m just Hashi, the poor old bridge
-troll of Puzzle Forest!”
-“I’m not so bad, but I do need some help arranging the
-spans through the four swampy fields up ahead (pictured above). Due to my trollish
-nature, each field has one island marked with the wrong number of
-bridges… sorry, I can’t help myself! I have three friends
-coming over to play cards later and I would love to set up the spans
-and correct the wrong numbers before then!”
-[The answer to this puzzle is a rational number between 0 and 1,
-please give it accurate to 7 digits (or exactly in lowest terms).]
+hidden warning offered by the faeries of Puzzle Forest!","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,False,,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-c670ac605de1039f3962,Past Tens,2021-05,mixed_meta,word_language | sequences_patterns,sorting_ordering | pattern_recognition | external_knowledge_linking | indexing_extraction | meta_extraction,image_puzzle | meta_puzzle | word_puzzle,"Find the answer to the hidden question in this picture.
+(Download or open in a new tab to see it in full resolution.)
+Addendum:
+The V-shaped wedge near the righthand side is not a hint, it’s just how the records settled.
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/the-marshy-mess.png",8640/28561~0.3025104,"Your travels through Puzzle Forest continue with an encounter with a
-strange sort of bridge troll… some vague directions and a puzzle
-layout suggested you solve a Hashi (a.k.a. Bridges) logic puzzle with a
-twist: each of the four puzzles had exactly one inaccurate
-number.
-Solving the four puzzles both revealed the correct numbers to be 5, 4, 3, and
-1, and also gave a secret message: the doubled bridges spelled out the
-words “Prob” “no ACES” “givEn” “ShaPE”. The references to packs of
-playing cards connected with this message to imply we were asking for
-the probability a bridge hand would have no aces given the shape
-5-4-3-1 of the corrected islands. This can be found going
-suit-by-suit, a hand with shape 5-4-3-1 would have probability
-8*9*10*12/13^4=
-8640/28561~0.3025104
-…
-not to have any aces.
-Congrats to this month’s solvers!
+[Question assets]
+- assets/ecf4ca24d373e8805d317601faa8b2197430d41b5163b066aa0d771978aa6428.jpg",Paul McCartney & Wings,"With no clear instructions, this month’s puzzle was definitely on the harder side!
+Most of the records in the collection above are in alphabetical order, but not all. It turns out the records that are out of order are in positions 10, 11, 20, 21, 30, 31, …, 100, 101.
+The records in every 10th spot have each received a “perfect 10” rating from Pitchfork
+1
+.
+The records “past” these – i.e., the records in spots 11, 21, 31, …, 101, are:
+What’s
+Going On (by Marvin Gaye)
+The
+Dark Side of the Moon (Pink Floyd)
+Band
+on the Run (Paul McCartney & Wings)
+For
+You (Tatsuro Yamashita)
+The
+Slider (T. Rex)
+#1
+Record (Big Star)
+1973
+(Placebo)
+Song
+Cycle (Van Dyke Parks)
+My
+Favorite Things (John Coltrane)
+Love
+is the Message (MFSB)
+The first words of these “past tens” records form the question
+“What’s the band for the #1 1973 song ‘My Love’?”, and the answer is
+Paul McCartney
+2
+& Wings
+.
+[1] …those records being
+Low (David Bowie)
+On Fire (Galaxie 500)
+Unknown Pleasures (Joy Division)
+Loveless (My Bloody Valentine)
+Purple Rain (Prince)
+The Stone Roses
+Laughing Stock (Talk Talk)
+Remain in Light (Talking Heads)
+White Light/White Heat (The Velvet Underground)
+Germfree Adolescents (X-Ray Spex)
+[2] …who is alluded to with the knight on the lower-right corner and the
+die
+in the upper-left.
+Congrats to this month’s solvers who successfully decoded the question!","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 1764795, ""content_type"": ""image/jpeg"", ""path"": ""assets/ecf4ca24d373e8805d317601faa8b2197430d41b5163b066aa0d771978aa6428.jpg"", ""role"": ""question"", ""sha256"": ""ecf4ca24d373e8805d317601faa8b2197430d41b5163b066aa0d771978aa6428""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-d3e97f7f3dc9f183bb4c,Superflip,2014-09,mixed_meta,geometry_spatial | algorithms_computation,state_transition | spatial_visualization | visual_decoding | encoding_decoding | exact_arithmetic,image_puzzle | physical_simulation | meta_puzzle | numeric_answer,"[Question assets]
+- assets/821536198c2021ac09a072733da4169b577b91cbf6a61a42fc0c9886573a7e2a.png","24,794,911,296","This month’s puzzle, as suggested by the colors of the letters, had to do with
+Rubiks Cubes. The title,
+“
+superflip
+“, is
+also the Rubiks Cube position from which it takes the most moves (20) to produce
+a fully-solved cube. If you were to take a Rubiks Cube with the letters as
+given, and turn it from a solved cube into a superflip, the faces would read out
+“What is the number of stickers on a Rubiks Cube squared then cubed”, which
+leads to this month’s answer,
+24,794,911,296
+.
+Congratulations to the dozen of you who solved this month’s puzzle, especially
+Ryan Brown, this month’s randomly-chosen winner of a the puzzle publisher t-shirt!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/the-marshy-mess-solution-fixed.png","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/the-marshy-mess-index/"", ""retrieved_at"": ""2026-09-21T09:11:42.390318+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/the-marshy-mess-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2024-12,Jane Street Monthly Puzzles,Games Night!,2024-12,mixed_meta,word_language,visual_decoding | set_reasoning | grouping_partition | meta_extraction | external_knowledge_linking,image_puzzle | meta_puzzle | word_puzzle,"Oh no! The elves in charge of board games only managed to complete a couple of sets
+[Explanation assets]
+- assets/ccb88d2e67016dbaad854d3aa526c6fe40f603a268267af3b1a0419fa4719518.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 38267, ""content_type"": ""image/png"", ""path"": ""assets/821536198c2021ac09a072733da4169b577b91cbf6a61a42fc0c9886573a7e2a.png"", ""role"": ""question"", ""sha256"": ""821536198c2021ac09a072733da4169b577b91cbf6a61a42fc0c9886573a7e2a""}, {""bytes"": 38966, ""content_type"": ""image/png"", ""path"": ""assets/ccb88d2e67016dbaad854d3aa526c6fe40f603a268267af3b1a0419fa4719518.png"", ""role"": ""explanation"", ""sha256"": ""ccb88d2e67016dbaad854d3aa526c6fe40f603a268267af3b1a0419fa4719518""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-d8bb0063457621a98578,Mustache Puzzle,,mixed_meta,logic_constraints,external_knowledge_linking | information_synthesis | indexing_extraction | constraint_propagation,multi_part,"Title: Mustache Puzzle
+
+Alex Trebek is not only the host of Jeopardy, but he is also a member of a group of famous men known for their mustaches. In some cultures, a mustache is a symbol of status, and also makes each of these men a...
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- assets/9480069034f72301e164faa7231c7f2487ecd9da3e8107528d66f22c41000718.png
+
+Return the short canonical final answer.",WISE GUY,"1. Each clue describes a famous individual known for their mustache. In order, they are: ALBERT EINSTEIN, VLADIMIR LENNIN, CLARK GABLE, ADOLF HITLER, YOSEMITE SAM, SAM ELLIOT, HERCULE POIROT, TOM SELLECK, GENE SHALIT, CHARLIE CHAPLIN, JEFF FOXWORTHY, JOHN WATERS, JACK SPARROW, GERALDO RIVERA, WILLIAM TAFT, MAHATMA GANDHI, BORAT, CHE GUEVARA, BURT REYNOLDS HULK HOGAN, THEODORE ROOSEVELT, EDGAR ALLAN POE, FU MANCHU, RON BURGUNDY, SONY BONO, FRANK ZAPPA, SALVADOR, DALI, SAMUEL CLEMENS, RON JEREMY, RICHARD PRYOR.
+
+2. Enter all of the names into the grid given on the second page.
+   Reasoning figure: assets/27f0fce4067e64110b55a5218ef286c24ff7f0872fcb0045cab0be8f4a1d430b.png
+
+3. Extract the letters in the shaded boxes to obtain the clue, EIGHTIES SHOW WITH BANKS AND SPACEY
+
+4. The eighties show with banks and spacey is WISE GUY, the solution","{""bucket"": ""hard""}",needs_review,True,"[{""bytes"": 709180, ""content_type"": ""image/png"", ""path"": ""assets/9480069034f72301e164faa7231c7f2487ecd9da3e8107528d66f22c41000718.png"", ""role"": ""question"", ""sha256"": ""9480069034f72301e164faa7231c7f2487ecd9da3e8107528d66f22c41000718""}, {""bytes"": 172943, ""content_type"": ""image/png"", ""path"": ""assets/27f0fce4067e64110b55a5218ef286c24ff7f0872fcb0045cab0be8f4a1d430b.png"", ""role"": ""explanation"", ""sha256"": ""27f0fce4067e64110b55a5218ef286c24ff7f0872fcb0045cab0be8f4a1d430b""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_upstream_hard_core""}"
+puzzle-dc6af72554aef5e585e0,Games Night!,2024-12,mixed_meta,word_language,visual_decoding | set_reasoning | grouping_partition | meta_extraction | external_knowledge_linking,image_puzzle | meta_puzzle | word_puzzle,"Oh no! The elves in charge of board games only managed to complete a couple of sets
 before they were distracted by playtesting the toys. Ho-ho-ho-w infuriating!
 [The answer to this puzzle is a single word.]
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/games-night.jpg",Battleship,"In December, you were presented with an image of a chaotic mess of
+[Question assets]
+- assets/4a43a516f11ea2f9214ec3029d9d6199cf8069bf823f2ceb4c95f34add082421.jpg",Battleship,"In December, you were presented with an image of a chaotic mess of
 game pieces strewn across a table and some Christmas-y flavor text,
 but no explicit direction about what to do (other than the hint that
 the final answer is a single word).
@@ -466,128 +442,33 @@ Battleship
 another classic board game.
 Congrats to the December solvers for finding the hidden message!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/games-night-solution.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/games-night-index/"", ""retrieved_at"": ""2026-09-21T09:11:28.228483+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/games-night-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2025-06,Jane Street Monthly Puzzles,"Some Ones, Somewhere",2025-06,mixed_meta,geometry_spatial | combinatorics | word_language,tiling_packing | coordinate_indexing | meta_extraction | constructive_search | spatial_visualization,image_puzzle | meta_puzzle | tiling_packing | construction_challenge,"(The answer to this month’s puzzle – which can be seen
-here
-– is a sentence.)
+[Explanation assets]
+- assets/67438e1d58a5741bb59eef17c87a27ceac2cbf19dd65c0f0835a60e0d47a3710.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 1607503, ""content_type"": ""image/jpeg"", ""path"": ""assets/4a43a516f11ea2f9214ec3029d9d6199cf8069bf823f2ceb4c95f34add082421.jpg"", ""role"": ""question"", ""sha256"": ""4a43a516f11ea2f9214ec3029d9d6199cf8069bf823f2ceb4c95f34add082421""}, {""bytes"": 2827613, ""content_type"": ""image/jpeg"", ""path"": ""assets/67438e1d58a5741bb59eef17c87a27ceac2cbf19dd65c0f0835a60e0d47a3710.jpg"", ""role"": ""explanation"", ""sha256"": ""67438e1d58a5741bb59eef17c87a27ceac2cbf19dd65c0f0835a60e0d47a3710""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-e6befdeb097dcef6b11b,Turn-based Strategy Game,2017-10,mixed_meta,geometry_spatial | graph_network | cryptography_ciphers,graph_connectivity | spatial_visualization | base_conversion | ascii_decoding | meta_extraction,image_puzzle | cryptogram | meta_puzzle,"[Question assets]
+- assets/d5605174c5c7f621a1e1faa0232d399ef2ecdd1795bc0c2cf233319538bd5386.jpg",Caylus,"Only a few people were able to connect the dots to solve this month’s
+(super-hard) puzzle. And as it so happens, “connect the dots” is the first step
+in getting the solution. It is possible to rotate several of the octagonal tiles
+so that each group of similarly colored pegs is connected (as shown in the photo).
+The minimal amount of rotation (counter-clockwise) needed for the tiles in the
+top row is 1 one-eighth turn for the leftmost tile, 0 turns for the middle tile
+(as it has 8-fold rotational symmetry), and 3 one-eighth turns for the rightmost
+tile. In the next five rows the number of one-eigth turns needed for the left,
+middle, and right tiles is 1, 4, 1; 1, 7, 1; 1, 5, 4; 1, 6, 5; and 1, 6, 3. When
+the values 103, 141, 171, 154, 165, 163 are converted to ASCII as base-8
+integers, they yield the letters C, a, y, l, u, s, hence the diagram is
+ASCII-ing (“asking”) the word
+Caylus
+, a highly-rated strategy game and this
+month’s answer. Congrats to this month’s solvers!
 
-[Official puzzle resources]
-- https://www.janestreet.com/static/pdfs/puzzles/june-2025-puzzle.pdf",“the sum of cubes is a square”,"This month’s puzzle comprised
-nine
-pictures
-, arranged in a grid. Irregularly placed letters along the edges of the grid
-spell out “tiling” and “partridge”. (And there are some extra tiles on the little side
-table on some of the photos too, what’s going on there.)
-Each picture represents an incomplete “partridge tiling” of a 45-by-45 square. And those
-irregularly placed letters along the top and left edges? They become somewhat less
-irregular if you fill in the blank spaces along the boundary with the repeated alphabet
-string ABC….XYZABC…XYZABC…XYZABC…XYZABC…XYZABCDE.
-And so: once you
-solve the nine
-grids
-, and find where the 1-by-1 squares – the “ones” – are located,
-you can extract a pair of letters (coordinates) for each of them. As an example, the “one”
-in the top-left picture is at the 19th row, 21st column, which we could map to (
-S
-,
-U
-). When we do this mapping for all nine grids, we get
-(
-S
-,
-U
-)
-(
-M
-,
-O
-)
-(
-F
-,
-C
-)
-(
-U
-,
-B
-)
-(
-E
-,
-S
-)
-(
-I
-,
-S
-)
-(
-S
-,
-Q
-)
-(
-U
-,
-A
-)
-(
-R
-,
-E
-)
-Now we just need to toss in those spare tiles on the side table in the first and seventh
-pictures, and we have our answer:
-“the sum of cubes is a square”
-, which is what the
-tilings prove :-)
-P.S. Earlier this year we installed a large, custom-made
-tabletop
-version
-of this puzzle in our New York office. (And once 3025 rolls around perhaps we’ll
-make another one…)
-Congrats to all the solvers able to decode the message!
-
-[Official solution resources]
-- https://www.janestreet.com/static/pdfs/puzzles/june-2025-puzzle-completed.pdf
-- https://www.janestreet.com/static/pdfs/puzzles/june-2025-puzzle.pdf","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/some-ones-somewhere-index/"", ""retrieved_at"": ""2026-09-21T09:11:25.144848+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/some-ones-somewhere-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2026-01,Jane Street Monthly Puzzles,Timely Journey,2026-01,mixed_meta,word_language | cryptography_ciphers | geometry_spatial,crossword_solving | coordinate_geometry | caesar_shift | indexing_extraction | meta_extraction,crossword | cryptogram | meta_puzzle | image_puzzle,"(A copy of the paper shown above can be seen
-here
-.)
-
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/timely-journey.jpg
-- https://www.janestreet.com/static/pdfs/puzzles/jan-2026-timely-journey.pdf",T and Z,"For January’s puzzle, “Timely Journey”, we presented a crossword grid and… no instructions.
-Some tiles on the side… C JS. Some dominoes… 20 16 - 04. If we “see” the JS puzzle from April 2016, we find a similar title (“Long. Journey”) as well as a puzzle similarly devoid of direct instructions. And both puzzles, it turns out, featured
-coordinates
-.
-Located above the grid in the
-original photo
-, several solvers noted the rebus of thyme (in the jar), the Z pentomino, and the dice (all showing 1). Thyme + Z + “ones”:
-time zones
-.
-And so: in the grid itself, we have 24 words. Each corresponds to the name of a
-time zone
-. One can travel ‘round the world, one time zone offset at a time, via the 24 clues, starting at MADEIRA (UTC offset of 0; latitude clued by 324506 in place of 32°45’06”). Next is ALGIERS (UTC offset of +1, longitude clued by 30319). And so on. The full list of locations is filled in above.
-Finally, we shift the red and blue letters by the amounts indicated in the clues. (As suggested by the pushpins pointing at the “Shift” key in the photograph.) When shifted, the blue letters spell out “WHATREDLETTERSAREMISSING”. The red letters shift to “ABCDEFGHIJKLMNOPQRSUVWXY”. The missing letters – the answer to this month’s puzzle – are
-T
-and
-Z
-. They represent Time Zones, but also, as the 20th and 26th letters, they stand in for 2026 as well. (As suggested by the dice.)
-A timely journey indeed!
-Big
-congrats to everyone who figured this one out.
-
-[Official solution resources]
-- https://www.janestreet.com/puzzles/timely-journey-ans.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/timely-journey-index/"", ""retrieved_at"": ""2026-09-21T09:11:21.412083+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/timely-journey-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2026-04,Jane Street Monthly Puzzles,Can U Dig It?,2026-04,mixed_meta,word_language | grid_deduction | sequences_patterns,wordplay | visual_decoding | pattern_recognition | meta_extraction | digit_constraints,image_puzzle | word_puzzle | meta_puzzle | numeric_answer,"(Apologies, but we’ve drawn a blank with this puzzle’s instructions. One thing we
+[Explanation assets]
+- assets/57c6307d05aae8a4b2e03ceb42e2620d635c38ba20535159276234764e834da3.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 672452, ""content_type"": ""image/jpeg"", ""path"": ""assets/d5605174c5c7f621a1e1faa0232d399ef2ecdd1795bc0c2cf233319538bd5386.jpg"", ""role"": ""question"", ""sha256"": ""d5605174c5c7f621a1e1faa0232d399ef2ecdd1795bc0c2cf233319538bd5386""}, {""bytes"": 568152, ""content_type"": ""image/jpeg"", ""path"": ""assets/57c6307d05aae8a4b2e03ceb42e2620d635c38ba20535159276234764e834da3.jpg"", ""role"": ""explanation"", ""sha256"": ""57c6307d05aae8a4b2e03ceb42e2620d635c38ba20535159276234764e834da3""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-ea361b4326fd2d05b690,Can U Dig It?,2026-04,mixed_meta,word_language | grid_deduction | sequences_patterns,wordplay | visual_decoding | pattern_recognition | meta_extraction | digit_constraints,image_puzzle | word_puzzle | meta_puzzle | numeric_answer,"(Apologies, but we’ve drawn a blank with this puzzle’s instructions. One thing we
 do
 know is that the answer is a positive integer…)
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/can-u-dig-it.jpg",3599,"When we said we “drew a blank” with the
+[Question assets]
+- assets/66c0f431cb1290ba80e97e1d1fe4c4245bbcbe3a2b56fd76ebf82b456f2dad14.jpg",3599,"When we said we “drew a blank” with the
 instructions
 to this month’s puzzle, we meant it quite literally: “Can U Dig It” should have instead read “Can U Digit”. The instructions are to find “cans” and U-shaped “digits”.
 And so: in the grid there are 13 pairs of “can”-associated words, each
@@ -612,9 +493,88 @@ The unused letters state “find the twentieth smallest number with digits total
 .
 Congrats to everyone who found the hidden message!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/dig-it-sol.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/can-u-dig-it-index/"", ""retrieved_at"": ""2026-09-21T09:11:19.207330+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/can-u-dig-it-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-jane-street-2026-07,Jane Street Monthly Puzzles,‘Pent-Up’ Frustration 3 / Knight Moves 7,2026-07,mixed_meta,geometry_spatial | graph_network | optimization,tiling_packing | pathfinding | constructive_search | constraint_propagation | computational_verification,tiling_packing | path_route | optimization_challenge | board_game,"The board above has been tiled with the 12 pentominoes (plus a 2-by-2 tetromino) into 13 regions. Think of each of these 13 regions as constructed out of 1-by-1-by-1 cubes. We need to add a
+[Explanation assets]
+- assets/d76bbd5dd26e1c429bf24718f60d9bfde700151c482bafb504666befdce5bef4.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 101882, ""content_type"": ""image/jpeg"", ""path"": ""assets/66c0f431cb1290ba80e97e1d1fe4c4245bbcbe3a2b56fd76ebf82b456f2dad14.jpg"", ""role"": ""question"", ""sha256"": ""66c0f431cb1290ba80e97e1d1fe4c4245bbcbe3a2b56fd76ebf82b456f2dad14""}, {""bytes"": 298019, ""content_type"": ""image/jpeg"", ""path"": ""assets/d76bbd5dd26e1c429bf24718f60d9bfde700151c482bafb504666befdce5bef4.jpg"", ""role"": ""explanation"", ""sha256"": ""d76bbd5dd26e1c429bf24718f60d9bfde700151c482bafb504666befdce5bef4""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-ea505a262a7d1eeedb26,Study and Ponder,2020-08,mixed_meta,word_language | sequences_patterns,set_reasoning | lexical_search | pattern_recognition | external_knowledge_linking | meta_extraction,image_puzzle | meta_puzzle | word_puzzle,"Oh no, which one is missing?
+AMDISHBANTMUSBACMAAPLDOSPGRMNVDALKQCOMCDW
+BAXPNRGPNCMSIVBWABCDNSCHWECLXLNXRXELINCYUMS
+FTNTAPDVNOVMCOFBHSICERNVRSNPSWKSUDREXRAYAEEO
+GCHTROPXDDRILMNOWFCCITWDCNPVHALLEGISRGPSADBE
+NEMNSTSCOSTTWODFLTMOSLGWWHRLNTRSGEXPEGDLRC
+XOMLMTPRGOOGLWMTDGXCAHONLSNKETNFITBRK.
+BIOCBREQIXUNHFCCLCOPEPNWLTWTRVLOWSTZTSNADISC
+AGILDVAREGNBLLYBDXCMGMMMCKHCATOXYLNCLHXCMIN
+TCBOEWELLCMCSALGNLOKCMEXPDOWUNPFEBAYCHRWAT
+URINTUNMHKLACPRTGTJXJPMRKFRCTVAONUEVRGDEDLTR
+OLFRTDYAMZNEEFXAEPWRKMXIMSCIEXCPBCTSHWMBKN
+GJNJCINFOXAIVZIONDAQDUKSSULTAESSLBF.
+BBYDHRBLKOTISYYAMCRMDLZBRAMETROWYNNIDXXUHSY
+FANGUALXNOCFGJNPRUAALBXPKIMASBUXAFLIRMKCTASY
+KMIQVRTXAMTBKRJFTIFFIVRSKMBSXAPAYCTLABMDTEIXA
+MATVIACNCTXSEEQRVORCLVSJMARFMCHPEAKAMPCHDHII
+PGPCARROSTXNFLXADPZBHBIIBMYLUVTRHIGSREMROKEY
+SORLYVFCSCOTYLENWSAPHMKTXTFXHSTELANETFCXUPSX
+HPQHOLXAOSHESPYPLDISCKAPTVJKHYAVYAJGPPLABTADS
+KAIGJBHTHASHLTCOGPKGAVGOPPGAIZADMABBVANSSFAS
+TFTVAVBPAYXAWKCVSFDXDOVFLSFISVAZOHUMAMGNWRB
+COOPFGCVXCSXDFS",SPGI,"This month’s puzzle was quite a mess of capital letters with a couple
+decimals thrown in. Hopefully after
+S
+tudying
+&
+P
+ondering, the solver
+noticed that there were a few stock tickers among the jumble of
+letters. After that the “Aha!” of the letters being a string
+containing all but one of the S&P 500 index members would lead to a
+search ending with
+SPGI
+, the ticker of the corporation responsible for
+the index, a satisfyingly “meta” solution.","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,False,,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-ecc96c67bc91baff5594,The Nobel Prize in Medicine,,mixed_meta,logic_constraints | cryptography_ciphers,external_knowledge_linking | logical_inference | constraint_propagation | encoding_decoding | indexing_extraction | meta_extraction,image_puzzle | meta_puzzle | cryptogram,"Title: The Nobel Prize in Medicine
+
+The Nobel Prize in Physiology or Medicine was awarded to Professor Charles M. Rice for deciphering the genetic code of animals. With just a few moments before they are due to make their pseech you jnotice they have forgotten to label one of the diagrams in their PowerPoint presentation! Can you fix this mix-up by figuring out how the code works from the labelled examples and filling in the missing name?
+
+The complete puzzle statement and its visual/structured clues are in the required question asset(s):
+- assets/8c1b9478a893d2de33976b515fb7726bcb40be7025546278cf07a07c190793b1.png
+
+Return the short canonical final answer.",KOMODO DRAGON,"1. Use the colors of each base pair and mix them together.
+
+2. Then, take either the first or last letter of the word, depending on which side each symbol is on. If the symbol is on the left of the strand, then extract the first letter. If the symbol is on the right, extract the last letter.
+   Reasoning figure: assets/5c141ea121a9b45e79b31a3fac12c5ba806f3c76d1369ff80ce31fdb45a27433.png
+
+3. If the symbol is a plus, then shift the letter index up by one. If it is a subtraction sign, then shift the letter index down by one.
+   Reasoning figure: assets/5c141ea121a9b45e79b31a3fac12c5ba806f3c76d1369ff80ce31fdb45a27433.png
+
+4. The final extracted letters spell the solution: 'KOMODO DRAGON'.","{""bucket"": ""hard""}",needs_review,True,"[{""bytes"": 307675, ""content_type"": ""image/png"", ""path"": ""assets/8c1b9478a893d2de33976b515fb7726bcb40be7025546278cf07a07c190793b1.png"", ""role"": ""question"", ""sha256"": ""8c1b9478a893d2de33976b515fb7726bcb40be7025546278cf07a07c190793b1""}, {""bytes"": 71398, ""content_type"": ""image/png"", ""path"": ""assets/5c141ea121a9b45e79b31a3fac12c5ba806f3c76d1369ff80ce31fdb45a27433.png"", ""role"": ""explanation"", ""sha256"": ""5c141ea121a9b45e79b31a3fac12c5ba806f3c76d1369ff80ce31fdb45a27433""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_upstream_hard_core""}"
+puzzle-edc665f9de90f8778130,Tile and Trouble 2,2019-02,mixed_meta,word_language | graph_network,pathfinding | chess_analysis | lexical_search | constraint_propagation | meta_extraction,word_puzzle | path_route | meta_puzzle,"TOURWTORTWRTZUPLEBEFADIEILOS UYSNIEAEAEACFMRVTRVTXRYUQS
+SPKNOLIOIGNIEADHDEAEACAEGDABEIGEHN…..????.
+(The answer to this month’s puzzle is something you’d probably prefer not to
+lose.)",MOJO,"Anyone looking for pointers for this month’s puzzle might have been well served
+by looking at the answer to January’s puzzle, in which the pens were literally
+pointing (1) to a knight, and (2) to the Scrabble tiles F, E, B.
+As shown above: the 100 scrabble tiles, when arranged in order into a
+10-by-10 grid. A knight’s tour of the grid, starting at the letters T, O, U, R,
+is spelled out for the first 90 steps. There is only one way to complete the
+last 10 steps (the shaded squares), and steps 96 through 99 — which correspond
+to the “????” in the original puzzle — spell the word
+MOJO
+.
+Congrats to this month’s solvers!
+
+[Explanation assets]
+- assets/8340df428a7d0fd9c483f1f595a055e3fb536a2ed8c9e9e8cebd370ec6b1da67.png","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 106712, ""content_type"": ""image/png"", ""path"": ""assets/8340df428a7d0fd9c483f1f595a055e3fb536a2ed8c9e9e8cebd370ec6b1da67.png"", ""role"": ""explanation"", ""sha256"": ""8340df428a7d0fd9c483f1f595a055e3fb536a2ed8c9e9e8cebd370ec6b1da67""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-f15739c468c058215133,Chess Pains – White To Move,2014-04,mixed_meta,game_theory_strategy | word_language,chess_analysis | sorting_ordering | indexing_extraction | meta_extraction | logical_inference,chess_problem | meta_puzzle | word_puzzle,"The answer to this month’s puzzle is an 8-letter English word.
+
+[Question assets]
+- assets/d4cf65c03a1338f0ebd86275f75e7625a4c570b9e7208966b038b1d14f5190bf.jpg",headache,"The answer is “headache”. The best moves for white, starting in the top left and
+moving clockwise, are H1H7, D4C6, A3A5, E2E8. Sorting those 8 squares
+numerically from 1 to 8 yields our answer. Congratulations to S.B., one of 8
+people to submit the correct answer, and winner of a the puzzle publisher t-shirt!
+
+[Explanation assets]
+- assets/0265331952bcc6cd3cc1648cbff3f7e9316463922fc7fe0580b5de3cf17812d7.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 164002, ""content_type"": ""image/jpeg"", ""path"": ""assets/d4cf65c03a1338f0ebd86275f75e7625a4c570b9e7208966b038b1d14f5190bf.jpg"", ""role"": ""question"", ""sha256"": ""d4cf65c03a1338f0ebd86275f75e7625a4c570b9e7208966b038b1d14f5190bf""}, {""bytes"": 167591, ""content_type"": ""image/jpeg"", ""path"": ""assets/0265331952bcc6cd3cc1648cbff3f7e9316463922fc7fe0580b5de3cf17812d7.jpg"", ""role"": ""explanation"", ""sha256"": ""0265331952bcc6cd3cc1648cbff3f7e9316463922fc7fe0580b5de3cf17812d7""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"
+puzzle-f4efbd9f1e32026c070b,‘Pent-Up’ Frustration 3 / Knight Moves 7,2026-07,mixed_meta,geometry_spatial | graph_network | optimization,tiling_packing | pathfinding | constructive_search | constraint_propagation | computational_verification,tiling_packing | path_route | optimization_challenge | board_game,"The board above has been tiled with the 12 pentominoes (plus a 2-by-2 tetromino) into 13 regions. Think of each of these 13 regions as constructed out of 1-by-1-by-1 cubes. We need to add a
 tower
 to each region. A tower is an additional size-1 cube placed on one of a region’s squares.
 After adding these towers, place a knight at the
@@ -643,8 +603,8 @@ After filling all the remaining visited squares with the missing score values, f
 unvisited
 squares. For each of these squares, compute the sum of the scores in any orthogonally adjacent squares that were part of the knight’s path. The answer to this puzzle is the sum of these “neighbor sums” from the unvisited squares.
 
-[Official puzzle resources]
-- https://www.janestreet.com/puzzles/pent-3-knight-7.png",33609,"The knight’s path is depicted twice – its moves numbered in order (on the right, in red
+[Question assets]
+- assets/af579dfc271b4c707d397d76d9da22283abfc6351f2e2867bb0ba1aedfa34ef3.png",33609,"The knight’s path is depicted twice – its moves numbered in order (on the right, in red
 and black), and its score after each move (on the left, in blue and black). The towers are
 indicated by the shaded squares. (And in physical form, using some
 wooden
@@ -655,55 +615,5 @@ This sequence of moves leads to an answer of
 . Congrats to everyone who found the
 knight’s path!
 
-[Official solution resources]
-- https://www.janestreet.com/puzzles/pent-3-knight-7-solution.jpg","{""bucket"": ""collection_override_hard_candidate"", ""evidence"": ""Jane Street monthly puzzle collection; unified difficulty calibration pending""}",machine_checked,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}","{""publisher"": ""Jane Street Group, LLC"", ""question_url"": ""https://www.janestreet.com/puzzles/pent-up-frustration-3-knight-moves-7-index/"", ""retrieved_at"": ""2026-09-21T09:11:17.805247+00:00"", ""solution_url"": ""https://www.janestreet.com/puzzles/pent-up-frustration-3-knight-moves-7-solution""}","{""permission_required"": true, ""redistribution_scope"": ""restricted_staging_only"", ""release_track"": ""restricted_permission_required"", ""rights_status"": ""pending_direct_permission""}"
-puzzleworld-final-recap-puzzle-6e5733d84a,PuzzleWorld,Final Recap Puzzle,,mixed_meta,logic_constraints | cryptography_ciphers,external_knowledge_linking | logical_inference | constraint_propagation | encoding_decoding | indexing_extraction | meta_extraction | anagramming,image_puzzle | multi_part | meta_puzzle | logic_grid,"Title: Final Recap Puzzle
-
-And we are back from our commercial brek.
-
-The complete puzzle statement and its visual/structured clues are in the required question asset(s):
-- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Final_Recap/content.png
-
-Return the short canonical final answer.",TBD,"1. Find the word corresponding to each clue for each category. In top-to-bottom, left-to-right order, the correct words are HOCKEY PUCK, BULLET, CLAY PIGEON, OAR, JAVELIN, CHOPSTICKS, DASHES, MARBLE, TWINKIE, ICOSAHEDRON, ELECTRONS, HEXAGON, SLIDE RULE, TELESCOPE, SPACE ELEVATOR, CAKE, BAGEL, LIFE SAVERS, PIZZA, APPLE PIE, EIFFEL TOWER, EMPIRE STATE BUILDING, SPACE, GUGGENHEIM, MONOLITH, QUARTER, STONE, PENNY. Note that the numbers below each box denote the number of letters. Two numbers means two words with corresponding lengths.
-
-2. Use the sequence of players answering to divide the board into boxes by the number of answers given by each player.
-   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Final_Recap/figure1.png
-
-3. Each of the clued words resemble either a dot or a dash. Label them accordingly.
-   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Final_Recap/figure1.png
-
-4. Translate the dots and dashes into Morse Code for each box.
-   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Final_Recap/figure1.png
-
-5. Unscramble the letters given to form the final answer: EIGHT MAGNUMS.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
-puzzleworld-mustache-puzzle-26296afc61,PuzzleWorld,Mustache Puzzle,,mixed_meta,logic_constraints,external_knowledge_linking | information_synthesis | indexing_extraction | constraint_propagation,multi_part,"Title: Mustache Puzzle
-
-Alex Trebek is not only the host of Jeopardy, but he is also a member of a group of famous men known for their mustaches. In some cultures, a mustache is a symbol of status, and also makes each of these men a...
-
-The complete puzzle statement and its visual/structured clues are in the required question asset(s):
-- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Mustache_Puzzle/content.png
-
-Return the short canonical final answer.",WISE GUY,"1. Each clue describes a famous individual known for their mustache. In order, they are: ALBERT EINSTEIN, VLADIMIR LENNIN, CLARK GABLE, ADOLF HITLER, YOSEMITE SAM, SAM ELLIOT, HERCULE POIROT, TOM SELLECK, GENE SHALIT, CHARLIE CHAPLIN, JEFF FOXWORTHY, JOHN WATERS, JACK SPARROW, GERALDO RIVERA, WILLIAM TAFT, MAHATMA GANDHI, BORAT, CHE GUEVARA, BURT REYNOLDS HULK HOGAN, THEODORE ROOSEVELT, EDGAR ALLAN POE, FU MANCHU, RON BURGUNDY, SONY BONO, FRANK ZAPPA, SALVADOR, DALI, SAMUEL CLEMENS, RON JEREMY, RICHARD PRYOR.
-
-2. Enter all of the names into the grid given on the second page.
-   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/Mustache_Puzzle/figure2.png
-
-3. Extract the letters in the shaded boxes to obtain the clue, EIGHTIES SHOW WITH BANKS AND SPACEY
-
-4. The eighties show with banks and spacey is WISE GUY, the solution","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
-puzzleworld-the-nobel-prize-in-medicine-eee8986809,PuzzleWorld,The Nobel Prize in Medicine,,mixed_meta,logic_constraints | cryptography_ciphers,external_knowledge_linking | logical_inference | constraint_propagation | encoding_decoding | indexing_extraction | meta_extraction,image_puzzle | meta_puzzle | cryptogram,"Title: The Nobel Prize in Medicine
-
-The Nobel Prize in Physiology or Medicine was awarded to Professor Charles M. Rice for deciphering the genetic code of animals. With just a few moments before they are due to make their pseech you jnotice they have forgotten to label one of the diagrams in their PowerPoint presentation! Can you fix this mix-up by figuring out how the code works from the labelled examples and filling in the missing name?
-
-The complete puzzle statement and its visual/structured clues are in the required question asset(s):
-- https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/nobel_prize_in_medicine/content.png
-
-Return the short canonical final answer.",KOMODO DRAGON,"1. Use the colors of each base pair and mix them together.
-
-2. Then, take either the first or last letter of the word, depending on which side each symbol is on. If the symbol is on the left of the strand, then extract the first letter. If the symbol is on the right, extract the last letter.
-   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/nobel_prize_in_medicine/figure1.png
-
-3. If the symbol is a plus, then shift the letter index up by one. If it is a subtraction sign, then shift the letter index down by one.
-   Reasoning figure: https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/data/nobel_prize_in_medicine/figure1.png
-
-4. The final extracted letters spell the solution: 'KOMODO DRAGON'.","{""bucket"": ""hard"", ""evidence"": ""upstream PuzzleWorld label""}",needs_review,True,"{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_upstream_hard_core""}","{""collection"": ""PuzzleWorld"", ""dataset_revision"": ""23a11d81b89ff4d39525a8867a99285e4c7dee61"", ""dataset_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld"", ""metadata_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/resolve/23a11d81b89ff4d39525a8867a99285e4c7dee61/all_metadata.jsonl"", ""original_puzzled_pint_url"": null, ""publisher"": ""MIT-MI / PuzzleWorld authors"", ""repository_revision_audited"": ""0a8fbcbd33c86a29a37f7348e1eb40315e17f5c2"", ""repository_url"": ""https://github.com/MIT-MI/PuzzleWorld""}","{""license"": {""dataset_card_evidence_url"": ""https://huggingface.co/datasets/hzli1202/PuzzleWorld/raw/23a11d81b89ff4d39525a8867a99285e4c7dee61/README.md"", ""name"": ""Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International"", ""original_publisher_evidence_url"": ""https://puzzledpint.org/volunteering/write-puzzles/#license"", ""scope_note"": ""The pinned Hugging Face card front matter and repository tag say cc-by-nc-sa-4.0. Puzzled Pint states that all submitted puzzles use CC BY-NC-SA 4.0 and that authors retain copyright."", ""spdx"": ""CC-BY-NC-SA-4.0"", ""url"": ""https://creativecommons.org/licenses/by-nc-sa/4.0/""}, ""noncommercial"": true, ""permission_required_for_commercial"": true, ""redistribution_scope"": ""noncommercial_sharealike_only"", ""release_track"": ""noncommercial_sharealike"", ""rights_status"": ""cc_by_nc_sa_4_0_noncommercial_attribution_review_required"", ""share_alike_required"": true}"
+[Explanation assets]
+- assets/62c4cf4eaec693de36edc421eef5f0dc35cc560ef7b6bb1c1b982f3156d63e05.jpg","{""bucket"": ""collection_override_hard_candidate""}",machine_checked,True,"[{""bytes"": 46324, ""content_type"": ""image/png"", ""path"": ""assets/af579dfc271b4c707d397d76d9da22283abfc6351f2e2867bb0ba1aedfa34ef3.png"", ""role"": ""question"", ""sha256"": ""af579dfc271b4c707d397d76d9da22283abfc6351f2e2867bb0ba1aedfa34ef3""}, {""bytes"": 453370, ""content_type"": ""image/jpeg"", ""path"": ""assets/62c4cf4eaec693de36edc421eef5f0dc35cc560ef7b6bb1c1b982f3156d63e05.jpg"", ""role"": ""explanation"", ""sha256"": ""62c4cf4eaec693de36edc421eef5f0dc35cc560ef7b6bb1c1b982f3156d63e05""}]","{""answer_only_scorable"": true, ""benchmark_core"": true, ""counts_toward_headline_score"": true, ""counts_toward_official_topic_score"": true, ""scoring_metric"": ""binary_accuracy"", ""time_limit_minutes"": 30, ""topic_scoring_group"": ""mixed_meta"", ""track"": ""answer_only_collection_core""}"

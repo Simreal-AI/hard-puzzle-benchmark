@@ -1,13 +1,14 @@
 {
-  "format_version": "1.0.0",
-  "snapshot_date": "2026-09-22",
-  "package_status": "final_candidate",
+  "format_version": "2.0.0",
+  "snapshot_date": "2026-09-23",
+  "package_status": "ready_for_evaluation",
   "layout": "topic_only",
-  "source_file": "data/puzzle_benchmark_internal_seed.jsonl",
-  "source_sha256": "18c5664e550a76cc7f234b0967d691189cbb4eeb8289b80e0d0a88a14efde92a",
-  "row_count": 751,
-  "unique_id_count": 751,
+  "row_count": 749,
+  "unique_id_count": 749,
   "topic_count": 15,
+  "asset_file_count": 508,
+  "excluded_incomplete_asset_count": 1,
+  "excluded_duplicate_count": 1,
   "required_row_fields": [
     "question",
     "answer_only",
@@ -15,7 +16,6 @@
   ],
   "columns": [
     "id",
-    "source_name",
     "title",
     "date",
     "domain_primary",
@@ -28,11 +28,12 @@
     "difficulty",
     "quality_status",
     "requires_assets",
-    "evaluation",
-    "source",
-    "rights"
+    "assets",
+    "evaluation"
   ],
-  "official_score_eligible_count": 709,
+  "official_core_item_count": 707,
+  "headline_item_count": 707,
+  "headline_topic_count": 15,
   "answer_only_time_limit_minutes": 30,
   "proof_certificate_time_limit_minutes": 60,
   "topics": [
@@ -40,24 +41,20 @@
       "topic": "algebra_equations",
       "topic_label_zh": "代数与方程",
       "total_rows": 127,
-      "benchmark_core": 123,
-      "answer_only_scorable": 127,
-      "by_source": {
-        "HARP": 123,
-        "Lewis Carroll — A Tangled Tale": 4
-      },
+      "core_item_count": 123,
+      "headline_item_count": 123,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/algebra_equations.jsonl",
           "rows": 127,
-          "sha256": "1bd9c4f3b24392ebe6afbd9720234bb0bf25d51b09c7eb165901b05e0409095c"
+          "sha256": "d46b9264389aa670e4dd2340a8cb0c7efb249e815bd29b0a57aeac39acefa366"
         },
         {
           "format": "csv",
           "path": "topics/algebra_equations.csv",
           "rows": 127,
-          "sha256": "ea0274686c7f15a164115e0678f07f32a598b504b71a9732a7f29f3319fa1f85"
+          "sha256": "f064ce478f98f8652607749d7fd192f43cb6f761936043049d66d40440797e92"
         }
       ]
     },
@@ -65,24 +62,20 @@
       "topic": "algorithms_computation",
       "topic_label_zh": "算法与计算",
       "total_rows": 4,
-      "benchmark_core": 3,
-      "answer_only_scorable": 4,
-      "by_source": {
-        "Dudeney Public Domain Puzzles": 1,
-        "Jane Street Monthly Puzzles": 3
-      },
+      "core_item_count": 3,
+      "headline_item_count": 3,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/algorithms_computation.jsonl",
           "rows": 4,
-          "sha256": "aa63e5f3c2156b736547d72fdb5c2234898a9e06de2f79eedea126d3819686a0"
+          "sha256": "804a89f77ac5d6aa1d4da8d619144cfd254444da1b29d388c76effa8609d763e"
         },
         {
           "format": "csv",
           "path": "topics/algorithms_computation.csv",
           "rows": 4,
-          "sha256": "9aa34b628168417d0c111e40dcb169fd4926e10b77fd23e33514956aef8962a2"
+          "sha256": "d9af96d2c75c2136e25cbfec7a97ac4eeaba7d84af2309c6038b177326d36a81"
         }
       ]
     },
@@ -90,26 +83,20 @@
       "topic": "combinatorics",
       "topic_label_zh": "组合数学",
       "total_rows": 63,
-      "benchmark_core": 55,
-      "answer_only_scorable": 63,
-      "by_source": {
-        "Dudeney Public Domain Puzzles": 6,
-        "HARP": 53,
-        "Jane Street Monthly Puzzles": 2,
-        "Lewis Carroll — A Tangled Tale": 2
-      },
+      "core_item_count": 55,
+      "headline_item_count": 55,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/combinatorics.jsonl",
           "rows": 63,
-          "sha256": "aaf76e3fb0bcbfc20fe7f355cb2c670d7b56b1debbb3b65ead3f78d83751a308"
+          "sha256": "fca841c34ec1305e6e9ec29e5f4516807789eb5066fcc5b410ff0b5d7541e89e"
         },
         {
           "format": "csv",
           "path": "topics/combinatorics.csv",
           "rows": 63,
-          "sha256": "79f1c2155ff969fb1d29cff79efe481559591390dde4a5714be89d95bee6193d"
+          "sha256": "85e833dc01eb7a0fc5854f9983d1620f74ad007b665a1a26e360b2c704d7609d"
         }
       ]
     },
@@ -117,77 +104,62 @@
       "topic": "cryptography_ciphers",
       "topic_label_zh": "密码与编码",
       "total_rows": 12,
-      "benchmark_core": 12,
-      "answer_only_scorable": 12,
-      "by_source": {
-        "Jane Street Monthly Puzzles": 4,
-        "PuzzleWorld": 8
-      },
+      "core_item_count": 12,
+      "headline_item_count": 12,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/cryptography_ciphers.jsonl",
           "rows": 12,
-          "sha256": "23536a61552c4ae69c0d7bbdd47a5325a03a2b953ba5ae94be0ffb9abfb4081a"
+          "sha256": "db5529e4464a47b7af14d6ac389b129a7975b8dadaac1c1ac13792ca32ba5d93"
         },
         {
           "format": "csv",
           "path": "topics/cryptography_ciphers.csv",
           "rows": 12,
-          "sha256": "b03e1182ea74a70c188b5983ab2617bc8ed155ff6764d124797b2dc2d6c04cfd"
+          "sha256": "a665ebf43002fb172c09de1ea6fe2c255bfe96142a9c7727c887f001c3f6fa9c"
         }
       ]
     },
     {
       "topic": "game_theory_strategy",
       "topic_label_zh": "博弈论与策略",
-      "total_rows": 14,
-      "benchmark_core": 13,
-      "answer_only_scorable": 14,
-      "by_source": {
-        "Dudeney Public Domain Puzzles": 1,
-        "Jane Street Monthly Puzzles": 13
-      },
+      "total_rows": 13,
+      "core_item_count": 12,
+      "headline_item_count": 12,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/game_theory_strategy.jsonl",
-          "rows": 14,
-          "sha256": "fdd98ba6a47676c67294e3e1254c67c1e90c04676c7de83421755bd2ab03b49c"
+          "rows": 13,
+          "sha256": "850e70cd4ebdff384faed6945497bb35f67128e4520b1bc077dfe5538e3342ed"
         },
         {
           "format": "csv",
           "path": "topics/game_theory_strategy.csv",
-          "rows": 14,
-          "sha256": "abf5093548d9f781e29d6449bdbf1703e8a63423d888ba9e2a1a66d9818f393f"
+          "rows": 13,
+          "sha256": "7143828b8c4975962a70f1e30004c872a07ac1e0b8a1830b511930cd47746832"
         }
       ]
     },
     {
       "topic": "geometry_spatial",
       "topic_label_zh": "几何与空间",
-      "total_rows": 166,
-      "benchmark_core": 147,
-      "answer_only_scorable": 148,
-      "by_source": {
-        "AlphaGeometry JGEX proof certificates": 18,
-        "HARP": 130,
-        "Jane Street Monthly Puzzles": 5,
-        "Lewis Carroll — A Tangled Tale": 1,
-        "PuzzleWorld": 12
-      },
+      "total_rows": 165,
+      "core_item_count": 146,
+      "headline_item_count": 146,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/geometry_spatial.jsonl",
-          "rows": 166,
-          "sha256": "dc98f6db876f3ca6ca8111223ab0cce8b2a005b8e5554b9b9b9c14b47171d424"
+          "rows": 165,
+          "sha256": "f6390f0cb63a3b3db79b6e176c24cbd0df0c0da732b3fa8baf70e538d7b83dee"
         },
         {
           "format": "csv",
           "path": "topics/geometry_spatial.csv",
-          "rows": 166,
-          "sha256": "9533970b4701fe269e6c0cb0e9bad8c59acc731999669faa682b9a06c872b5cc"
+          "rows": 165,
+          "sha256": "bd143834ecac8334f5a82435e4131d40fdce250ee3b75f176d5bfcfa72024c39"
         }
       ]
     },
@@ -195,23 +167,20 @@
       "topic": "graph_network",
       "topic_label_zh": "图论与网络",
       "total_rows": 7,
-      "benchmark_core": 7,
-      "answer_only_scorable": 7,
-      "by_source": {
-        "Jane Street Monthly Puzzles": 7
-      },
+      "core_item_count": 7,
+      "headline_item_count": 7,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/graph_network.jsonl",
           "rows": 7,
-          "sha256": "14963ab6b3c5197250b3d2b5c100b5d32f2cad0e213908da77726291d7b05391"
+          "sha256": "cdd57afde9252a9308290c154608fa48d9cdb57de3fa670f3de7eab77d9c2513"
         },
         {
           "format": "csv",
           "path": "topics/graph_network.csv",
           "rows": 7,
-          "sha256": "e34f3cc34fd78949ab9c8392b192d492eaeee2fea6ccbb9f74deb4a4c3728fa9"
+          "sha256": "501421ee74e8a25cbd118f6dcc785baea7fe22c9f5a4efbb583eeb2b12e062ef"
         }
       ]
     },
@@ -219,23 +188,20 @@
       "topic": "grid_deduction",
       "topic_label_zh": "网格推理",
       "total_rows": 47,
-      "benchmark_core": 47,
-      "answer_only_scorable": 47,
-      "by_source": {
-        "Jane Street Monthly Puzzles": 47
-      },
+      "core_item_count": 47,
+      "headline_item_count": 47,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/grid_deduction.jsonl",
           "rows": 47,
-          "sha256": "54107ca0e430aca1bf49775ab957fb94691a34a4872d2c404357cc4340999aa3"
+          "sha256": "fa7b2a28ee9e5132464e72d743c26fab3d188f51d0e90f9ce4c2c3330e5c914d"
         },
         {
           "format": "csv",
           "path": "topics/grid_deduction.csv",
           "rows": 47,
-          "sha256": "fe0939f7f6b7780cbf8fce0934623e5b08e5381994d50605d731061b934e02a6"
+          "sha256": "46790de856d320c8919cbd6c6406e33aae7092f9236778127b1c1032a560abb4"
         }
       ]
     },
@@ -243,50 +209,41 @@
       "topic": "logic_constraints",
       "topic_label_zh": "逻辑与约束",
       "total_rows": 137,
-      "benchmark_core": 136,
-      "answer_only_scorable": 137,
-      "by_source": {
-        "Dudeney Public Domain Puzzles": 1,
-        "Jane Street Monthly Puzzles": 4,
-        "PuzzleWorld": 132
-      },
+      "core_item_count": 136,
+      "headline_item_count": 136,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/logic_constraints.jsonl",
           "rows": 137,
-          "sha256": "e9d7d19e6655c8436e8753d827c6f671c1904113d94c4c21b934ad1b6f9e730a"
+          "sha256": "119dbaa711f59a7ddb6ae8c9fd5145b223155ef26804f0b653c04cf8b585dd31"
         },
         {
           "format": "csv",
           "path": "topics/logic_constraints.csv",
           "rows": 137,
-          "sha256": "9d7b7a128c65e9886bf7aa9fb66f0dd01f84d71c7d4344d71d59ecad20c82bd9"
+          "sha256": "49a679e173a1ef61b5ced7a3e69166d1bbbb2890bd7cda2afd2c87e43f6bec0b"
         }
       ]
     },
     {
       "topic": "mixed_meta",
       "topic_label_zh": "综合与元谜题",
-      "total_rows": 20,
-      "benchmark_core": 20,
-      "answer_only_scorable": 20,
-      "by_source": {
-        "Jane Street Monthly Puzzles": 17,
-        "PuzzleWorld": 3
-      },
+      "total_rows": 19,
+      "core_item_count": 19,
+      "headline_item_count": 19,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/mixed_meta.jsonl",
-          "rows": 20,
-          "sha256": "5ad30bcc3d7574d9216e415ca7af0e7861404e6771b4fc1659f41ec8b06faac6"
+          "rows": 19,
+          "sha256": "135b9de7eb096b7b0e481e819046974e9b95007853fa96866b258cfbaff0c41a"
         },
         {
           "format": "csv",
           "path": "topics/mixed_meta.csv",
-          "rows": 20,
-          "sha256": "a6e21f7a4ba6fd6d6eaf80f93cf4a5ecce1ba758b99dc008989c63ebdd42ea20"
+          "rows": 19,
+          "sha256": "19aaf8f5adc063216592ade50067cfe1f269d03dc00c295ca44e00a75bab0450"
         }
       ]
     },
@@ -294,25 +251,20 @@
       "topic": "number_theory",
       "topic_label_zh": "数论",
       "total_rows": 62,
-      "benchmark_core": 58,
-      "answer_only_scorable": 62,
-      "by_source": {
-        "Dudeney Public Domain Puzzles": 4,
-        "HARP": 55,
-        "Jane Street Monthly Puzzles": 3
-      },
+      "core_item_count": 58,
+      "headline_item_count": 58,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/number_theory.jsonl",
           "rows": 62,
-          "sha256": "f6e0e66b49b802b8396eefee291b03fbf282c5372d9fd2e60288dac904edcbdf"
+          "sha256": "f43fe3914bbbfd81180fa06e41aa08a6dff96d77ccf687843ca6d39111c0329f"
         },
         {
           "format": "csv",
           "path": "topics/number_theory.csv",
           "rows": 62,
-          "sha256": "f3b1e90b5f271279d679c70771ccc213b99a41a869c3cfb400d9ece944921c7d"
+          "sha256": "94f52dab43ab19ca1fe00593b274bce52de5eb8dda6c8a1c17eef721fd2268d7"
         }
       ]
     },
@@ -320,25 +272,20 @@
       "topic": "optimization",
       "topic_label_zh": "优化",
       "total_rows": 20,
-      "benchmark_core": 17,
-      "answer_only_scorable": 20,
-      "by_source": {
-        "Dudeney Public Domain Puzzles": 1,
-        "Jane Street Monthly Puzzles": 17,
-        "Lewis Carroll — A Tangled Tale": 2
-      },
+      "core_item_count": 17,
+      "headline_item_count": 17,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/optimization.jsonl",
           "rows": 20,
-          "sha256": "7ec232a1f2652fa0c6e67e9585569cccddbd5a27dc0a8289ab72ce5161efd1d7"
+          "sha256": "b0deb951dbd24ad2ebdf3a66d394ce3e82b07c789ac0fce30d5e56e452d5cc48"
         },
         {
           "format": "csv",
           "path": "topics/optimization.csv",
           "rows": 20,
-          "sha256": "993868bda00e19c414af61916177975b41ffaf65f6c0ce673ec59604e90b02c8"
+          "sha256": "da91b43f64ead596e46977e28da70a92242e9f3a6062ecc400e155b00d61be29"
         }
       ]
     },
@@ -346,24 +293,20 @@
       "topic": "physics_mechanics",
       "topic_label_zh": "物理与力学",
       "total_rows": 2,
-      "benchmark_core": 1,
-      "answer_only_scorable": 2,
-      "by_source": {
-        "Jane Street Monthly Puzzles": 1,
-        "Lewis Carroll — A Tangled Tale": 1
-      },
+      "core_item_count": 1,
+      "headline_item_count": 1,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/physics_mechanics.jsonl",
           "rows": 2,
-          "sha256": "6a99cc1a81a21c7a390ef3fcee346d576b76b4813bfb0bc170c3b6f7c651bd1b"
+          "sha256": "7e37c819b840c15fcbddf5915893989e3254ff1c9de5093f530666e2f78c98ef"
         },
         {
           "format": "csv",
           "path": "topics/physics_mechanics.csv",
           "rows": 2,
-          "sha256": "2139cac4f865130f433ff5f519549e744d383c49e7e21e42597b5a94326628b8"
+          "sha256": "250891453d6b2eb235f4827baa9f7d6180dbd38c4bba2b8a6f071ea03d3752ac"
         }
       ]
     },
@@ -371,49 +314,41 @@
       "topic": "probability_stochastic",
       "topic_label_zh": "概率与随机",
       "total_rows": 43,
-      "benchmark_core": 43,
-      "answer_only_scorable": 43,
-      "by_source": {
-        "HARP": 29,
-        "Jane Street Monthly Puzzles": 14
-      },
+      "core_item_count": 43,
+      "headline_item_count": 43,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/probability_stochastic.jsonl",
           "rows": 43,
-          "sha256": "0a48db33feeca4bd411a88477e7d9eeaf36bf732fbdf2df62f66653084ea1850"
+          "sha256": "6f81f7fff44de64a681cde65b2bb9f550d48456a24f18cf8144e1c1878b2a1e4"
         },
         {
           "format": "csv",
           "path": "topics/probability_stochastic.csv",
           "rows": 43,
-          "sha256": "0418ae8e3f8488dee55108d7ed1e1bb87dcb11af83fd4ae96e27c5f1930851bd"
+          "sha256": "5422e26b898b771fe61be6f3ee762bef723acc38a34cf88ad8b8dc6832e24da9"
         }
       ]
     },
     {
       "topic": "word_language",
       "topic_label_zh": "文字与语言",
-      "total_rows": 27,
-      "benchmark_core": 27,
-      "answer_only_scorable": 27,
-      "by_source": {
-        "Jane Street Monthly Puzzles": 10,
-        "PuzzleWorld": 17
-      },
+      "total_rows": 28,
+      "core_item_count": 28,
+      "headline_item_count": 28,
       "files": [
         {
           "format": "jsonl",
           "path": "topics/word_language.jsonl",
-          "rows": 27,
-          "sha256": "b6caf376b86f344718c6a6e7285c1bc4bfcd4b5b65e32c62629f9cc1a06f01f5"
+          "rows": 28,
+          "sha256": "59b256e881e54abeaadb4f714b3403094d96f17e7cdb9f06f7fe56ca7902c91b"
         },
         {
           "format": "csv",
           "path": "topics/word_language.csv",
-          "rows": 27,
-          "sha256": "ecc2f5779c22c72c325db2beeee3269833cbb77920d48d9da0ac14efe225ce98"
+          "rows": 28,
+          "sha256": "c61ce5d55bf0fb7e0c922d3fb64cd8bb4c3a592fe609c79af544bbc58f5e0c34"
         }
       ]
     }
